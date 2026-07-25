@@ -1,0 +1,520 @@
+﻿
+=== System.String MakePath(System.String) ===
+IL_0000: ldstr          "{0}/locales/{1}/"
+IL_0005: call           System.String get_streamingAssetsPath()
+IL_000a: ldarg.0        
+IL_000b: call           System.String Format(System.String, System.Object, System.Object)
+IL_0010: ret            
+
+=== Void Load(System.String) ===
+IL_0000: ldarg.0        
+IL_0001: call           System.Collections.Generic.Dictionary`2[System.String,Texts+LanguageDefinition] get_Languages()
+IL_0006: ldarg.1        
+IL_0007: ldloca.s       0
+IL_0009: callvirt       Boolean TryGetValue(System.String, LanguageDefinition ByRef)
+IL_000e: brfalse        IL_00bd
+IL_0013: ldarg.0        
+IL_0014: ldfld          System.Collections.Generic.Dictionary`2[System.String,System.String] strings
+IL_0019: callvirt       Void Clear()
+IL_001e: ldarg.1        
+IL_001f: call           System.String MakePath(System.String)
+IL_0024: ldstr          "*.strings"
+IL_0029: call           System.String[] GetFiles(System.String, System.String)
+IL_002e: stloc.1        
+IL_002f: ldc.i4.0       
+IL_0030: stloc.2        
+IL_0031: br.s           IL_0068
+IL_0033: ldloc.1        
+IL_0034: ldloc.2        
+IL_0035: ldelem.ref     
+IL_0036: stloc.3        
+IL_0037: ldarg.0        
+IL_0038: ldloc.3        
+IL_0039: ldc.i4.0       
+IL_003a: call           Void LoadText(System.String, Boolean)
+IL_003f: leave.s        IL_0064
+IL_0041: stloc.s        4
+IL_0043: ldarg.0        
+IL_0044: ldstr          "Failed loading texts for {0}:
+{1}"
+IL_0049: ldc.i4.2       
+IL_004a: newarr         System.Object
+IL_004f: dup            
+IL_0050: ldc.i4.0       
+IL_0051: ldarg.1        
+IL_0052: stelem.ref     
+IL_0053: dup            
+IL_0054: ldc.i4.1       
+IL_0055: ldloc.s        4
+IL_0057: callvirt       System.String ToString()
+IL_005c: stelem.ref     
+IL_005d: call           Void LogErrorFormat(UnityEngine.Object, System.String, System.Object[])
+IL_0062: leave.s        IL_0064
+IL_0064: ldloc.2        
+IL_0065: ldc.i4.1       
+IL_0066: add            
+IL_0067: stloc.2        
+IL_0068: ldloc.2        
+IL_0069: ldloc.1        
+IL_006a: ldlen          
+IL_006b: conv.i4        
+IL_006c: blt.s          IL_0033
+IL_006e: nop            
+IL_006f: ldloc.0        
+IL_0070: ldfld          System.String Locale
+IL_0075: call           System.Globalization.CultureInfo CreateSpecificCulture(System.String)
+IL_007a: stloc.s        5
+IL_007c: ldloc.s        5
+IL_007e: brfalse.s      IL_0087
+IL_0080: ldloc.s        5
+IL_0082: call           Void set_CurrentCulture(System.Globalization.CultureInfo)
+IL_0087: leave.s        IL_00b5
+IL_0089: stloc.s        6
+IL_008b: ldarg.0        
+IL_008c: ldstr          "Failed to set locale to {1} for language {0}
+{2}"
+IL_0091: ldc.i4.3       
+IL_0092: newarr         System.Object
+IL_0097: dup            
+IL_0098: ldc.i4.0       
+IL_0099: ldarg.1        
+IL_009a: stelem.ref     
+IL_009b: dup            
+IL_009c: ldc.i4.1       
+IL_009d: ldloc.0        
+IL_009e: ldfld          System.String Locale
+IL_00a3: stelem.ref     
+IL_00a4: dup            
+IL_00a5: ldc.i4.2       
+IL_00a6: ldloc.s        6
+IL_00a8: callvirt       System.String ToString()
+IL_00ad: stelem.ref     
+IL_00ae: call           Void LogErrorFormat(UnityEngine.Object, System.String, System.Object[])
+IL_00b3: leave.s        IL_00b5
+IL_00b5: ldarg.0        
+IL_00b6: ldloc.0        
+IL_00b7: stfld          LanguageDefinition CurrentLanguage
+IL_00bc: ret            
+IL_00bd: ldstr          "Unknown language: "
+IL_00c2: ldarg.1        
+IL_00c3: call           System.String Concat(System.String, System.String)
+IL_00c8: call           Void LogError(System.Object)
+IL_00cd: ret            
+
+=== Void LoadText(System.String, Boolean) ===
+IL_0000: ldarg.1        
+IL_0001: call           System.String GetFileName(System.String)
+IL_0006: stloc.0        
+IL_0007: ldarg.1        
+IL_0008: newobj         Void .ctor(System.String)
+IL_000d: stloc.1        
+IL_000e: ldc.i4.1       
+IL_000f: stloc.2        
+IL_0010: br             IL_00ad
+IL_0015: ldloc.1        
+IL_0016: ldc.i4.s       34
+IL_0018: ldloca.s       2
+IL_001a: ldstr          "="
+IL_001f: ldloc.0        
+IL_0020: call           Void SkipTo(System.IO.StreamReader, Char, Int32 ByRef, System.String, System.String)
+IL_0025: ldloc.1        
+IL_0026: ldc.i4.s       34
+IL_0028: ldarg.0        
+IL_0029: ldfld          System.Text.StringBuilder stringBuilder
+IL_002e: ldloca.s       2
+IL_0030: call           Void ReadTo(System.IO.StreamReader, Char, System.Text.StringBuilder, Int32 ByRef)
+IL_0035: ldarg.0        
+IL_0036: ldfld          System.Text.StringBuilder stringBuilder
+IL_003b: callvirt       System.String ToString()
+IL_0040: stloc.3        
+IL_0041: ldloc.1        
+IL_0042: ldc.i4.s       61
+IL_0044: ldloca.s       2
+IL_0046: ldstr          "";"
+IL_004b: ldloc.0        
+IL_004c: call           Void SkipTo(System.IO.StreamReader, Char, Int32 ByRef, System.String, System.String)
+IL_0051: ldloc.1        
+IL_0052: ldc.i4.s       34
+IL_0054: ldloca.s       2
+IL_0056: ldstr          ";="
+IL_005b: ldloc.0        
+IL_005c: call           Void SkipTo(System.IO.StreamReader, Char, Int32 ByRef, System.String, System.String)
+IL_0061: ldloc.1        
+IL_0062: ldc.i4.s       34
+IL_0064: ldarg.0        
+IL_0065: ldfld          System.Text.StringBuilder stringBuilder
+IL_006a: ldloca.s       2
+IL_006c: call           Void ReadTo(System.IO.StreamReader, Char, System.Text.StringBuilder, Int32 ByRef)
+IL_0071: ldarg.0        
+IL_0072: ldfld          System.Text.StringBuilder stringBuilder
+IL_0077: callvirt       System.String ToString()
+IL_007c: stloc.s        4
+IL_007e: ldloc.1        
+IL_007f: ldc.i4.s       59
+IL_0081: ldloca.s       2
+IL_0083: ldstr          ""="
+IL_0088: ldloc.0        
+IL_0089: call           Void SkipTo(System.IO.StreamReader, Char, Int32 ByRef, System.String, System.String)
+IL_008e: ldloc.3        
+IL_008f: call           Boolean IsNullOrEmpty(System.String)
+IL_0094: brtrue.s       IL_00ad
+IL_0096: ldloc.s        4
+IL_0098: call           Boolean IsNullOrEmpty(System.String)
+IL_009d: brtrue.s       IL_00ad
+IL_009f: ldarg.0        
+IL_00a0: ldfld          System.Collections.Generic.Dictionary`2[System.String,System.String] strings
+IL_00a5: ldloc.3        
+IL_00a6: ldloc.s        4
+IL_00a8: callvirt       Void set_Item(System.String, System.String)
+IL_00ad: ldloc.1        
+IL_00ae: callvirt       Boolean get_EndOfStream()
+IL_00b3: brfalse        IL_0015
+IL_00b8: leave.s        IL_00c4
+IL_00ba: ldloc.1        
+IL_00bb: brfalse.s      IL_00c3
+IL_00bd: ldloc.1        
+IL_00be: callvirt       Void Dispose()
+IL_00c3: endfinally     
+IL_00c4: ret            
+
+=== Boolean GetFont(System.String, Single, Int32, TMPro.TMP_FontAsset ByRef) ===
+IL_0000: ldarg.0        
+IL_0001: ldfld          System.Collections.Generic.Dictionary`2[System.String,TMPro.TMP_FontAsset] fonts
+IL_0006: ldarg.1        
+IL_0007: ldarg.s        4
+IL_0009: callvirt       Boolean TryGetValue(System.String, TMPro.TMP_FontAsset ByRef)
+IL_000e: brfalse.s      IL_003d
+IL_0010: ldarg.s        4
+IL_0012: ldind.ref      
+IL_0013: ldnull         
+IL_0014: call           Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
+IL_0019: brfalse.s      IL_003d
+IL_001b: ldarg.s        4
+IL_001d: ldind.ref      
+IL_001e: ldfld          UnityEngine.Material material
+IL_0023: ldnull         
+IL_0024: call           Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
+IL_0029: brfalse.s      IL_003d
+IL_002b: ldarg.s        4
+IL_002d: ldind.ref      
+IL_002e: callvirt       UnityEngine.Texture2D get_atlasTexture()
+IL_0033: ldnull         
+IL_0034: call           Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
+IL_0039: brfalse.s      IL_003d
+IL_003b: ldc.i4.1       
+IL_003c: ret            
+IL_003d: call           System.String get_streamingAssetsPath()
+IL_0042: ldstr          "/fonts/"
+IL_0047: ldarg.1        
+IL_0048: call           System.String Concat(System.String, System.String, System.String)
+IL_004d: stloc.0        
+IL_004e: ldloc.0        
+IL_004f: call           Boolean Exists(System.String)
+IL_0054: brfalse        IL_0182
+IL_0059: ldloc.0        
+IL_005a: newobj         Void .ctor(System.String)
+IL_005f: stloc.1        
+IL_0060: ldloc.1        
+IL_0061: ldnull         
+IL_0062: call           Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
+IL_0067: brfalse        IL_0196
+IL_006c: ldloc.1        
+IL_006d: ldc.i4.s       61
+IL_006f: callvirt       Void set_hideFlags(UnityEngine.HideFlags)
+IL_0074: ldloc.0        
+IL_0075: newobj         Void .ctor(System.String)
+IL_007a: stloc.2        
+IL_007b: ldc.r4         524288
+IL_0080: ldc.r4         1.677722E+07
+IL_0085: ldloc.2        
+IL_0086: callvirt       Int64 get_Length()
+IL_008b: conv.r4        
+IL_008c: call           Single InverseLerp(Single, Single, Single)
+IL_0091: stloc.3        
+IL_0092: ldc.r4         96
+IL_0097: ldc.r4         56
+IL_009c: ldloc.3        
+IL_009d: call           Single Lerp(Single, Single, Single)
+IL_00a2: call           Int32 FloorToInt(Single)
+IL_00a7: stloc.s        4
+IL_00a9: ldc.i4.1       
+IL_00aa: ldc.r4         10
+IL_00af: ldc.r4         12
+IL_00b4: ldloc.3        
+IL_00b5: ldloc.3        
+IL_00b6: mul            
+IL_00b7: call           Single Lerp(Single, Single, Single)
+IL_00bc: call           Int32 RoundToInt(Single)
+IL_00c1: ldc.i4.s       31
+IL_00c3: and            
+IL_00c4: shl            
+IL_00c5: stloc.s        5
+IL_00c7: ldc.r4         10
+IL_00cc: ldc.r4         5
+IL_00d1: ldloc.3        
+IL_00d2: call           Single Lerp(Single, Single, Single)
+IL_00d7: call           Int32 FloorToInt(Single)
+IL_00dc: stloc.s        6
+IL_00de: ldarg.s        4
+IL_00e0: ldloc.1        
+IL_00e1: ldloc.s        4
+IL_00e3: ldloc.s        6
+IL_00e5: ldc.i4         4165
+IL_00ea: ldloc.s        5
+IL_00ec: ldloc.s        5
+IL_00ee: ldc.i4.1       
+IL_00ef: call           TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font, Int32, Int32, UnityEngine.TextCore.LowLevel.GlyphRenderMode, Int32, Int32, TMPro.AtlasPopulationMode)
+IL_00f4: stind.ref      
+IL_00f5: ldarg.s        4
+IL_00f7: ldind.ref      
+IL_00f8: ldnull         
+IL_00f9: call           Boolean op_Inequality(UnityEngine.Object, UnityEngine.Object)
+IL_00fe: brfalse.s      IL_0161
+IL_0100: ldarg.s        4
+IL_0102: ldind.ref      
+IL_0103: ldarg.1        
+IL_0104: callvirt       Void set_name(System.String)
+IL_0109: ldarg.s        4
+IL_010b: ldind.ref      
+IL_010c: ldfld          UnityEngine.Material material
+IL_0111: ldc.i4.s       61
+IL_0113: callvirt       Void set_hideFlags(UnityEngine.HideFlags)
+IL_0118: ldarg.s        4
+IL_011a: ldind.ref      
+IL_011b: callvirt       UnityEngine.Texture2D get_atlasTexture()
+IL_0120: ldc.i4.s       61
+IL_0122: callvirt       Void set_hideFlags(UnityEngine.HideFlags)
+IL_0127: ldarg.s        4
+IL_0129: ldind.ref      
+IL_012a: ldc.i4.s       61
+IL_012c: callvirt       Void set_hideFlags(UnityEngine.HideFlags)
+IL_0131: ldarg.s        4
+IL_0133: ldind.ref      
+IL_0134: ldarg.0        
+IL_0135: ldfld          System.Collections.Generic.List`1[TMPro.TMP_FontAsset] FallbackFonts
+IL_013a: callvirt       Void set_fallbackFontAssetTable(System.Collections.Generic.List`1[TMPro.TMP_FontAsset])
+IL_013f: ldarg.s        4
+IL_0141: ldind.ref      
+IL_0142: ldarg.3        
+IL_0143: conv.u1        
+IL_0144: stfld          Byte italicStyle
+IL_0149: ldarg.s        4
+IL_014b: ldind.ref      
+IL_014c: ldarg.2        
+IL_014d: stfld          Single boldStyle
+IL_0152: ldarg.0        
+IL_0153: ldfld          System.Collections.Generic.Dictionary`2[System.String,TMPro.TMP_FontAsset] fonts
+IL_0158: ldarg.1        
+IL_0159: ldarg.s        4
+IL_015b: ldind.ref      
+IL_015c: callvirt       Void set_Item(System.String, TMPro.TMP_FontAsset)
+IL_0161: leave.s        IL_017d
+IL_0163: stloc.s        7
+IL_0165: ldloc.s        7
+IL_0167: callvirt       System.String get_ParamName()
+IL_016c: ldstr          "shader"
+IL_0171: call           Boolean op_Inequality(System.String, System.String)
+IL_0176: brfalse.s      IL_017b
+IL_0178: ldloc.s        7
+IL_017a: throw          
+IL_017b: leave.s        IL_017d
+IL_017d: ldc.i4.1       
+IL_017e: stloc.s        8
+IL_0180: leave.s        IL_01ba
+IL_0182: ldstr          "Missing font: {0}"
+IL_0187: ldc.i4.1       
+IL_0188: newarr         System.Object
+IL_018d: dup            
+IL_018e: ldc.i4.0       
+IL_018f: ldloc.0        
+IL_0190: stelem.ref     
+IL_0191: call           Void LogErrorFormat(System.String, System.Object[])
+IL_0196: leave.s        IL_01af
+IL_0198: ldstr          "Failed loading font: "
+IL_019d: ldloc.0        
+IL_019e: call           System.String Concat(System.String, System.String)
+IL_01a3: call           Void LogError(System.Object)
+IL_01a8: call           Void LogException(System.Exception)
+IL_01ad: leave.s        IL_01af
+IL_01af: ldarg.s        4
+IL_01b1: ldarg.0        
+IL_01b2: ldfld          TMPro.TMP_FontAsset DefaultFont
+IL_01b7: stind.ref      
+IL_01b8: ldc.i4.0       
+IL_01b9: ret            
+IL_01ba: ldloc.s        8
+IL_01bc: ret            
+
+=== Boolean GetFont(System.String, TMPro.TMP_FontAsset ByRef, Single ByRef) ===
+IL_0000: ldarg.0        
+IL_0001: ldflda         LanguageDefinition CurrentLanguage
+IL_0006: ldfld          Fonts[] Fonts
+IL_000b: stloc.0        
+IL_000c: ldc.i4.0       
+IL_000d: stloc.1        
+IL_000e: br.s           IL_004f
+IL_0010: ldloc.0        
+IL_0011: ldloc.1        
+IL_0012: ldelem         Texts+Fonts
+IL_0017: stloc.2        
+IL_0018: ldloc.2        
+IL_0019: ldfld          System.String Identifier
+IL_001e: ldarg.1        
+IL_001f: call           Boolean op_Equality(System.String, System.String)
+IL_0024: brfalse.s      IL_004b
+IL_0026: ldarg.3        
+IL_0027: ldloc.2        
+IL_0028: ldfld          Single Scale
+IL_002d: stind.r4       
+IL_002e: ldarg.0        
+IL_002f: ldloc.2        
+IL_0030: ldfld          System.String Filename
+IL_0035: ldloc.2        
+IL_0036: ldfld          Single Bold
+IL_003b: ldloc.2        
+IL_003c: ldfld          Int32 Italic
+IL_0041: ldarg.2        
+IL_0042: call           Boolean GetFont(System.String, Single, Int32, TMPro.TMP_FontAsset ByRef)
+IL_0047: brfalse.s      IL_004b
+IL_0049: ldc.i4.1       
+IL_004a: ret            
+IL_004b: ldloc.1        
+IL_004c: ldc.i4.1       
+IL_004d: add            
+IL_004e: stloc.1        
+IL_004f: ldloc.1        
+IL_0050: ldloc.0        
+IL_0051: ldlen          
+IL_0052: conv.i4        
+IL_0053: blt.s          IL_0010
+IL_0055: ldstr          "Unknown font type: "
+IL_005a: ldarg.1        
+IL_005b: call           System.String Concat(System.String, System.String)
+IL_0060: call           Void LogError(System.Object)
+IL_0065: ldarg.3        
+IL_0066: ldc.r4         1
+IL_006b: stind.r4       
+IL_006c: ldarg.2        
+IL_006d: ldarg.0        
+IL_006e: ldfld          TMPro.TMP_FontAsset DefaultFont
+IL_0073: stind.ref      
+IL_0074: ldc.i4.0       
+IL_0075: ret            
+
+=== Void OnEnable() ===
+IL_0000: ldarg.0        
+IL_0001: ldfld          System.Collections.Generic.Dictionary`2[System.String,TMPro.TMP_FontAsset] fonts
+IL_0006: callvirt       Void Clear()
+IL_000b: call           System.String get_streamingAssetsPath()
+IL_0010: ldstr          "locales"
+IL_0015: call           System.String Combine(System.String, System.String)
+IL_001a: call           System.Collections.Generic.IEnumerable`1[System.String] EnumerateDirectories(System.String)
+IL_001f: callvirt       System.Collections.Generic.IEnumerator`1[System.String] GetEnumerator()
+IL_0024: stloc.1        
+IL_0025: br             IL_013e
+IL_002a: ldloc.1        
+IL_002b: callvirt       System.String get_Current()
+IL_0030: stloc.2        
+IL_0031: ldloc.2        
+IL_0032: call           System.String GetFileNameWithoutExtension(System.String)
+IL_0037: stloc.3        
+IL_0038: ldloc.2        
+IL_0039: ldstr          "config.json"
+IL_003e: call           System.String Combine(System.String, System.String)
+IL_0043: stloc.s        4
+IL_0045: ldloc.s        4
+IL_0047: call           Boolean Exists(System.String)
+IL_004c: brfalse        IL_011a
+IL_0051: ldloc.s        4
+IL_0053: call           System.String ReadAllText(System.String)
+IL_0058: call           LanguageDefinition FromJson[LanguageDefinition](System.String)
+IL_005d: stloc.s        5
+IL_005f: ldc.i4.0       
+IL_0060: stloc.s        6
+IL_0062: br             IL_00fc
+IL_0067: ldloc.s        5
+IL_0069: ldfld          Fonts[] Fonts
+IL_006e: ldloc.s        6
+IL_0070: ldelema        Texts+Fonts
+IL_0075: ldfld          Single Scale
+IL_007a: ldc.r4         0
+IL_007f: bgt.un.s       IL_0099
+IL_0081: ldloc.s        5
+IL_0083: ldfld          Fonts[] Fonts
+IL_0088: ldloc.s        6
+IL_008a: ldelema        Texts+Fonts
+IL_008f: ldc.r4         1
+IL_0094: stfld          Single Scale
+IL_0099: ldloc.s        5
+IL_009b: ldfld          Fonts[] Fonts
+IL_00a0: ldloc.s        6
+IL_00a2: ldelema        Texts+Fonts
+IL_00a7: ldfld          Single Bold
+IL_00ac: ldc.r4         0
+IL_00b1: bgt.un.s       IL_00cb
+IL_00b3: ldloc.s        5
+IL_00b5: ldfld          Fonts[] Fonts
+IL_00ba: ldloc.s        6
+IL_00bc: ldelema        Texts+Fonts
+IL_00c1: ldc.r4         0.75
+IL_00c6: stfld          Single Bold
+IL_00cb: ldloc.s        5
+IL_00cd: ldfld          Fonts[] Fonts
+IL_00d2: ldloc.s        6
+IL_00d4: ldelema        Texts+Fonts
+IL_00d9: ldfld          Int32 Italic
+IL_00de: ldc.i4.0       
+IL_00df: bgt.s          IL_00f6
+IL_00e1: ldloc.s        5
+IL_00e3: ldfld          Fonts[] Fonts
+IL_00e8: ldloc.s        6
+IL_00ea: ldelema        Texts+Fonts
+IL_00ef: ldc.i4.s       20
+IL_00f1: stfld          Int32 Italic
+IL_00f6: ldloc.s        6
+IL_00f8: ldc.i4.1       
+IL_00f9: add            
+IL_00fa: stloc.s        6
+IL_00fc: ldloc.s        6
+IL_00fe: ldloc.s        5
+IL_0100: ldfld          Fonts[] Fonts
+IL_0105: ldlen          
+IL_0106: conv.i4        
+IL_0107: blt            IL_0067
+IL_010c: ldarg.0        
+IL_010d: call           System.Collections.Generic.Dictionary`2[System.String,Texts+LanguageDefinition] get_Languages()
+IL_0112: ldloc.3        
+IL_0113: ldloc.s        5
+IL_0115: callvirt       Void set_Item(System.String, LanguageDefinition)
+IL_011a: leave.s        IL_013e
+IL_011c: stloc.s        7
+IL_011e: ldstr          "Failed loading language configuration file: {0}
+{1}"
+IL_0123: ldc.i4.2       
+IL_0124: newarr         System.Object
+IL_0129: dup            
+IL_012a: ldc.i4.0       
+IL_012b: ldloc.3        
+IL_012c: stelem.ref     
+IL_012d: dup            
+IL_012e: ldc.i4.1       
+IL_012f: ldloc.s        7
+IL_0131: callvirt       System.String ToString()
+IL_0136: stelem.ref     
+IL_0137: call           Void LogFormat(System.String, System.Object[])
+IL_013c: leave.s        IL_013e
+IL_013e: ldloc.1        
+IL_013f: callvirt       Boolean MoveNext()
+IL_0144: brtrue         IL_002a
+IL_0149: leave.s        IL_0155
+IL_014b: ldloc.1        
+IL_014c: brfalse.s      IL_0154
+IL_014e: ldloc.1        
+IL_014f: callvirt       Void Dispose()
+IL_0154: endfinally     
+IL_0155: ldstr          "en-US"
+IL_015a: stloc.0        
+IL_015b: ldarg.0        
+IL_015c: ldloc.0        
+IL_015d: call           Void Load(System.String)
+IL_0162: ret            

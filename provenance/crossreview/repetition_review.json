@@ -1,0 +1,773 @@
+{
+  "reviewer": "Codex internal focused repetition reviewer",
+  "reviewed_groups": 80,
+  "contextual_variants": [
+    {
+      "source": "I shiver.",
+      "verdict": "contextual/acceptable",
+      "reason": "서술형 1인칭에서 주어의 명시 여부와 “떨리다/몸을 떨다”의 선택만 다르며, 모두 현재의 한기 반응을 보존한다.",
+      "ids": [
+        "localizable.strings::chap06_bivouac_order52_gaia",
+        "localizable.strings::chap06_bivouac_order52_prometheus",
+        "localizable.strings::chap06_morningconnor03",
+        "localizable.strings::chap06_morningfreya03",
+        "localizable.strings::chap05_arlyntrialfail12",
+        "localizable.strings::chap05_freyatrialfail11",
+        "localizable.strings::chap07_arlyn_thesummit20",
+        "localizable.strings::chap07_connor_thesummit14",
+        "localizable.strings::chap07_duncan_thesummit13",
+        "localizable.strings::chap07_freya_thesummit15"
+      ]
+    },
+    {
+      "source": "Duncan lowers his eyes.",
+      "verdict": "contextual/acceptable",
+      "reason": "“눈을 내리깔다”와 “시선을 내리다”는 같은 몸짓의 자연스러운 서술 변형이다.",
+      "ids": [
+        "localizable.strings::chap02_morning19_freya_choice01_09",
+        "localizable.strings::chap02_morning19_freya_choice02_03",
+        "localizable.strings::chap04_camp15"
+      ]
+    },
+    {
+      "source": "Alright.",
+      "verdict": "contextual/acceptable",
+      "reason": "대화 장면의 수락 표현으로 “알겠어/알았어”는 동등한 반응이며 말투도 일관되게 반말이다.",
+      "ids": [
+        "localizable.strings::chap06_bivouac_order69_gaia",
+        "localizable.strings::chap01_panoramicview14",
+        "localizable.strings::chap06_bivouacduncan87_notduncanlove"
+      ]
+    },
+    {
+      "source": "Then, they arrived...",
+      "verdict": "contextual/acceptable",
+      "reason": "회상·도착 장면의 연결어와 “찾아왔다/왔다”는 문맥상 같은 도래를 가리킨다.",
+      "ids": [
+        "localizable.strings::chap01_sinkingboat01",
+        "localizable.strings::chap07_arlyn_thesummit89",
+        "localizable.strings::chap07_duncan_thesummit101",
+        "localizable.strings::chap07_freya_thesummit129"
+      ]
+    },
+    {
+      "source": "He smiles at me.",
+      "verdict": "contextual/acceptable",
+      "reason": "“나를 보며/내게”는 미소의 대상과 방향을 자연스럽게 달리 표현한 것이다.",
+      "ids": [
+        "localizable.strings::chap05_theharbour19",
+        "localizable.strings::chap07_connor_rowandies91",
+        "localizable.strings::chap07_duncan_rowandies42_choice01_14"
+      ]
+    },
+    {
+      "source": "It is too late.",
+      "verdict": "contextual/acceptable",
+      "reason": "임박성(“너무”)과 이미 돌이킬 수 없음(“이미”)을 각 장면의 정서에 맞춰 나타냈다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice01_14",
+        "localizable.strings::chap02_night10_choice02_14",
+        "localizable.strings::chap02_night10_choice03_13",
+        "localizable.strings::chap05_connortrialfail19"
+      ]
+    },
+    {
+      "source": "Stay back.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지의 실제 후속 행동이 거리 두기·불개입·물러섬으로 달라, 행동 의도를 명확히 한 문맥 변형이다.",
+      "ids": [
+        "localizable.strings::chap03_dreamarlyn34_choice02_option",
+        "localizable.strings::chap03_dreamconnor43_choice02_option",
+        "localizable.strings::chap03_dreamduncan24_choice02_option",
+        "localizable.strings::chap03_dreamfreya32_choice02_option",
+        "localizable.strings::chap06_walkwitharlyn39_choice02_option",
+        "localizable.strings::chap04_arlyntrial124_choice02_option",
+        "localizable.strings::chap06_walkwithduncan10_choice02_option",
+        "localizable.strings::chap07_arlyn_thesummit42_choice02_option"
+      ]
+    },
+    {
+      "source": "Arlyn laughs.",
+      "verdict": "contextual/acceptable",
+      "reason": "일반적인 웃음과 갑작스러운 웃음 터짐은 해당 직전 대사의 반응 강도 차이를 반영한다.",
+      "ids": [
+        "localizable.strings::chap01_gatheringwood15",
+        "localizable.strings::chap02_walking_abouttheseers17",
+        "localizable.strings::chap07_arlyn_rowandies30",
+        "localizable.strings::chap07_arlyn_thesummit47",
+        "localizable.strings::chap01_sailingagain23"
+      ]
+    },
+    {
+      "source": "I lower my eyes.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지/서술에서 1인칭 주어를 생략하거나 명시한 차이이며 행위는 같다.",
+      "ids": [
+        "localizable.strings::chap06_bivouacduncan81_choice03_02",
+        "localizable.strings::chap06_outofthecaves_chaos20_choice02_04",
+        "localizable.strings::chap06_outofthecaves_order18",
+        "localizable.strings::chap07_freya_timeknot25_choice01_02"
+      ]
+    },
+    {
+      "source": "I consider.",
+      "verdict": "contextual/acceptable",
+      "reason": "1인칭 주어의 생략 여부만 다르고 모두 “잠시 생각한다”는 현재 서술이다.",
+      "ids": [
+        "localizable.strings::chap06_outofthecaves_chaos11",
+        "localizable.strings::chap07_freya_timeknot19"
+      ]
+    },
+    {
+      "source": "I understand.",
+      "verdict": "contextual/acceptable",
+      "reason": "상황을 받아들이는 “알겠어”와 내용을 이해하는 “이해해”가 각 대화의 응답 기능에 맞는다.",
+      "ids": [
+        "localizable.strings::chap06_outofthecaves_order15",
+        "localizable.strings::chap07_duncan_timeknot33",
+        "localizable.strings::chap07_freya_timeknot25_choice01_17",
+        "localizable.strings::chap07_freya_timeknot25_choice02_12",
+        "localizable.strings::chap03_brandonleaves06_choice01_03"
+      ]
+    },
+    {
+      "source": "I nod.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지의 주어 명시와 서술의 주어 생략 차이로, 동일한 고개 끄덕임이다.",
+      "ids": [
+        "localizable.strings::chap07_connor_rowanleaves41_dontknowkillian",
+        "localizable.strings::chap06_bivouacarlyn93_choice02_05",
+        "localizable.strings::chap06_bivouacduncan12",
+        "localizable.strings::chap06_walkwitharlyn33"
+      ]
+    },
+    {
+      "source": "Yes.",
+      "verdict": "contextual/acceptable",
+      "reason": "“그래/응”은 친밀도·즉답성에 따른 반말 긍정 변형이며 각 인물·분기 대화에 자연스럽다.",
+      "ids": [
+        "localizable.strings::chap01_exploringthebeach10",
+        "localizable.strings::chap02_walking_abouttheseers02",
+        "localizable.strings::chap03_bivouac_duncan12",
+        "localizable.strings::chap06_outofthecaves_chaos04",
+        "localizable.strings::chap06_outofthecaves_order10_duncankillederik",
+        "localizable.strings::chap01_thestairs_connor43",
+        "localizable.strings::chap02_morning48_choice01_07_choice01_01",
+        "localizable.strings::chap03_bivouac_duncan17_choice02_14",
+        "localizable.strings::chap03_talkfreya31_choice01_01",
+        "localizable.strings::chap04_freyatrial65",
+        "localizable.strings::chap07_arlyn_thesummit13_arlynnotlove_choice01_02",
+        "localizable.strings::chap07_arlyn_thesummit13_arlynnotlove_choice01_option",
+        "localizable.strings::chap07_arlyn_timeknot08",
+        "localizable.strings::chap07_connor_thesummit09_choice01_02",
+        "localizable.strings::chap07_connor_thesummit09_choice01_option",
+        "localizable.strings::chap07_duncan_thesummit08_notduncanlove_choice01_option",
+        "localizable.strings::chap07_duncan_timeknot11",
+        "localizable.strings::chap07_freya_thesummit09_choice01_option"
+      ]
+    },
+    {
+      "source": "All I want is to leave this island.",
+      "verdict": "contextual/acceptable",
+      "reason": "같은 의도를 구어체와 설명형 선택지로 각각 자연스럽게 표현했다.",
+      "ids": [
+        "localizable.strings::chap07_connor_thesummit35_choice01_option",
+        "localizable.strings::chap07_duncan_thesummit30_choice02_01",
+        "localizable.strings::chap07_duncan_thesummit30_choice02_option",
+        "localizable.strings::chap06_outofthecaves_chaos46_choice02_09_choice02_option",
+        "localizable.strings::chap06_outofthecaves_order55_choice02_06_choice02_option"
+      ]
+    },
+    {
+      "source": "Wait!",
+      "verdict": "contextual/acceptable",
+      "reason": "급히 제지할 때는 “기다려”, 순간 주의를 끌 때는 “잠깐”이므로 발화 상황에 맞는다.",
+      "ids": [
+        "localizable.strings::chap02_seerorcairn96_seer",
+        "localizable.strings::chap05_theharbour53",
+        "localizable.strings::chap07_connor_timeknot20"
+      ]
+    },
+    {
+      "source": "She smiles at me.",
+      "verdict": "contextual/acceptable",
+      "reason": "꿈 장면에서는 이미 선행한 알린을 생략하고, 선택지에서는 대상을 명시해 가독성을 보완했다.",
+      "ids": [
+        "localizable.strings::chap03_dreamarlyn13",
+        "localizable.strings::chap07_arlyn_rowandies38_choice01_14"
+      ]
+    },
+    {
+      "source": "Let's finish this.",
+      "verdict": "contextual/acceptable",
+      "reason": "한 장면의 결단을 “이제”로 강조한 것뿐이며 종결 의도는 같다.",
+      "ids": [
+        "localizable.strings::chap07_connor_thesummit09_choice01_04",
+        "localizable.strings::chap07_arlyn_thesummit16_arlynnotlove"
+      ]
+    },
+    {
+      "source": "I'm sorry.",
+      "verdict": "contextual/acceptable",
+      "reason": "친한 사이의 사과, 윗사람에게 하는 존대 사과, 공식적 애도 표현을 관계와 장면에 맞게 구분했다.",
+      "ids": [
+        "localizable.strings::chap03_erikdeath18",
+        "localizable.strings::chap07_connor_rowandies74",
+        "localizable.strings::chap07_connor_thesummit57",
+        "localizable.strings::chap04_duncantrial37_choice02_01",
+        "localizable.strings::chap01_exploringthebeach17"
+      ]
+    },
+    {
+      "source": "Very well.",
+      "verdict": "contextual/acceptable",
+      "reason": "수락의 “알았어”와 동의·허가의 “좋아”는 각 선택지의 직전 제안에 맞는 응답이다.",
+      "ids": [
+        "localizable.strings::chap06_walkwithduncan10_choice01_07_choice02_04",
+        "localizable.strings::chap02_morning48_choice01_07_choice01_03",
+        "localizable.strings::chap07_connor_timeknot91_choice01_14_choice01_04",
+        "localizable.strings::chap07_connor_timeknot91_choice01_14_choice02_03",
+        "localizable.strings::chap07_connor_timeknot91_choice02_10_choice01_03",
+        "localizable.strings::chap07_connor_timeknot91_choice02_10_choice02_05"
+      ]
+    },
+    {
+      "source": "Are you sure?",
+      "verdict": "contextual/acceptable",
+      "reason": "결정의 안전성을 묻는 장면은 “괜찮겠어”, 확신을 묻는 장면은 “확실해”로 자연스럽게 구분했다.",
+      "ids": [
+        "localizable.strings::chap02_morning48_choice01_05",
+        "localizable.strings::chap01_thestairs24",
+        "localizable.strings::chap01_thestairs_arlyn35",
+        "localizable.strings::chap07_connor_timeknot91_choice01_05"
+      ]
+    },
+    {
+      "source": "And yet... Here I am.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지 라벨의 반말과 바니크에게 실제로 말하는 후속 대사의 존대가 분리된 UI/대화 구조다.",
+      "ids": [
+        "localizable.strings::chap04_arlyntrial34_choice01_option",
+        "localizable.strings::chap04_arlyntrial34_choice01_01"
+      ]
+    },
+    {
+      "source": "You're afraid of heights?",
+      "verdict": "contextual/acceptable",
+      "reason": "“높은 곳이 무서운 거야?”와 “무서워?”는 같은 질문을 대화 흐름에 맞게 압축한 것이다.",
+      "ids": [
+        "localizable.strings::chap01_thestairs_connor25_choice01_07",
+        "localizable.strings::chap01_thestairs_freya24"
+      ]
+    },
+    {
+      "source": "Who else?",
+      "verdict": "contextual/acceptable",
+      "reason": "두 표현 모두 상대가 유일한 대상임을 되묻는 자연스러운 반문이다.",
+      "ids": [
+        "localizable.strings::chap06_bivouac_order41_choice01_02",
+        "localizable.strings::chap06_bivouacduncan24_choice02_03",
+        "localizable.strings::chap03_bivouac_freya31"
+      ]
+    },
+    {
+      "source": "Freya looks away.",
+      "verdict": "contextual/acceptable",
+      "reason": "시선을 다른 곳으로 돌리는 행위와 상대를 피하는 행위가 각 장면의 감정 묘사에 맞게 쓰였다.",
+      "ids": [
+        "localizable.strings::chap03_bivouac_freya27",
+        "localizable.strings::chap04_freyatrial19_choice02_32_choice02_09",
+        "localizable.strings::chap06_morningfreya13"
+      ]
+    },
+    {
+      "source": "Not a living soul.",
+      "verdict": "contextual/acceptable",
+      "reason": "회상 서술의 과거형과 시련 장면의 현재형이 서사 시점에 따라 달라진다.",
+      "ids": [
+        "localizable.strings::chap01_introrowan09",
+        "localizable.strings::chap07_arlyn_thesummit87",
+        "localizable.strings::chap07_duncan_thesummit99",
+        "localizable.strings::chap07_freya_thesummit127",
+        "localizable.strings::chap04_duncantrial76"
+      ]
+    },
+    {
+      "source": "I follow him, forgetting my prudence.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 him은 각 분기에서 던컨 또는 코너이므로 실명을 복원한 것이 필수다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice01_10",
+        "localizable.strings::chap02_night10_choice04_11"
+      ]
+    },
+    {
+      "source": "Me too.",
+      "verdict": "contextual/acceptable",
+      "reason": "“나도 그래”와 “나도”는 앞 문장의 성격에 따른 짧은 동의 표현이다.",
+      "ids": [
+        "localizable.strings::chap03_bivouac_duncan30",
+        "localizable.strings::chap02_followingseers25"
+      ]
+    },
+    {
+      "source": "She opens her mouth to say something...",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 she는 각 분기에서 알린 또는 프레이야이므로 실명을 복원한 것이 필수다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice02_27",
+        "localizable.strings::chap02_night10_choice03_25"
+      ]
+    },
+    {
+      "source": "Freya smiles at me.",
+      "verdict": "contextual/acceptable",
+      "reason": "“나를 향해/내게”는 미소의 방향을 동등하게 표현하며, 인물 명시 정도만 다르다.",
+      "ids": [
+        "localizable.strings::chap03_dreamfreya28",
+        "localizable.strings::chap06_bivouac_order68_gaia",
+        "localizable.strings::chap06_morningfreya46",
+        "localizable.strings::chap06_morningfreya50_choice02_04"
+      ]
+    },
+    {
+      "source": "Look!",
+      "verdict": "contextual/acceptable",
+      "reason": "주목 대상이 직전에 제시된 장면에서는 “봐”, 물건·현상을 지목하는 장면에서는 “이걸 봐”가 적절하다.",
+      "ids": [
+        "localizable.strings::chap03_erikdeath69",
+        "localizable.strings::chap04_arlyntrial59"
+      ]
+    },
+    {
+      "source": "What is it?",
+      "verdict": "contextual/acceptable",
+      "reason": "상태를 염려하는 “왜 그래?”와 즉각적인 반문 “왜?”는 서로 다른 직전 상황을 반영한다.",
+      "ids": [
+        "localizable.strings::chap03_bivouac_duncan17_choice01_05",
+        "localizable.strings::chap01_settinguptheboat25_choice02_04"
+      ]
+    },
+    {
+      "source": "Exactly.",
+      "verdict": "contextual/acceptable",
+      "reason": "동의의 강도에 따라 짧은 “맞아”와 확인적인 “바로 그거야”가 자연스럽다.",
+      "ids": [
+        "localizable.strings::chap03_erikdeath52",
+        "localizable.strings::chap02_seerorcairn42"
+      ]
+    },
+    {
+      "source": "What did they show you?",
+      "verdict": "contextual/acceptable",
+      "reason": "한 장면은 예언자가 이미 화제라 대명사로 충분하고, 다른 장면은 명시가 필요한 대화 맥락이다.",
+      "ids": [
+        "localizable.strings::chap06_outofthecaves_order47_03",
+        "localizable.strings::chap06_outofthecaves_chaos39_01"
+      ]
+    },
+    {
+      "source": "Arlyn is a few steps in front of me.",
+      "verdict": "contextual/acceptable",
+      "reason": "“내 앞”은 화자 기준을 명시한 버전이고, 다른 장면은 이미 1인칭 시점이 확립되어 생략했다.",
+      "ids": [
+        "localizable.strings::chap05_flashforward_chaos_arlyn03",
+        "localizable.strings::chap07_arlyn_thesummit04"
+      ]
+    },
+    {
+      "source": "We must trust them.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지의 상대가 예언자로 특정되는 분기에서는 대명사를 명사로 풀어 의도를 명확히 했다.",
+      "ids": [
+        "localizable.strings::chap02_morning19_freya_choice02_02",
+        "localizable.strings::chap02_morning19_freya_choice02_option"
+      ]
+    },
+    {
+      "source": "I smile back.",
+      "verdict": "contextual/acceptable",
+      "reason": "상대 남성은 대명사로 유지하고, 알린 분기에서는 혼동을 막기 위해 이름을 명시했다.",
+      "ids": [
+        "localizable.strings::chap07_connor_rowandies92",
+        "localizable.strings::chap07_duncan_rowandies42_choice01_15",
+        "localizable.strings::chap07_arlyn_rowandies38_choice01_15"
+      ]
+    },
+    {
+      "source": "Yes, no problem.",
+      "verdict": "contextual/acceptable",
+      "reason": "“그래/응”의 친밀도 차이만 있으며 “문제없어”의 의미는 동일하다.",
+      "ids": [
+        "localizable.strings::chap01_beachargument56",
+        "localizable.strings::chap01_theotherboat54_choice02_04"
+      ]
+    },
+    {
+      "source": "The seers shouldn't have so much power over us.",
+      "verdict": "contextual/acceptable",
+      "reason": "“좌우하다”와 “힘을 휘두르다”는 예언자의 과도한 지배를 각 선택지 문맥에 맞게 표현한 동의 변형이다.",
+      "ids": [
+        "localizable.strings::chap01_exploringthebeach34_choice01_02",
+        "localizable.strings::chap06_outofthecaves_order55_choice01_04_choice02_01",
+        "localizable.strings::chap06_outofthecaves_order55_choice01_04_choice02_option",
+        "localizable.strings::chap06_outofthecaves_chaos46_choice01_04_choice02_01"
+      ]
+    },
+    {
+      "source": "She sees me.",
+      "verdict": "contextual/acceptable",
+      "reason": "시련 장면은 알린의 인지 능력(볼 수 있다)을, 다른 장면은 실제 시선 행위를 서술한다; 인물명도 분기별로 다르다.",
+      "ids": [
+        "localizable.strings::chap04_arlyntrial124_choice01_03",
+        "localizable.strings::chap04_arlyntrial124_choice02_03",
+        "localizable.strings::chap02_night10_choice02_24",
+        "localizable.strings::chap07_arlyn_timeknot04",
+        "localizable.strings::chap02_night10_choice03_22"
+      ]
+    },
+    {
+      "source": "We set off.",
+      "verdict": "contextual/acceptable",
+      "reason": "여정의 출발을 서술적으로 “길을 떠나다” 또는 간결하게 “출발하다”로 표현한 차이다.",
+      "ids": [
+        "localizable.strings::chap07_connor_rowandies01",
+        "localizable.strings::chap06_bivouacarlyn70",
+        "localizable.strings::chap06_bivouacduncan64"
+      ]
+    },
+    {
+      "source": "I do the same and stay a long time watching the play of the flames on the walls of the cave.",
+      "verdict": "contextual/acceptable",
+      "reason": "“같이 한다”의 선행 행위가 분기마다 담요를 두르고 눕기/자리를 잡기로 달라, 이를 한국어에서 복원했다.",
+      "ids": [
+        "localizable.strings::chap06_bivouac_order74_gaia",
+        "localizable.strings::chap06_bivouac_order71_prometheus"
+      ]
+    },
+    {
+      "source": "I remember this night.",
+      "verdict": "contextual/acceptable",
+      "reason": "기억을 떠올리는 회고 장면의 “그날 밤”과 현재 진행 장면의 “이 밤”은 서사 시점 차이다.",
+      "ids": [
+        "localizable.strings::chap05_rowantrial04",
+        "localizable.strings::chap07_connor_rowandies16"
+      ]
+    },
+    {
+      "source": "... but we don't have time to look for her now.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지 라벨은 직전 문맥상 알린을 생략해 짧게 만들고, 후속 대사는 대상 이름을 명시했다.",
+      "ids": [
+        "localizable.strings::chap06_walkwithduncan27_choice02_01",
+        "localizable.strings::chap06_walkwithduncan27_choice02_option"
+      ]
+    },
+    {
+      "source": "Connor clears his throat.",
+      "verdict": "contextual/acceptable",
+      "reason": "“목을 가다듬다”와 “헛기침하다”는 모두 대사 전의 목소리 정리 동작을 자연스럽게 표현한다.",
+      "ids": [
+        "localizable.strings::chap01_beachargument41_choice01_01",
+        "localizable.strings::chap03_erikfight31"
+      ]
+    },
+    {
+      "source": "I fall to my knees.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지에서는 1인칭 주어를 생략해 행동을 짧게 제시하고, 서술에서는 주어를 명시했다.",
+      "ids": [
+        "localizable.strings::chap07_connor_rowandies80",
+        "localizable.strings::chap07_connor_thesummit61",
+        "localizable.strings::chap07_arlyn_rowandies38_choice01_06",
+        "localizable.strings::chap07_duncan_rowandies42_choice01_06",
+        "localizable.strings::chap07_freya_rowandies47_choice01_06"
+      ]
+    },
+    {
+      "source": "Insist.",
+      "verdict": "contextual/acceptable",
+      "reason": "“Insist”가 권유·호명·설득·추궁·고집으로 나타나는 대상 행위가 각 선택지에서 달라 구체화가 필요하다.",
+      "ids": [
+        "localizable.strings::chap06_walkwitharlyn05_choice01_option",
+        "localizable.strings::chap01_settinguptheboat25_choice03_06_choice01_option",
+        "localizable.strings::chap01_thestairs_arlyn12_choice01_option",
+        "localizable.strings::chap02_bivouac63_choice01_option",
+        "localizable.strings::chap02_morning48_choice01_07_choice01_option"
+      ]
+    },
+    {
+      "source": "I know...",
+      "verdict": "contextual/acceptable",
+      "reason": "가족 어른과 대화하는 시련 장면의 존대와 다른 장면의 반말이 관계에 맞게 구분되었다.",
+      "ids": [
+        "localizable.strings::chap06_bivouacduncan86_duncanlove_choice01_02",
+        "localizable.strings::chap04_duncantrial37_choice02_06"
+      ]
+    },
+    {
+      "source": "So be it.",
+      "verdict": "contextual/acceptable",
+      "reason": "수락을 숙고해 말하는 “그렇게 하지”와 단호한 “좋다”는 화자·장면의 어조 차이다.",
+      "ids": [
+        "localizable.strings::chap02_seerorcairn91_cairn",
+        "localizable.strings::chap03_erikfight56"
+      ]
+    },
+    {
+      "source": "I turn to Duncan.",
+      "verdict": "contextual/acceptable",
+      "reason": "1인칭 주어는 선택적 생략이며, 모두 던컨 쪽으로 몸을 돌리는 동작이다.",
+      "ids": [
+        "localizable.strings::chap06_outofthecaves_chaos54_gaia",
+        "localizable.strings::chap05_theharbour64",
+        "localizable.strings::chap07_connor_timeknot31"
+      ]
+    },
+    {
+      "source": "The silence is complete.",
+      "verdict": "contextual/acceptable",
+      "reason": "“완벽한/완전한 침묵”은 동등한 문학적 서술 변형이다.",
+      "ids": [
+        "localizable.strings::chap04_freyatrial32",
+        "localizable.strings::chap04_arlyntrial26"
+      ]
+    },
+    {
+      "source": "I know what happens next.",
+      "verdict": "contextual/acceptable",
+      "reason": "시간의 매듭 장면에서는 다가올 일을 아는 예지적 뉘앙스가, 회상 선택지에서는 다음 전개를 아는 현재적 뉘앙스가 자연스럽다.",
+      "ids": [
+        "localizable.strings::chap05_rowantrial37_choice02_01",
+        "localizable.strings::chap07_arlyn_rowandies33"
+      ]
+    },
+    {
+      "source": "She opens her eyes in panic.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 she는 알린/프레이야 분기별 인물이므로 실명 복원이 필요하다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice02_04",
+        "localizable.strings::chap02_night10_choice03_04"
+      ]
+    },
+    {
+      "source": "He sees me.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 he는 던컨·코너 및 앞 문맥의 남성으로 각각 특정되며, 선택지의 주어 생략도 문맥상 명확하다.",
+      "ids": [
+        "localizable.strings::chap04_duncantrial98_choice01_15",
+        "localizable.strings::chap04_duncantrial98_choice02_14",
+        "localizable.strings::chap04_connortrial58_choice01_26",
+        "localizable.strings::chap04_connortrial58_choice02_26",
+        "localizable.strings::chap02_night10_choice01_24",
+        "localizable.strings::chap02_night10_choice04_24"
+      ]
+    },
+    {
+      "source": "She turns.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 she는 알린/프레이야 분기별 인물이므로 실명 복원이 필요하다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice02_23",
+        "localizable.strings::chap02_night10_choice03_21"
+      ]
+    },
+    {
+      "source": "With a ghostly caress, I command her to leave the darkness of within, to surface from the subterranean realm.",
+      "verdict": "contextual/acceptable",
+      "reason": "대상 여성(알린/프레이야)이 분기마다 다르므로 대명사를 실명으로 바꾼 것이 필수다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice02_03",
+        "localizable.strings::chap02_night10_choice03_03"
+      ]
+    },
+    {
+      "source": "Did you see that storm?",
+      "verdict": "contextual/acceptable",
+      "reason": "확인 질문과 상대의 답변을 유도하는 질문의 종결감(“봤어?/봤지?”) 차이다.",
+      "ids": [
+        "localizable.strings::chap01_gatheringwood34",
+        "localizable.strings::chap01_exploringthebeach31"
+      ]
+    },
+    {
+      "source": "I mean, I'm not sure.",
+      "verdict": "contextual/acceptable",
+      "reason": "둘 다 화자의 불확실성을 밝히며, 한쪽은 짧은 자기정정이고 다른 쪽은 상대에게 뜻을 풀어 준다.",
+      "ids": [
+        "localizable.strings::chap06_outofthecaves_order47_12",
+        "localizable.strings::chap06_outofthecaves_chaos39_10"
+      ]
+    },
+    {
+      "source": "He opens his mouth to say something...",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 he는 던컨/코너 분기별 인물이므로 실명 복원이 필요하다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice01_27",
+        "localizable.strings::chap02_night10_choice04_27"
+      ]
+    },
+    {
+      "source": "I know this place.",
+      "verdict": "contextual/acceptable",
+      "reason": "“아는 곳이다”와 “이곳을 안다”는 장소 친숙함을 동일하게 나타낸 서술 변형이다.",
+      "ids": [
+        "localizable.strings::chap07_connor_rowandies15",
+        "localizable.strings::chap05_rowantrial03"
+      ]
+    },
+    {
+      "source": "He turns.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 he는 던컨/코너 분기별 인물이므로 실명 복원이 필요하다.",
+      "ids": [
+        "localizable.strings::chap02_night10_choice01_23",
+        "localizable.strings::chap02_night10_choice04_23"
+      ]
+    },
+    {
+      "source": "Yes, maybe.",
+      "verdict": "contextual/acceptable",
+      "reason": "제니버의 여유 있는 동의와 선택지의 짧은 응답을 말투 길이로 구분했다.",
+      "ids": [
+        "localizable.strings::chap02_walking_aboutthegroup25",
+        "localizable.strings::chap03_talkfreya31_choice01_04"
+      ]
+    },
+    {
+      "source": "Don't insist.",
+      "verdict": "contextual/acceptable",
+      "reason": "각 선택지에서 지속하는 행위가 권유 또는 설득으로 달라 동사를 구체화했다.",
+      "ids": [
+        "localizable.strings::chap06_walkwitharlyn05_choice02_option",
+        "localizable.strings::chap01_thestairs_arlyn12_choice01_04_choice02_option"
+      ]
+    },
+    {
+      "source": "What happened?",
+      "verdict": "contextual/acceptable",
+      "reason": "친근한 반말·존대가 상대 관계에 맞게 나뉘며, 질문 의미는 동일하다.",
+      "ids": [
+        "localizable.strings::chap03_erikdeath19_choice02_option",
+        "localizable.strings::chap04_duncantrial29",
+        "localizable.strings::chap02_morning09_notcromlech"
+      ]
+    },
+    {
+      "source": "Don't get involved.",
+      "verdict": "contextual/acceptable",
+      "reason": "일반적 불개입과 특정 결정에 관여하지 않음이 각 선택지의 대상에 맞게 구체화되었다.",
+      "ids": [
+        "localizable.strings::chap04_morning44_choice03_option",
+        "localizable.strings::chap01_theotherboat54_choice03_option"
+      ]
+    },
+    {
+      "source": "Ok.",
+      "verdict": "contextual/acceptable",
+      "reason": "“알겠어/알았어”는 수락의 자연스러운 반말 변형이다.",
+      "ids": [
+        "localizable.strings::chap03_erikdeath45",
+        "localizable.strings::chap06_walkwithduncan10_choice01_12_boat"
+      ]
+    },
+    {
+      "source": "Freya feels a presence behind her.",
+      "verdict": "contextual/acceptable",
+      "reason": "막연한 기척과 존재감은 해당 장면의 공포·인지 방식에 맞는 “presence”의 자연스러운 해석이다.",
+      "ids": [
+        "localizable.strings::chap01_sailingagain19",
+        "localizable.strings::chap02_night10_choice03_19"
+      ]
+    },
+    {
+      "source": "Fine.",
+      "verdict": "contextual/acceptable",
+      "reason": "“Fine”이 마지못한 수락일 때는 “알았어”, 긍정적 동의일 때는 “좋아”가 자연스럽다.",
+      "ids": [
+        "localizable.strings::chap06_walkwithduncan10_choice02_10",
+        "localizable.strings::chap02_seerorcairn102_seer"
+      ]
+    },
+    {
+      "source": "The group sets off again.",
+      "verdict": "contextual/acceptable",
+      "reason": "“다시 길을 떠나다/다시 출발하다”는 동등한 여정 서술 변형이다.",
+      "ids": [
+        "localizable.strings::chap07_duncan_rowandies05",
+        "localizable.strings::chap01_panoramicview36"
+      ]
+    },
+    {
+      "source": "It's not my fault.",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지 라벨의 반말과 후속 실제 발화의 존대가 분리된 UI/대화 구조다.",
+      "ids": [
+        "localizable.strings::chap04_duncantrial66_choice01_option",
+        "localizable.strings::chap04_duncantrial66_choice01_01"
+      ]
+    },
+    {
+      "source": "Where are the children?",
+      "verdict": "contextual/acceptable",
+      "reason": "선택지 라벨의 반말과 후속 실제 발화의 존대가 분리된 UI/대화 구조다.",
+      "ids": [
+        "localizable.strings::chap04_arlyntrial34_choice02_option",
+        "localizable.strings::chap04_arlyntrial34_choice02_01"
+      ]
+    },
+    {
+      "source": "Freya is a few steps in front of me.",
+      "verdict": "contextual/acceptable",
+      "reason": "화자 기준 “내 앞”은 필요한 장면에서만 명시했고, 다른 장면은 1인칭 시점상 생략했다.",
+      "ids": [
+        "localizable.strings::chap05_flashforward_order_freya03",
+        "localizable.strings::chap07_freya_thesummit04"
+      ]
+    },
+    {
+      "source": "Never!",
+      "verdict": "contextual/acceptable",
+      "reason": "강한 거부의 “절대 안 돼”와 맹세·강조의 “절대로”는 발화 기능 차이다.",
+      "ids": [
+        "localizable.strings::chap05_rowantrial43",
+        "localizable.strings::chap06_morningconnor47_choice01_07_choice01_17"
+      ]
+    },
+    {
+      "source": "choose",
+      "verdict": "contextual/acceptable",
+      "reason": "twitch_command_original은 런타임 호환을 위해 원문 choose를 보존해야 하며, 표시 명령은 “선택”으로 번역한 것이 가이드에 명시되어 있다.",
+      "ids": [
+        "ui.strings::twitch_command_original",
+        "ui.strings::twitch_command"
+      ]
+    },
+    {
+      "source": "He turns his head and smiles at me.",
+      "verdict": "contextual/acceptable",
+      "reason": "원문의 he는 던컨/코너 분기별 인물이므로 실명 복원이 필요하다.",
+      "ids": [
+        "localizable.strings::chap03_dreamduncan11",
+        "localizable.strings::chap03_dreamconnor13"
+      ]
+    }
+  ],
+  "corrections": {
+    "localizable.strings::chap02_morning19_connor": "모르겠어…",
+    "localizable.strings::chap06_outofthecaves_chaos32": "모르겠어…",
+    "localizable.strings::chap06_outofthecaves_order40": "모르겠어…",
+    "localizable.strings::chap06_bivouac_order21": "모르겠어.",
+    "localizable.strings::chap06_morningconnor17": "아니.",
+    "localizable.strings::chap05_theharbour25": "이제는 무슨 생각을 해야 할지 모르겠다…",
+    "localizable.strings::chap07_arlyn_thesummit80": "생명나무를 지키기 위해 영적 세계에서 내려온 수호자 예언자들.",
+    "localizable.strings::chap07_connor_timeknot09": "밑물살이 있어! 정면으로 들어가면 암초를 피하도록 방향을 틀 시간이 없어!"
+  },
+  "notes": [
+    "Coverage verified: 80 divergent source groups = 74 contextual/acceptable groups + 6 correction-required groups.",
+    "Correction-required source groups: “I don't know...” (3 IDs: unsupported “나도”), “I don't know.” (1 ID: unsupported “나도”), “No.” (1 ID: polarity reversal), “I don't know what to think any more...” (1 ID: belief narrowed from thought), guardian-seers sentence (1 ID: past tense not preserved), and undercurrent warning (1 ID: repeated time-knot line normalized to the established natural nautical term).",
+    "No external translation, MT, or API was used; determinations were made from the supplied packets, translation map context, and style guide."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "game": "Seers Isle",
+  "engine": {
+    "name": "Unity",
+    "version": "2019.4.18f1",
+    "scripting_backend": "Mono"
+  },
+  "text_pipeline": {
+    "runtime_assembly": "Seers-Isle_Data\\Managed\\Nova-Box.Teckel.Runtime.dll",
+    "loader_type": "Texts",
+    "locale_root": "Seers-Isle_Data\\StreamingAssets\\locales",
+    "discovery": "Texts.OnEnable enumerates every locale subdirectory and loads config.json",
+    "string_loading": "Texts.Load loads every *.strings file in the selected locale directory",
+    "default_slot": "en-US",
+    "selector": "OptionsUI.SetupLanguage enumerates the discovered language dictionary",
+    "new_slot_supported": true,
+    "fallback_behavior": "Unknown or unsupported saved language falls back to the English-prefixed selector entry"
+  },
+  "language_slots": [
+    {
+      "directory": "en-US",
+      "display_name": "English",
+      "locale": "en-US",
+      "localizable_entries": 6664,
+      "ui_entries": 85,
+      "role": "semantic source and original language"
+    },
+    {
+      "directory": "fr-FR",
+      "display_name": "Français",
+      "locale": "fr-FR",
+      "localizable_entries": 6652,
+      "ui_entries": 85,
+      "role": "preserved selectable translation",
+      "known_gap_against_english": 12
+    }
+  ],
+  "font_pipeline": {
+    "directory": "Seers-Isle_Data\\StreamingAssets\\fonts",
+    "configured_roles": [
+      "default",
+      "bold",
+      "bubble",
+      "character_name",
+      "character",
+      "choice",
+      "title"
+    ],
+    "current_family": "Averia Libre / Averia Serif Libre",
+    "hangul_coverage": false,
+    "korean_font_required": true
+  },
+  "source_scope": {
+    "localizable_file": "en-US\\localizable.strings",
+    "ui_file": "en-US\\ui.strings",
+    "total_unique_entries": 6749,
+    "translatable_visible_entries": 6748,
+    "intentional_empty_exclusions": [
+      "localizable.strings::theseer"
+    ],
+    "duplicate_keys": 0
+  },
+  "modification_state": "read_only_discovery_complete"
+}

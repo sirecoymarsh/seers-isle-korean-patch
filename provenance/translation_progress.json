@@ -1,0 +1,775 @@
+{
+  "generated_at": "2026-07-25T12:19:28.549419+00:00",
+  "total_packets": 109,
+  "draft_packets": 109,
+  "total_entries": 6749,
+  "draft_entries": 6749,
+  "draft_percent": 100.0,
+  "completed_packets": [
+    {
+      "packet_id": "packet_001",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_001.json",
+      "result_sha256": "3eed6ee45543d181e3ce79acc1400a671adc98073ed9ea8a5c84a9541adfc267",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_002",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_002.json",
+      "result_sha256": "15820b30ba38049a7c98706f1790db8f9200b1c343eb48fa54997d2684f85e60",
+      "entry_count": 7,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_003",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_003.json",
+      "result_sha256": "231eb66d6b3a9763728c5d7f94cf2b44f30b0defa131a671e82468bc6d976b74",
+      "entry_count": 41,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_004",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_004.json",
+      "result_sha256": "bc9b4131d6fd2e1c966d02832164f6d9e64d5a94d4e8f9ce491c123248e21e05",
+      "entry_count": 41,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_005",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_005.json",
+      "result_sha256": "81506902b6bda7d9c7b912c87df68eae4c3a00a9c1dcf09cfbece80abc8ffb68",
+      "entry_count": 8,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_006",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_006.json",
+      "result_sha256": "190033f4c2ba949d4a6fe89db660e97fe3f174c61d45d13efd5379a48a838805",
+      "entry_count": 10,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_007",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_007.json",
+      "result_sha256": "c156784ae4e82cd0cd7538bea6d2345ef1f66d1829a98f10384b2a3f190c27a9",
+      "entry_count": 87,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_008",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_008.json",
+      "result_sha256": "c2bcc6734a5fa2be85f5a6558d4af40f2f8f2c85ea753796ac31616a7c7bbe7b",
+      "entry_count": 67,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_009",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_009.json",
+      "result_sha256": "c2c3a2fdb8b94f6a8bb476bbaca9a1259599171c161fade6a55557483733cdf2",
+      "entry_count": 76,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_010",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_010.json",
+      "result_sha256": "fc3988bee29f5c318d87d85949e7198783056e4a1bd49a0c822f17608fbeec1e",
+      "entry_count": 66,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_011",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_011.json",
+      "result_sha256": "78a263258010d5a39101d6ee4f2e4e7077f3595cffe1b547b9aee756fd78c00b",
+      "entry_count": 69,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_012",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_012.json",
+      "result_sha256": "770c49bab34919d351ef60d1f45af53786d78880496be229332d1719ede1dd6e",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_013",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_013.json",
+      "result_sha256": "13f778ab2d29001999ec985d1da97c67b414f82304d15aa73d59130d2677266f",
+      "entry_count": 16,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_014",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_014.json",
+      "result_sha256": "bc262162e0e50ec6ac462678846ecc17248ebfe021e2218c73fc8660c366afae",
+      "entry_count": 74,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_015",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_015.json",
+      "result_sha256": "a2ba4d907ce47772ec8b0adca0487d7134a14b31fca3499caa59d099a80ae9e1",
+      "entry_count": 46,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_016",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_016.json",
+      "result_sha256": "5de52fecbc22bac04bc239d613a2a6add3bf4c61c8e34ee927a3c45fe01b3f4c",
+      "entry_count": 75,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_017",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_017.json",
+      "result_sha256": "5ecb5432e3df13d2349222571b1c6a62d3db708917c58a04e3d710d52884b91e",
+      "entry_count": 60,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_018",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_018.json",
+      "result_sha256": "7753a0e6f144898bf80eb390632a142e990693079b1eb616b74e48b59e2ef5db",
+      "entry_count": 63,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_019",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_019.json",
+      "result_sha256": "c029bd28803f30203ad90d1434343939bd2e8d26838ca04577376c217104e43e",
+      "entry_count": 22,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_020",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_020.json",
+      "result_sha256": "7d7fadcefc6b7dc334d45edb51194be69c7fd434e6971f45f2dea9e921dcde12",
+      "entry_count": 45,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_021",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_021.json",
+      "result_sha256": "c3533722569a32652f827fb8f1859f9b991a144d423d0db2a657824ad3abbf07",
+      "entry_count": 19,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_022",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_022.json",
+      "result_sha256": "4987eda15c0bac33155624288772d764856635dc77134b11edb05f862abbfc13",
+      "entry_count": 52,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_023",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_023.json",
+      "result_sha256": "3045221653240ae5bdaaa25dcb1c94908d8379d4c2b94f864f890f2e6fd0997a",
+      "entry_count": 1,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_024",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_024.json",
+      "result_sha256": "672fdd036d59e63d9562a5f5e9d2880e3c10becce3f6e2f03ea4c84d7a0a0aaf",
+      "entry_count": 40,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_025",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_025.json",
+      "result_sha256": "18cbc52f9311ae98b1ad970871ce8587099b97cf2165d9bcb0bc43b6bb2dfbb7",
+      "entry_count": 17,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_026",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_026.json",
+      "result_sha256": "d292413f436f96ffbfd0f07f9754fc5c3330d8aeaba6bb1b8d5ffbbeefcaca3a",
+      "entry_count": 32,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_027",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_027.json",
+      "result_sha256": "2c44e99b35995ba8ab65badfe1e124164f5ff465d3450e04572787334db5ce7d",
+      "entry_count": 48,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_028",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_028.json",
+      "result_sha256": "02fab7c515faaa1d6d68b3ee0f1f6b1edd015f6e5598a17a29c372733cc72c76",
+      "entry_count": 8,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_029",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_029.json",
+      "result_sha256": "d9fbae2d093e48246737b0abacb3e8336db14904e171694f80f66ca21e3293ff",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_030",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_030.json",
+      "result_sha256": "7c65aa8154aa7689d375e9112c4deedfdb5593f78471a817ec5ed2245086789c",
+      "entry_count": 1,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_031",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_031.json",
+      "result_sha256": "92b6ec50b416eb61d4519490e99908828fbf5a72bb82269cb56f3936b0a90da9",
+      "entry_count": 29,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_032",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_032.json",
+      "result_sha256": "71c72a25b01e188ed17b7418afa66e400cd98141776457a35c97ad3ba2958b9c",
+      "entry_count": 30,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_033",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_033.json",
+      "result_sha256": "25cdd122ed1e50fc44a95a5a0d9aec3312a3b97c954dcf0d579e151d96eeb14b",
+      "entry_count": 118,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_034",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_034.json",
+      "result_sha256": "065715bb0bf35936be321a7610b1c049acbc3a0402132f12e62ba69ce229ea93",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_035",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_035.json",
+      "result_sha256": "4b63aa25640fb12ccfeaee583bb30ed90631340e52fee4571b549a72e6027336",
+      "entry_count": 18,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_036",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_036.json",
+      "result_sha256": "48b2f097821e31f4a68c7f0d259a5db97a4699c8ca261e9c8629bd9a4f15cddc",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_037",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_037.json",
+      "result_sha256": "3abe6358c6358f5c4b641a4bc18c1372501e5deaf8dad81385d454a2abba157a",
+      "entry_count": 2,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_038",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_038.json",
+      "result_sha256": "78b1a840acb7451fa1a6e43991e6de339a4b6556a0047086e54648b578c37c22",
+      "entry_count": 7,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_039",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_039.json",
+      "result_sha256": "938ba44f5e6313e720687b3331c9a0feb2868bd10592812408b349abc346eb5b",
+      "entry_count": 68,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_040",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_040.json",
+      "result_sha256": "7aa012e25d4e52b1fd28dc28641ae805a9e1f59680f40253d35cbb60aefa6204",
+      "entry_count": 83,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_041",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_041.json",
+      "result_sha256": "355f62338428b6b9cd4afebecea3b956ad7686ec92bf6134dd45f708074a2750",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_042",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_042.json",
+      "result_sha256": "83ed825c26f470b85891e1e5aacf3957ebd7415e47b870d80414324e395fa0d1",
+      "entry_count": 15,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_043",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_043.json",
+      "result_sha256": "6cd9d7f85504adf2dd9b1e2fb94e4bbaf5bae070ab9a6d9d622706c40a072736",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_044",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_044.json",
+      "result_sha256": "a6b2f0a3b7c4d9d27c9114150608e5ab3eee0dcbbaa476631a5ca20595eaba37",
+      "entry_count": 12,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_045",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_045.json",
+      "result_sha256": "74e1794f01bd7d8a2f8f1735daa3a93418414bbf61e73d3271a60ecdc3e1566e",
+      "entry_count": 56,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_046",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_046.json",
+      "result_sha256": "a1a7d9d4678720e51cd6718c2fe90de859add949d0be251fd0ec56438be7deab",
+      "entry_count": 62,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_047",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_047.json",
+      "result_sha256": "454b98538ed466903e51a566cd146e66ff49dcd581d73826f5bc08cc7251c419",
+      "entry_count": 69,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_048",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_048.json",
+      "result_sha256": "85acbda1ff9bb60e98691969974405468bb54cb57690d1e2d222162e7ff69e37",
+      "entry_count": 35,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_049",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_049.json",
+      "result_sha256": "486155cf37ee54286fc27e36804b5127be87725c3fb93188fd749101eac1375a",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_050",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_050.json",
+      "result_sha256": "3d49da569bd3da2903e165c92122b458a25009db0c454d5128d9924370f1daaf",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_051",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_051.json",
+      "result_sha256": "00140cb5a6f8e823e1177f486471fd3f02099badb659b6d99575c69ead06f4c0",
+      "entry_count": 53,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_052",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_052.json",
+      "result_sha256": "bc81d97d017eed336f9fbe49cfd05bf442855e50dc882bb784909da3dd7981cf",
+      "entry_count": 61,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_053",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_053.json",
+      "result_sha256": "1d639fed423bb10d1c624ef27c405ec787fdce3c937c4bfae7568aec46d8ca45",
+      "entry_count": 75,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_054",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_054.json",
+      "result_sha256": "d84706d8f2c4380ca35ac681aafa123c7dc90db99ba91d635f815bc88cf0981d",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_055",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_055.json",
+      "result_sha256": "e260f7685a5f6065dfeaf40b4cc920cf58ee7f9318cfa3fc95a94378371e9280",
+      "entry_count": 117,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_056",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_056.json",
+      "result_sha256": "0d2b92586980a7b2fe94baea6c9db4a78015c938dced5f9a4ce47df05b8e1d87",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_057",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_057.json",
+      "result_sha256": "50b9fb30115367a13d2fd878216956d116e070683117f910ad743605132cc8cf",
+      "entry_count": 70,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_058",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_058.json",
+      "result_sha256": "60e2527eb5449a282e748e2b10554a4109c585c5f2d79055ccf963297bfd498a",
+      "entry_count": 21,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_059",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_059.json",
+      "result_sha256": "66e9af406610f1d198b0d7c2d4bca66a8c218007a088bcd6f1331562ef9c723d",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_060",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_060.json",
+      "result_sha256": "f0d9dc0d514740423b1190117f0c9c8ed279d62aae324fe311e356003fc86da1",
+      "entry_count": 66,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_061",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_061.json",
+      "result_sha256": "097d53e35626eeb8d5fd21f7f364a555a2ea3664dd4a3cff8a64d77b56e5a7b3",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_062",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_062.json",
+      "result_sha256": "6dbf52377d113562a712cdf20cde9993c3c2f0410326901a263c0db6184d3e13",
+      "entry_count": 95,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_063",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_063.json",
+      "result_sha256": "b534d3bd024df8779cb887f64f515fb13bd196b0ad084eb0d760661d8ab6ef44",
+      "entry_count": 60,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_064",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_064.json",
+      "result_sha256": "49a572afcc24c169dbf4872347966e069e1161b068a0297a300ba8a1777600dd",
+      "entry_count": 19,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_065",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_065.json",
+      "result_sha256": "7bac5818d49cc68e2844f485344c72f0216dc1073db85e080768862611591c03",
+      "entry_count": 7,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_066",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_066.json",
+      "result_sha256": "7a6bf18a9fcff153b80c0f1556c6526b3ff99d3e559dc71e833cc6a68ac112f0",
+      "entry_count": 29,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_067",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_067.json",
+      "result_sha256": "bd8bbd921dbab205aa1e385e25fb0fdad0d20da3de3e08c9718bf90b47a5ef6a",
+      "entry_count": 7,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_068",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_068.json",
+      "result_sha256": "050348bb67ff555911b3b3d656276fd14244811919ab24dca66e5d5581ae42e6",
+      "entry_count": 38,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_069",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_069.json",
+      "result_sha256": "ff1c6240ca272708db61e21debabebd806b5b8ac9613538d686572906aeb96dd",
+      "entry_count": 110,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_070",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_070.json",
+      "result_sha256": "a665131d5cba35ae422b672b5d4eb183ff472cbb796a1bde54b5894f61cada4e",
+      "entry_count": 17,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_071",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_071.json",
+      "result_sha256": "22868be8b1629acabdcc9701e622715008b6aa5bb4c15b1c0efba1fec118a63a",
+      "entry_count": 18,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_072",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_072.json",
+      "result_sha256": "02ce526674c453c149dfe1a0bd92e1a39c81bafb103ed87c383abafbae2f5060",
+      "entry_count": 94,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_073",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_073.json",
+      "result_sha256": "62ff616edbc45b888f16c3db5f75051398f706586c6b7b20c2e4908bdb9bbc96",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_074",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_074.json",
+      "result_sha256": "3624903cab31119af294e921453f8576ac0f4b7f02d2c85f2560440d172c362b",
+      "entry_count": 55,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_075",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_075.json",
+      "result_sha256": "5c30f97fc6e5730b42976a268bdce9a373d46594c7fe2e284a2152adce91f308",
+      "entry_count": 96,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_076",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_076.json",
+      "result_sha256": "fc4a114c869b2f80bc16ae4e706e1072a146be77e1d1cde70dc5593bef20788b",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_077",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_077.json",
+      "result_sha256": "6c8c78a81bba4b8eb4bc6e75fbb6a01a7de2bad840d22f50be0936088c098000",
+      "entry_count": 19,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_078",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_078.json",
+      "result_sha256": "8f218c175aab48b8e140ec4a5d47830e11d5d9740eaaf438578930c897b79002",
+      "entry_count": 88,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_079",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_079.json",
+      "result_sha256": "c6bb0c32c138495764276850c36dfd255053b24480337ff66b8c6adbdfd7fa61",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_080",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_080.json",
+      "result_sha256": "8a20ad0b089a4fcaa9d1bbd5f57e256ad893d78dbbbff8cfe2b95720f223911a",
+      "entry_count": 5,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_081",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_081.json",
+      "result_sha256": "acd5c1d1528dd68249313c241a3f7b636847c282140af2dd508ff268efb2a197",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_082",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_082.json",
+      "result_sha256": "8bb43a1069dd272f1af6423586e2307cdf547bdd2c8cc6697afaa5987f568b5d",
+      "entry_count": 44,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_083",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_083.json",
+      "result_sha256": "05e098ce61796684e5498f61e623b8ffe1b1a87decffee9a144f4cebe8da8f14",
+      "entry_count": 98,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_084",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_084.json",
+      "result_sha256": "9c206f37f9cb6aa330b7e478342224acc6ca8fdccc330bc4548bb3d8c30bfb61",
+      "entry_count": 94,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_085",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_085.json",
+      "result_sha256": "949a39bd8a20796abc5548a3405b52e7f409b4297820fbd85d8e68c6238ce546",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_086",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_086.json",
+      "result_sha256": "92fe330792fe6468266f7d42340305ebcf72ba7b44b095be4b333499b0b474f2",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_087",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_087.json",
+      "result_sha256": "4c295e4a9dd6539704e0b2267b02a97a108e142d5fe6ea606ea8b0816b8538c2",
+      "entry_count": 23,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_088",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_088.json",
+      "result_sha256": "6dfd2bebc2db40ea0c5a10be3d4696c629590d9eaa632eced81a9b194ab97d11",
+      "entry_count": 71,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_089",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_089.json",
+      "result_sha256": "ce45fde51a9debcfb8aba5f9e826a40bc421e73d146cd2418f95ef98e524f9cd",
+      "entry_count": 62,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_090",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_090.json",
+      "result_sha256": "e8e21e0f7bb5368751fc3b114bf97b0fd2bcaa5a96322a121b680786f57b3b28",
+      "entry_count": 59,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_091",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_091.json",
+      "result_sha256": "9a3f217fd815dcaa34fcdf8664c69f04ed7dbd6caa2c7c721467929368fae2b0",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_092",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_092.json",
+      "result_sha256": "21084291b2b99f789a37611b3e05ba6294b7fabb2a3764dd70b7b27694513c44",
+      "entry_count": 6,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_093",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_093.json",
+      "result_sha256": "8205bc630d3c777d9192dd10a0d061de08b4be593a3cb9e645f30145591f7f0d",
+      "entry_count": 49,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_094",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_094.json",
+      "result_sha256": "1ec6fab25941b8e6352f250d27e3b541f43ab52dba558d6b7c1b55ed5f756fd3",
+      "entry_count": 67,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_095",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_095.json",
+      "result_sha256": "72e8b24cc3e8b5408eeb1935d4a3e06ec2d0439d504e3b4c97c78c1d02509ea0",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_096",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_096.json",
+      "result_sha256": "e5b4abeb157c9a9ec349ee131b766e5a488b5e51d27f9e076a4612773ee9099e",
+      "entry_count": 40,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_097",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_097.json",
+      "result_sha256": "6402e4f55a102af2edf8dfb8c02a3d5f01dd64b5cd318e84eb9ea0ee4233cbd7",
+      "entry_count": 112,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_098",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_098.json",
+      "result_sha256": "cd1b03098ad3a00d384936b0867c868a1a7d2f649ead43ee9a883a722b7865b1",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_099",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_099.json",
+      "result_sha256": "dbd8f290225524809f62cb942625b70d168c5d69124e9cdbb06472eeee7f392c",
+      "entry_count": 29,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_100",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_100.json",
+      "result_sha256": "df681cd788abbefb0c087d95546d44ae326e26da0737ce8b67a6cd97f6bfccda",
+      "entry_count": 60,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_101",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_101.json",
+      "result_sha256": "76f260ec07e71d4e38a4fab9dd9504a80df1dd88f7226bb965fc7290f91d7278",
+      "entry_count": 93,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_102",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_102.json",
+      "result_sha256": "487799ed8a8c0dd8302456cdddb7b4cec560364f7f99d7542a8f00709f0d3959",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_103",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_103.json",
+      "result_sha256": "b6c061cc68129ab7f8b97798a1a6bd0f62119c1b7eb721919b1fd7a880f592a4",
+      "entry_count": 44,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_104",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_104.json",
+      "result_sha256": "8b9eb11acfec1b2ee5ecc07656c9ef7f5148cec70ebe6f3c929f21d0f7cb3bf1",
+      "entry_count": 57,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_105",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_105.json",
+      "result_sha256": "30be5b4774271f5fa3f42d667049bc1e69d8a15c809d5c82d5136e7a2c0d455e",
+      "entry_count": 120,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_106",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_106.json",
+      "result_sha256": "4885e43386d381487ae77a14819af6cfbeb74a814f6d2dc948e5113da430505e",
+      "entry_count": 21,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_107",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_107.json",
+      "result_sha256": "a76e4a39fb2e0d45e035656c4e75f83550347a903e345a9f75d1106e1660969c",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_108",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_108.json",
+      "result_sha256": "72151cfd176fe1bdb730da011b1728101c3df48382b9d69c082abf3e3588d5f7",
+      "entry_count": 64,
+      "complete": true
+    },
+    {
+      "packet_id": "packet_109",
+      "result": "work\\seers_isle_ko\\results\\draft_packet_109.json",
+      "result_sha256": "8359fbf3db2c8253056d99fb590f47c04325e5a57b785d8dd4673738e987d0f8",
+      "entry_count": 21,
+      "complete": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

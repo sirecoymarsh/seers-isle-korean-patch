@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "captured_on": "2026-07-25",
+  "refreshed_at": "2026-07-25T12:04:50.471874+00:00",
+  "game_root": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle",
+  "steam_app_id": 738650,
+  "steam_build_id": 20286232,
+  "files": [
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle.exe",
+      "baseline_path": "baseline/runtime/Seers-Isle.exe",
+      "bytes": 650752,
+      "sha256": "c06df0828b60fb4941f6c9ee456b33d372114bc391912adc6aac76788cb16a12"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\Managed\\Nova-Box.Teckel.Runtime.dll",
+      "baseline_path": "baseline/runtime/Nova-Box.Teckel.Runtime.dll",
+      "bytes": 119296,
+      "sha256": "908024d5c99ba9882a044da9e256c3834f7d085096f166d189d06c57bf5f2e54"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\config.json",
+      "baseline_path": "baseline/en-US/config.json",
+      "bytes": 690,
+      "sha256": "83de59898816e4533ad31fef2573f338274b425e932c44365cd056620fa89e9f"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\localizable.strings",
+      "baseline_path": "baseline/en-US/localizable.strings",
+      "bytes": 586066,
+      "sha256": "2205d022b57993f830ef2f8ac360ace8740213af0a1456691212b5661b7bc30b",
+      "entries": 6664
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\ui.strings",
+      "baseline_path": "baseline/en-US/ui.strings",
+      "bytes": 4281,
+      "sha256": "f19e2bca8f3502b9845f26a92ab624a2480418253365fc6168c60053ad0d0610",
+      "entries": 85
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\config.json",
+      "baseline_path": "baseline/fr-FR/config.json",
+      "bytes": 692,
+      "sha256": "aa4ecb31546d2dc97f20fe60bb77c63b19b6f9a29a5815a81728e9d054b9209a"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\localizable.strings",
+      "baseline_path": "baseline/fr-FR/localizable.strings",
+      "bytes": 640371,
+      "sha256": "da760ae3228c0ba58de25d40f2eab6cb06d02b7abee5a308b521084226287fee",
+      "entries": 6652
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\ui.strings",
+      "baseline_path": "baseline/fr-FR/ui.strings",
+      "bytes": 4607,
+      "sha256": "b0ec4699c15cdeac3c4c619c82559fedceaed7cd6d48423d80f2acce71fd4a47",
+      "entries": 85
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Bold.otf",
+      "baseline_path": "baseline/fonts/AveriaLibre-Bold.otf",
+      "bytes": 194552,
+      "sha256": "78aaafccdaba0360cbddd22c490cb5b029ba063d82a8bb15ec103ab27c432441"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Italic.otf",
+      "baseline_path": "baseline/fonts/AveriaLibre-Italic.otf",
+      "bytes": 208952,
+      "sha256": "506430943646f420e6f715f813b818abea3cb69039124442a25388181849d7c0"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Regular.otf",
+      "baseline_path": "baseline/fonts/AveriaLibre-Regular.otf",
+      "bytes": 193596,
+      "sha256": "be75f6c9a367427772c520a827c91237e3b112898caa077762ecc05b631bb56b"
+    },
+    {
+      "source_path": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle\\Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaSerifLibre-Regular.ttf",
+      "baseline_path": "baseline/fonts/AveriaSerifLibre-Regular.ttf",
+      "bytes": 108860,
+      "sha256": "6528ee115e5c893c4cc53dcbf7180ac70b52bdc75981120a1e702335b0241e8f"
+    }
+  ],
+  "catalog_sha256": "4f4d497f1161397662149576631057918aa72f610a114fc67a2e2c4e414a474b",
+  "packet_index_sha256": "2e5adaa0f7683d9b1e300afb3f4be3a6de089f1300bb940570aef324e76b75d4",
+  "language_contract_sha256": "0e001ac8e010c27569ef2d85c617ab2976faf25fa9993e80f9513ee628f9df16"
+}

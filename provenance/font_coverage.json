@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "required_codepoints": 1098,
+  "fonts": [
+    {
+      "path": "payload/fonts/SeersIsle-Korean-Regular.ttf",
+      "size": 16777216,
+      "supported_codepoints": 14719,
+      "required_codepoints": 1098,
+      "missing_count": 0,
+      "missing": []
+    },
+    {
+      "path": "payload/fonts/SeersIsle-Korean-Bold.ttf",
+      "size": 16777216,
+      "supported_codepoints": 14721,
+      "required_codepoints": 1098,
+      "missing_count": 0,
+      "missing": []
+    }
+  ]
+}

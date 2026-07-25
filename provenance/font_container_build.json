@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "generated_at": "2026-07-25T23:30:21.872336+00:00",
+  "strategy": "preserve_sfnt_bytes_and_append_zero_padding",
+  "reason": "Seers Isle derives TextMeshPro atlas dimensions from the font file length. The original Gothic A1 files select a 1024px atlas, which saturates and drops Korean syllables. A 16 MiB container selects the game's maximum 4096px atlas without changing the licensed font tables or glyph data.",
+  "target_size": 16777216,
+  "regular": {
+    "source": {
+      "path": "fonts_candidate/gothica1/GothicA1-Regular.ttf",
+      "size": 2295400,
+      "sha256": "211151bea98098c579610ab1114bb1bfe909057207db561f357b896d076c21ac"
+    },
+    "output": {
+      "path": "payload/fonts/SeersIsle-Korean-Regular.ttf",
+      "size": 16777216,
+      "sha256": "71c8ebc6ced30339debd2d0e47e93175ab922325697266e03ee21147dc7a97ea"
+    },
+    "source_prefix_preserved": true,
+    "trailing_zero_bytes": 14481816,
+    "runtime_loader": {
+      "file_size": 16777216,
+      "inverse_lerp_factor": 1.0,
+      "sampling_point_size": 56,
+      "atlas_width": 4096,
+      "atlas_height": 4096,
+      "atlas_padding": 5,
+      "population_mode": "Dynamic"
+    }
+  },
+  "bold": {
+    "source": {
+      "path": "fonts_candidate/gothica1/GothicA1-Bold.ttf",
+      "size": 2287068,
+      "sha256": "2e883fa0ae548000996258b4101f2bb732a28b197264f49621a2cb16d6e9f126"
+    },
+    "output": {
+      "path": "payload/fonts/SeersIsle-Korean-Bold.ttf",
+      "size": 16777216,
+      "sha256": "3ebc9cea5e0a959c1e93c05140fc8ad29b5d50317e00c736a2c5aa318bb80e41"
+    },
+    "source_prefix_preserved": true,
+    "trailing_zero_bytes": 14490148,
+    "runtime_loader": {
+      "file_size": 16777216,
+      "inverse_lerp_factor": 1.0,
+      "sampling_point_size": 56,
+      "atlas_width": 4096,
+      "atlas_height": 4096,
+      "atlas_padding": 5,
+      "population_mode": "Dynamic"
+    }
+  },
+  "license": {
+    "path": "licenses/GothicA1-OFL.txt",
+    "size": 4359,
+    "sha256": "ed95c33f80ccca002e3a360b683c43368f9c5eb024e5b992abb51af3c10b59bc"
+  }
+}

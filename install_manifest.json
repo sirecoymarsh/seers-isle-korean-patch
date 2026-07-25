@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "patch_id": "seers-isle-ko-kr",
+  "version": "1.0.2",
+  "created_at": "2026-07-25T23:32:53.966692+00:00",
+  "game": {
+    "name": "Seers Isle",
+    "executable": "Seers-Isle.exe",
+    "compatibility_files": [
+      {
+        "path": "Seers-Isle.exe",
+        "size": 650752,
+        "sha256": "c06df0828b60fb4941f6c9ee456b33d372114bc391912adc6aac76788cb16a12"
+      },
+      {
+        "path": "Seers-Isle_Data\\Managed\\Nova-Box.Teckel.Runtime.dll",
+        "size": 119296,
+        "sha256": "908024d5c99ba9882a044da9e256c3834f7d085096f166d189d06c57bf5f2e54"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\config.json",
+        "size": 690,
+        "sha256": "83de59898816e4533ad31fef2573f338274b425e932c44365cd056620fa89e9f"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\localizable.strings",
+        "size": 586066,
+        "sha256": "2205d022b57993f830ef2f8ac360ace8740213af0a1456691212b5661b7bc30b"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\en-US\\ui.strings",
+        "size": 4281,
+        "sha256": "f19e2bca8f3502b9845f26a92ab624a2480418253365fc6168c60053ad0d0610"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\config.json",
+        "size": 692,
+        "sha256": "aa4ecb31546d2dc97f20fe60bb77c63b19b6f9a29a5815a81728e9d054b9209a"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\localizable.strings",
+        "size": 640371,
+        "sha256": "da760ae3228c0ba58de25d40f2eab6cb06d02b7abee5a308b521084226287fee"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\locales\\fr-FR\\ui.strings",
+        "size": 4607,
+        "sha256": "b0ec4699c15cdeac3c4c619c82559fedceaed7cd6d48423d80f2acce71fd4a47"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Bold.otf",
+        "size": 194552,
+        "sha256": "78aaafccdaba0360cbddd22c490cb5b029ba063d82a8bb15ec103ab27c432441"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Italic.otf",
+        "size": 208952,
+        "sha256": "506430943646f420e6f715f813b818abea3cb69039124442a25388181849d7c0"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaLibre-Regular.otf",
+        "size": 193596,
+        "sha256": "be75f6c9a367427772c520a827c91237e3b112898caa077762ecc05b631bb56b"
+      },
+      {
+        "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\AveriaSerifLibre-Regular.ttf",
+        "size": 108860,
+        "sha256": "6528ee115e5c893c4cc53dcbf7180ac70b52bdc75981120a1e702335b0241e8f"
+      }
+    ]
+  },
+  "system_fonts": [],
+  "targets": [
+    {
+      "path": "Seers-Isle_Data\\StreamingAssets\\locales\\ko-KR\\config.json",
+      "size": 852,
+      "sha256": "fde9a2d60501f90a1dcbaf0b42efe46813b31bcdf27e77a6de7d9891c0eaa35e",
+      "source_kind": "payload",
+      "source": "payload\\locales\\ko-KR\\config.json"
+    },
+    {
+      "path": "Seers-Isle_Data\\StreamingAssets\\locales\\ko-KR\\localizable.strings",
+      "size": 648668,
+      "sha256": "4aed81d2d4ba3bf82699b868007810ea64a67643d7072ee39e819f32c6e63d0a",
+      "source_kind": "payload",
+      "source": "payload\\locales\\ko-KR\\localizable.strings"
+    },
+    {
+      "path": "Seers-Isle_Data\\StreamingAssets\\locales\\ko-KR\\ui.strings",
+      "size": 4543,
+      "sha256": "5fa24cf6793f0e8ae9b0ba5da9b5a55cede9d013fd81e61e7650392ec1113791",
+      "source_kind": "payload",
+      "source": "payload\\locales\\ko-KR\\ui.strings"
+    },
+    {
+      "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\SeersIsle-Korean-Regular.ttf",
+      "size": 16777216,
+      "sha256": "71c8ebc6ced30339debd2d0e47e93175ab922325697266e03ee21147dc7a97ea",
+      "source_kind": "payload",
+      "source": "payload\\fonts\\SeersIsle-Korean-Regular.ttf",
+      "font_family": "Gothic A1",
+      "font_role": "regular"
+    },
+    {
+      "path": "Seers-Isle_Data\\StreamingAssets\\fonts\\SeersIsle-Korean-Bold.ttf",
+      "size": 16777216,
+      "sha256": "3ebc9cea5e0a959c1e93c05140fc8ad29b5d50317e00c736a2c5aa318bb80e41",
+      "source_kind": "payload",
+      "source": "payload\\fonts\\SeersIsle-Korean-Bold.ttf",
+      "font_family": "Gothic A1",
+      "font_role": "bold"
+    }
+  ],
+  "package_files": [
+    {
+      "path": "Install-SeersIsle-Korean.ps1",
+      "size": 11292,
+      "sha256": "3f08ca7f65f46efdbca50bb6ed919ce661b79dd4a47aa761ba7ca6859f161dc5"
+    },
+    {
+      "path": "PatchCommon.psm1",
+      "size": 15438,
+      "sha256": "55f0e1383886b2b61ea98172133f275a0a7f7c94695a3655c3086223b2ce5367"
+    },
+    {
+      "path": "README_KO.md",
+      "size": 3067,
+      "sha256": "fd481eb9cc59b652fce723431707f7d6616f6073722c83f7c1671e029e21b6f4"
+    },
+    {
+      "path": "Restore-SeersIsle-Korean.ps1",
+      "size": 10625,
+      "sha256": "45f52a8c10a9796c7f0514c26ac4464a4b8afa9219a741f25ecdf36e442ce62c"
+    },
+    {
+      "path": "Verify-SeersIsle-Korean.ps1",
+      "size": 1435,
+      "sha256": "9770ad81b3c7224837cd01e13e3bf5366f3b218ddfa3ed9072aff6f2a1fabde8"
+    },
+    {
+      "path": "licenses\\GothicA1-OFL.txt",
+      "size": 4359,
+      "sha256": "ed95c33f80ccca002e3a360b683c43368f9c5eb024e5b992abb51af3c10b59bc"
+    },
+    {
+      "path": "manifest.json",
+      "size": 2706228,
+      "sha256": "15b5d478b8b1c3d1cc578eac1b2e094fb6c1f84eacd0a0e52969540628ac8a3b"
+    },
+    {
+      "path": "payload\\fonts\\SeersIsle-Korean-Bold.ttf",
+      "size": 16777216,
+      "sha256": "3ebc9cea5e0a959c1e93c05140fc8ad29b5d50317e00c736a2c5aa318bb80e41"
+    },
+    {
+      "path": "payload\\fonts\\SeersIsle-Korean-Regular.ttf",
+      "size": 16777216,
+      "sha256": "71c8ebc6ced30339debd2d0e47e93175ab922325697266e03ee21147dc7a97ea"
+    },
+    {
+      "path": "payload\\locales\\ko-KR\\config.json",
+      "size": 852,
+      "sha256": "fde9a2d60501f90a1dcbaf0b42efe46813b31bcdf27e77a6de7d9891c0eaa35e"
+    },
+    {
+      "path": "payload\\locales\\ko-KR\\localizable.strings",
+      "size": 648668,
+      "sha256": "4aed81d2d4ba3bf82699b868007810ea64a67643d7072ee39e819f32c6e63d0a"
+    },
+    {
+      "path": "payload\\locales\\ko-KR\\ui.strings",
+      "size": 4543,
+      "sha256": "5fa24cf6793f0e8ae9b0ba5da9b5a55cede9d013fd81e61e7650392ec1113791"
+    },
+    {
+      "path": "provenance\\audit.json",
+      "size": 1983,
+      "sha256": "9c732e13a2f3a5cc27ab37b373eddde198cb5c0bd303e421c9da5351f60c0705"
+    },
+    {
+      "path": "provenance\\bug_dialog\\font_runtime_fix.json",
+      "size": 4025,
+      "sha256": "31d9bb348db687de8b8b4ad0dcb46d1e03db333fe7dfe28ff6a2be2b3619b1fa"
+    },
+    {
+      "path": "provenance\\bug_dialog\\texts_getfont_load_il.txt",
+      "size": 19617,
+      "sha256": "b384c23c7a59fb1eeff318fd36a89ff72090ebd0a67b179b5913d00f77b65fe7"
+    },
+    {
+      "path": "provenance\\bug_dialog\\user_reported_font_dropout\\dropout_1.png",
+      "size": 1039010,
+      "sha256": "856aef2492a1aed888030d118f375ec531fe55ed5da53bcc70af9b6b87669b78"
+    },
+    {
+      "path": "provenance\\bug_dialog\\user_reported_font_dropout\\dropout_2.png",
+      "size": 86713,
+      "sha256": "7140b95bbea9371f7ed05c12f2d72314e8efdd926009912cfcd867140c2b757d"
+    },
+    {
+      "path": "provenance\\bug_dialog\\user_reported_font_dropout\\dropout_3.png",
+      "size": 296191,
+      "sha256": "ba1e6446168feb7354efdc9c8735a59d45ef2b3c7ce5dba226df78155a103fba"
+    },
+    {
+      "path": "provenance\\crossreview\\crossreview_application.json",
+      "size": 106831,
+      "sha256": "51c57a085db4d8a4afea620b4e63383e3b6f6728d310903989bc38aa4d757781"
+    },
+    {
+      "path": "provenance\\crossreview\\repetition_review.json",
+      "size": 35737,
+      "sha256": "ff1b3eac4716439a5e2d6afafe3ca9ad807fa76062f364fd67a557d0be35bd31"
+    },
+    {
+      "path": "provenance\\crossreview\\review_001_032.json",
+      "size": 7265,
+      "sha256": "f4b5e359682e883988ca7b8fb68539d0b771796959e8d51c7356a5c1c2c4460b"
+    },
+    {
+      "path": "provenance\\crossreview\\review_033_038_056_062_073_085_108_109.json",
+      "size": 11318,
+      "sha256": "28461fda111c07561dfba70b67b7e3d5305e0281bcbaf8b754410fbddfabd527"
+    },
+    {
+      "path": "provenance\\crossreview\\review_039_055_063_072_086_107.json",
+      "size": 24602,
+      "sha256": "89565ecb32f4b22ff6720476a0b50de573e0b4a2c043240935245e1e29fedb65"
+    },
+    {
+      "path": "provenance\\font_container_build.json",
+      "size": 2049,
+      "sha256": "d851505a98b67d18aa15d91b4d3b49b362c5ec6a1afaaafc28586d7895dc4dd5"
+    },
+    {
+      "path": "provenance\\font_coverage.json",
+      "size": 498,
+      "sha256": "50bfcea8037b7c3140f18b1ce66e9b744575342f5d3288720d2b485bfb4e6375"
+    },
+    {
+      "path": "provenance\\language_contract.json",
+      "size": 642,
+      "sha256": "0e001ac8e010c27569ef2d85c617ab2976faf25fa9993e80f9513ee628f9df16"
+    },
+    {
+      "path": "provenance\\language_qa.json",
+      "size": 48704,
+      "sha256": "2d5cd4f7c721586af0581a6ac872bcd4f427994b9b543a56abd7866438d10c67"
+    },
+    {
+      "path": "provenance\\packet_index.json",
+      "size": 44309,
+      "sha256": "2e5adaa0f7683d9b1e300afb3f4be3a6de089f1300bb940570aef324e76b75d4"
+    },
+    {
+      "path": "provenance\\provenance.json",
+      "size": 4430,
+      "sha256": "8e06d59f6d9fae5f5cac46170c7bbe8b94a7f93a9e6ea1de15c0a34a004f4071"
+    },
+    {
+      "path": "provenance\\qa_waivers.json",
+      "size": 855,
+      "sha256": "4b83d7b9a58b68e0b3a7c09e8db0ef937b59a0d3e2cf70fde6a7ee9af19faa62"
+    },
+    {
+      "path": "provenance\\scripts\\build_runtime_font_container.py",
+      "size": 5101,
+      "sha256": "4ab5029dc15befc95335241786f49aec38704ab9671831660d9d330b65dd4104"
+    },
+    {
+      "path": "provenance\\style_guide.md",
+      "size": 3056,
+      "sha256": "32e35476892a0d1d4629d36fcd6d363d85f59ba75db2ecdb2d59849e273b441d"
+    },
+    {
+      "path": "provenance\\translation_map.json",
+      "size": 3021488,
+      "sha256": "f057c156ec764fce4e99e63d00e7a883350abe3ac68154648d96cf4301f0fc48"
+    },
+    {
+      "path": "provenance\\translation_progress.json",
+      "size": 28936,
+      "sha256": "0b187d89f699907e579fddc012e39bbeb36503ff24fc4a2f4c75eaf1b20fc9fa"
+    }
+  ],
+  "recovery": {
+    "backup_location": "%LOCALAPPDATA%\\SeersIsleKoreanPatch\\backups",
+    "targets_expected_before_clean_install": "absent",
+    "mixed_state_restore_supported": true
+  }
+}

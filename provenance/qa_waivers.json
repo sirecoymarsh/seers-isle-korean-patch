@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "latin_residue": {
+    "localizable.strings::language": "Runtime locale code must remain the literal ASCII value 'ko'.",
+    "localizable.strings::demoend01": "Official game title 'Seers Isle' is intentionally preserved.",
+    "localizable.strings::demoend02": "Official studio name and website URL are intentionally preserved.",
+    "localizable.strings::tuto01": "Official game title 'Seers Isle' is intentionally preserved.",
+    "localizable.strings::tuto08": "Official game title 'Seers Isle' is intentionally preserved.",
+    "localizable.strings::tuto09": "Official game title 'Seers Isle' is intentionally preserved.",
+    "ui.strings::twitch_command_original": "Literal Twitch chat command token must remain 'choose'.",
+    "ui.strings::twitch_say_connected": "Official service name 'Twitch' is intentionally preserved."
+  }
+}

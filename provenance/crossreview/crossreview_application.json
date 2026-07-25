@@ -1,0 +1,1861 @@
+{
+  "format": 1,
+  "applied_at": "2026-07-25T12:12:55.714343+00:00",
+  "reviewed_packets": 109,
+  "reviewed_entries": 6749,
+  "corrections_applied": 199,
+  "independent_review_corrections": 189,
+  "mechanical_style_corrections": 2,
+  "review_artifact_sha256": {
+    "review_001_032.json": "f4b5e359682e883988ca7b8fb68539d0b771796959e8d51c7356a5c1c2c4460b",
+    "review_033_038_056_062_073_085_108_109.json": "28461fda111c07561dfba70b67b7e3d5305e0281bcbaf8b754410fbddfabd527",
+    "review_039_055_063_072_086_107.json": "89565ecb32f4b22ff6720476a0b50de573e0b4a2c043240935245e1e29fedb65"
+  },
+  "reviewed_by_packet": {
+    "packet_001": "review_001_032.json",
+    "packet_002": "review_001_032.json",
+    "packet_003": "review_001_032.json",
+    "packet_004": "review_001_032.json",
+    "packet_005": "review_001_032.json",
+    "packet_006": "review_001_032.json",
+    "packet_007": "review_001_032.json",
+    "packet_008": "review_001_032.json",
+    "packet_009": "review_001_032.json",
+    "packet_010": "review_001_032.json",
+    "packet_011": "review_001_032.json",
+    "packet_012": "review_001_032.json",
+    "packet_013": "review_001_032.json",
+    "packet_014": "review_001_032.json",
+    "packet_015": "review_001_032.json",
+    "packet_016": "review_001_032.json",
+    "packet_017": "review_001_032.json",
+    "packet_018": "review_001_032.json",
+    "packet_019": "review_001_032.json",
+    "packet_020": "review_001_032.json",
+    "packet_021": "review_001_032.json",
+    "packet_022": "review_001_032.json",
+    "packet_023": "review_001_032.json",
+    "packet_024": "review_001_032.json",
+    "packet_025": "review_001_032.json",
+    "packet_026": "review_001_032.json",
+    "packet_027": "review_001_032.json",
+    "packet_028": "review_001_032.json",
+    "packet_029": "review_001_032.json",
+    "packet_030": "review_001_032.json",
+    "packet_031": "review_001_032.json",
+    "packet_032": "review_001_032.json",
+    "packet_033": "review_033_038_056_062_073_085_108_109.json",
+    "packet_034": "review_033_038_056_062_073_085_108_109.json",
+    "packet_035": "review_033_038_056_062_073_085_108_109.json",
+    "packet_036": "review_033_038_056_062_073_085_108_109.json",
+    "packet_037": "review_033_038_056_062_073_085_108_109.json",
+    "packet_038": "review_033_038_056_062_073_085_108_109.json",
+    "packet_056": "review_033_038_056_062_073_085_108_109.json",
+    "packet_057": "review_033_038_056_062_073_085_108_109.json",
+    "packet_058": "review_033_038_056_062_073_085_108_109.json",
+    "packet_059": "review_033_038_056_062_073_085_108_109.json",
+    "packet_060": "review_033_038_056_062_073_085_108_109.json",
+    "packet_061": "review_033_038_056_062_073_085_108_109.json",
+    "packet_062": "review_033_038_056_062_073_085_108_109.json",
+    "packet_073": "review_033_038_056_062_073_085_108_109.json",
+    "packet_074": "review_033_038_056_062_073_085_108_109.json",
+    "packet_075": "review_033_038_056_062_073_085_108_109.json",
+    "packet_076": "review_033_038_056_062_073_085_108_109.json",
+    "packet_077": "review_033_038_056_062_073_085_108_109.json",
+    "packet_078": "review_033_038_056_062_073_085_108_109.json",
+    "packet_079": "review_033_038_056_062_073_085_108_109.json",
+    "packet_080": "review_033_038_056_062_073_085_108_109.json",
+    "packet_081": "review_033_038_056_062_073_085_108_109.json",
+    "packet_082": "review_033_038_056_062_073_085_108_109.json",
+    "packet_083": "review_033_038_056_062_073_085_108_109.json",
+    "packet_084": "review_033_038_056_062_073_085_108_109.json",
+    "packet_085": "review_033_038_056_062_073_085_108_109.json",
+    "packet_108": "review_033_038_056_062_073_085_108_109.json",
+    "packet_109": "review_033_038_056_062_073_085_108_109.json",
+    "packet_039": "review_039_055_063_072_086_107.json",
+    "packet_040": "review_039_055_063_072_086_107.json",
+    "packet_041": "review_039_055_063_072_086_107.json",
+    "packet_042": "review_039_055_063_072_086_107.json",
+    "packet_043": "review_039_055_063_072_086_107.json",
+    "packet_044": "review_039_055_063_072_086_107.json",
+    "packet_045": "review_039_055_063_072_086_107.json",
+    "packet_046": "review_039_055_063_072_086_107.json",
+    "packet_047": "review_039_055_063_072_086_107.json",
+    "packet_048": "review_039_055_063_072_086_107.json",
+    "packet_049": "review_039_055_063_072_086_107.json",
+    "packet_050": "review_039_055_063_072_086_107.json",
+    "packet_051": "review_039_055_063_072_086_107.json",
+    "packet_052": "review_039_055_063_072_086_107.json",
+    "packet_053": "review_039_055_063_072_086_107.json",
+    "packet_054": "review_039_055_063_072_086_107.json",
+    "packet_055": "review_039_055_063_072_086_107.json",
+    "packet_063": "review_039_055_063_072_086_107.json",
+    "packet_064": "review_039_055_063_072_086_107.json",
+    "packet_065": "review_039_055_063_072_086_107.json",
+    "packet_066": "review_039_055_063_072_086_107.json",
+    "packet_067": "review_039_055_063_072_086_107.json",
+    "packet_068": "review_039_055_063_072_086_107.json",
+    "packet_069": "review_039_055_063_072_086_107.json",
+    "packet_070": "review_039_055_063_072_086_107.json",
+    "packet_071": "review_039_055_063_072_086_107.json",
+    "packet_072": "review_039_055_063_072_086_107.json",
+    "packet_086": "review_039_055_063_072_086_107.json",
+    "packet_087": "review_039_055_063_072_086_107.json",
+    "packet_088": "review_039_055_063_072_086_107.json",
+    "packet_089": "review_039_055_063_072_086_107.json",
+    "packet_090": "review_039_055_063_072_086_107.json",
+    "packet_091": "review_039_055_063_072_086_107.json",
+    "packet_092": "review_039_055_063_072_086_107.json",
+    "packet_093": "review_039_055_063_072_086_107.json",
+    "packet_094": "review_039_055_063_072_086_107.json",
+    "packet_095": "review_039_055_063_072_086_107.json",
+    "packet_096": "review_039_055_063_072_086_107.json",
+    "packet_097": "review_039_055_063_072_086_107.json",
+    "packet_098": "review_039_055_063_072_086_107.json",
+    "packet_099": "review_039_055_063_072_086_107.json",
+    "packet_100": "review_039_055_063_072_086_107.json",
+    "packet_101": "review_039_055_063_072_086_107.json",
+    "packet_102": "review_039_055_063_072_086_107.json",
+    "packet_103": "review_039_055_063_072_086_107.json",
+    "packet_104": "review_039_055_063_072_086_107.json",
+    "packet_105": "review_039_055_063_072_086_107.json",
+    "packet_106": "review_039_055_063_072_086_107.json",
+    "packet_107": "review_039_055_063_072_086_107.json"
+  },
+  "pre_result_sha256": {
+    "packet_001": "5ca6bf7a0921386a5a632e807795cff87ed231b020eb28d1fe9e421864c5437e",
+    "packet_002": "e7e6fafc1b423c4f7ba82885803e4882fedc018b192aea50d5520901ee5ad903",
+    "packet_003": "7a8ee9a84ede553894a2b901814c9cc120b0953495046425bc4bf19c316947c3",
+    "packet_004": "2b6b9dcda68c48995a4e13d2582d0dc1aa470595312fc55676b6835b6819f0f8",
+    "packet_005": "3993a02729c3990d62d54615f95664f866febbd298c9af67424834f1bd64a080",
+    "packet_006": "fb18cf8eb309f836a32c9a7e494e2411a2500a9f25dbb8ec6d571e6893b25e80",
+    "packet_007": "592ad4607b379c5cca4b9c94bc0d7d321b34538253017b3766b0773ea3d26bb8",
+    "packet_008": "9696b80f7050ef29fc8c5e7a69c9a5b9840deea69655389538524a6da15555ac",
+    "packet_009": "2d362738bf5ba3634a21cae2057c525973dac43da86da33b6a94c1bf6cac829c",
+    "packet_010": "1e461ea6d08c3d206ee9bb62aece96ded1744f03481a92bb3bfd98369ab6027b",
+    "packet_011": "ead48cf482a6f7326d23bcf52ea27fb384c3c77f451180d68e5ac73288181556",
+    "packet_012": "fc375dde611df8528a6f697498b3281c50c5ec9e64220e9ae7f427a3f2201dd8",
+    "packet_013": "48d65a3d9bc3cdd374b1c237bc3eb6227901e2ed2ff41ce7a932deb1fd21f727",
+    "packet_014": "da9e48eae05e31d940ab5b3885cd02e72c800bac1b5496bcdb7b6a0f321cbaa5",
+    "packet_015": "7830687ccdf63c8749699c230630d0ea3830628ca5c6df9a8e5c0dd400e0a7b7",
+    "packet_016": "f652f002331fcaf3094ed93a2d464d135fbee5f0399173107948cb185ca4ddc0",
+    "packet_017": "25d33b84f27b1eec165b71ad210b2a40e2c8fe7d693b3b1b17a6169c49405f65",
+    "packet_018": "ecb3316c973af943540af3641784d346b9e935fb9cb601cec4a54235264d8424",
+    "packet_019": "aa4635984fa63a6a24766074f35ab141db07c4747baabd4b3d12116a4062b38e",
+    "packet_020": "35011122f66d112a366d50e4331c7ec4215436611e5deff66ca6e3e5da8ceb93",
+    "packet_021": "fbe85110d029e30a2b6abca900c490d78f533cbf36e9702ade44ffd099018a7f",
+    "packet_022": "5456e1f49c7cc034f2081301fec22bf0bb3debea274f9c0464d8e2fa2fb1fd6a",
+    "packet_023": "26f5a61323c3c4586a56a7084f279f038ad0d0240a6284170c8a2246ce59d03b",
+    "packet_024": "c5be6fda40b234c5ffc01d2d5e3f525b52170c418081c1a42fbdcc93f2198781",
+    "packet_025": "d27059f774abb435f75b8a86efd923323e63c376bb471767095dfeafba5e5e48",
+    "packet_026": "3824bb3cf8d8781575624e82b2cc7c6732c15cc63aa3a695a4736e4e17db5c4e",
+    "packet_027": "3c590e295a3a678c2022ac6b4cc94df10f5f131df79216cf6f22e1a18fb0f237",
+    "packet_028": "0fda1429abda5671a35adb9b50f550215601ff19bcb75cb1d987661266cd971f",
+    "packet_029": "b88baa5d22b7e9b10271a8a7e64a3f44886974f792ca69ec32e613e03cc9d7eb",
+    "packet_030": "8a78363aa2a3fc88ae29f5b5548c43779df1f16a14bc7a79444b585f91643aa9",
+    "packet_031": "009189ec78caeb7def4902bc1e7c231e7780bcc14ab62cfa23c794c6fc2150cd",
+    "packet_032": "4150fd0b36c366aa48be41bc4780bcc5f295303d637b770b88af2e0cdfcc3638",
+    "packet_033": "e2d6cc4e157d7899d7bb62741a21fa7897981aeddfe2772277c7b84ad470e119",
+    "packet_034": "b049fe707a36e86b7caa16d060e3bba5ecc5c98d29cc976f1aa01a49a12ce1b2",
+    "packet_035": "b73c2c0b1bc669844978f666af71ebd94d6e07212b95015616c252725a02037b",
+    "packet_036": "dd68f47554ed93bf8f778c52ae0f50fe371184fc187052cbdd0610843c04ea22",
+    "packet_037": "033b3ff0914ebad377f4adcc68398639a2b7d3a7c802a0419d001d84ae4f2e21",
+    "packet_038": "c4c1d640a5e65b511d9e737c839d163244f99750d2b47f8ddfaf56d44120a46a",
+    "packet_039": "cd8fca0d2ce804d3a7f323d02228b5a8658d1bcc6a3369ebced9efd6a1751cbe",
+    "packet_040": "b688f9a935dbd3ce8813fad71b33d0c1d15aa045755644122ec804091495ec20",
+    "packet_041": "15aa506777ab406a3851392df0c2f2a2a311cf02b38d3fe701461f4178f45e66",
+    "packet_042": "f3ccc8f91464707b5c4b62a4e0fcf01e9712dd0f8f3895b34d074ebe52fe413e",
+    "packet_043": "f78b044ad71660f2fd8cea30b9e2feee57ae5fb8982d2dce2d61d280c974a4c7",
+    "packet_044": "698e9e2463f3489c014ffc26a9f46008c70cde161e02742f347a261ca8e25ba1",
+    "packet_045": "b7823944e2866f264a790272112351de724c9e8dbdbf21124a45e9d0aa2f24ca",
+    "packet_046": "01292fe611d5d91cf639b1ea94dd8974a9758b3e5ce6bbae346b97ccf759322c",
+    "packet_047": "45fb46ac9b1571e507f081bafd9ed9c81de370e087a60395457405e4333e00ba",
+    "packet_048": "0c0d51c7210276151d43fead96748678ca7193be128e6df4c08c2d907b138805",
+    "packet_049": "2ec563ae128eb2703c0e272cd484fef8c7e005ef99a30ba559de2b0d9ad1e367",
+    "packet_050": "2f18af5455f713c3bd87e1507e784618ae87c86674741dde2d72103fa3b3ded3",
+    "packet_051": "ab5be137d226d8a43117f2447bc2b41683fc67c40c28c630f851e931464ae480",
+    "packet_052": "3b7ef77feb1cc7aa56a88fb2087bc287db95d66f3a4841d81697624b27656960",
+    "packet_053": "b1c3d20ec870ebe5c82b53597e9a96d038a35ea0c60b72613c51d0f80552cf6f",
+    "packet_054": "81c7d63c1d3af9bce2420ef4e1a1656613f19a21850d780035011f811cbcc118",
+    "packet_055": "88a83483429686aa273ac660625b24b9d8df02ba8330136445eae10b7e1c35d1",
+    "packet_056": "a81ba3706ed2659e9f158fe183da32350c6f5d23b2fc64a45a78a3f743823e83",
+    "packet_057": "affc28dc45ed5970722a76240386376481ff995896b2cddc460f07e655aac3a3",
+    "packet_058": "a572933678342b7d2a5ef88e59b84c4ade8778c99848609493ebdd34a120c0f9",
+    "packet_059": "975dd6ccc02f3dbc510c09d0b48ee5fd3f2d127d5f0ef67c71270d804a0d93cb",
+    "packet_060": "299aebd781d26794097f768affeb390c5ba273adbb5c2f9feb068f645e4ead70",
+    "packet_061": "3ca7f0a9b89d988dffeb0c2437be8192a7cb22e9af2109fd56bae1ccc21ebaca",
+    "packet_062": "274d329a94264215e304194c35c1e708fcef2c575b4b139d741d9fa55bdcca54",
+    "packet_063": "527d547acaddf70c5bca9f51df81d5b0abdaee347afd2a64fed36c5202de65f3",
+    "packet_064": "b9fcd416e87717ac3cbe300b79fbbb2bce6780472560f487d97c1e2bd9b03b5f",
+    "packet_065": "8dfef6c7534796623740c0c03d8f5e18ff98f4d56c3a418f809b8576a6d00e87",
+    "packet_066": "8c3a0af4dd4e650199655ead41f3c47ad1c0c212bdbdd4e0395437a71548e42c",
+    "packet_067": "f89bc91a669327edb6fbfc940c33ce367bf549787c3d67af344332d9159a1a93",
+    "packet_068": "8137638eb3493e8bafb325043983bc402a0edd6a7b9283591fcae04d955aa487",
+    "packet_069": "16a092edafc019f430b405093a7e96bd5995a218d6b5b549404fdaa67d4b5f6a",
+    "packet_070": "57ac3c28de0cba16568352391848a933b2d5dc5651155afb32804a1a41b69b87",
+    "packet_071": "2a0db5bd63b8bc9c0d8ff937fe3557870b622a22e3dfaa74b44b486638f54917",
+    "packet_072": "26cd7f1fa78761f07f3972fab1bea2b5efbeef1e7465a0c0544191072b0648d5",
+    "packet_073": "3e396db1ea441965818623957fba44dd5357ca084f1b36cd7218ff6dc94f6491",
+    "packet_074": "17402495031834c365d7c61c9572e0669b7ea90749fb091c27ef0d35ceab280a",
+    "packet_075": "ce7487e9c9786f4bd4a66cee9a8e08b55bf493d1721e924c1bc098a26befd50a",
+    "packet_076": "9ee9affc0353b022660779fbe4ec954cbd6b6d477b3ccb8afe7280516b350f7c",
+    "packet_077": "c55c86856f61c76c89ae1ff1a5c47d930f9304850dc173e6724e0f6f917842da",
+    "packet_078": "018eeb2d4ed133c6f25ed9a427a6a4139a604a1a12d49f16ac35523ce4bc0f12",
+    "packet_079": "ef3b548eefa6a942a0cacd50081b1c0c3bc9b8af4f86875a45f32c587ba80834",
+    "packet_080": "f6ed3989c1bdaf3439836fa2daa1842a2f2c5d72fd81c33c0af822e2668ce90a",
+    "packet_081": "9756fbc4f2d8f23c8d3ab47a36d346d65eeb2806bb83d88a4a78500eab8935c6",
+    "packet_082": "c5b8440d1580295eb6e465d47dd8eb2676dc50bfe6eb052822e096948395825c",
+    "packet_083": "ca526414e573a383f3019c72b938954a4dd909d8f7e972f74fb974a5ef12655e",
+    "packet_084": "ae60be37e9044a6d19f91acd844b70e3e6cfac53abd0d0c09a9657a1633c1769",
+    "packet_085": "8672a02e46709a5a4108af333eddd6fdce64c40c5e5942cd3854eb103bf0143f",
+    "packet_086": "1e371d5680a1e644ab42d6b030fc58081e4d465786e9b79ae5750500fe612522",
+    "packet_087": "f6356e44aea058e579dedcdc341ada8e5937f0a9f6a7c52e5337d22c319237f8",
+    "packet_088": "3723acec00d8b93ac630987bb28ee2bd4232d2ead1f7b52fdb429d8a26617bca",
+    "packet_089": "c0df05c6d1bd1d02a4450c5065d2e0695dae15349e409cb12fa9797010140a50",
+    "packet_090": "7eee23e7450d7c7943ce92dfd84262ed339a291469fd3a8516732311258147af",
+    "packet_091": "789140578db1b8ce7836e2d2ea6ba34c1a77c70adcbd50e3e62ab1542f286ee4",
+    "packet_092": "a0910088cff5cd748d5bdb7b0c0fbaaab9890927e8369d99fb124961860d0c99",
+    "packet_093": "68920746bfb82c8b44c3bc85c79244ca6ca8f5f3d28271734c6588b8b29ef508",
+    "packet_094": "fae91fee46292af05fc80434625c650e63598d81a7294a5904eabfc2589d7c3d",
+    "packet_095": "6b2ba3d791735379ec1dbeea0b8349249679a39c5a855eac03c662f83bf9316d",
+    "packet_096": "864dd79dd3eadc0a1e1b6af7972ece8dbcdeb4a9bbf90918750339a879a02cce",
+    "packet_097": "a66579e22107c7b754177a535031d5d3ab8a9946e5e24529d104a53ae0e8d920",
+    "packet_098": "64ff1f8b02630587925a9e3f7e352c4f3ff739832d66f0e88c552314e14d2943",
+    "packet_099": "b59d3d1f46f4250495cfbd7d5af266abe3f83e3ccae11b85e066ad6249300f4c",
+    "packet_100": "c489b17f2bcd08825647710ad05899e54483b39dec266ee6bf2a2624285d961d",
+    "packet_101": "548ef9ac6da70c99f91b63c55ef7a6ea4ae45d1a3bd4d694d490fb89bf59a5a0",
+    "packet_102": "6f2e6a89b3c91a7d3d8d674fe594784bf764555b10c6677951f3bf0ef9f545e7",
+    "packet_103": "b5a039c37396305597668b45af1f0f69c0d50327546da4aae963557b45be93c9",
+    "packet_104": "8ed16621bc5d6edd464335735d38f51d783b81462e1a703b9ee8218ce72b259d",
+    "packet_105": "3c086f9d73889e81ef741364209015807d73f5a7c241f5abb4f07974c0ab7d64",
+    "packet_106": "3b53842f347160e16a3644b7afb31d320d6b05dea6feee35c82fe131eb9502fb",
+    "packet_107": "8c9495c89c60f445ee2d45b28d211273d8a6af5a592bcb569afea2cef80a8ea2",
+    "packet_108": "7f5172a7a40e226d44e80f7e023c22879747bd7e4209c22cf708bb4dec10c3e6",
+    "packet_109": "17745ef01e715f68e1e9899f637e465d50b0615947b623cf86d997338bd85619"
+  },
+  "post_result_sha256": {
+    "packet_001": "3eed6ee45543d181e3ce79acc1400a671adc98073ed9ea8a5c84a9541adfc267",
+    "packet_002": "15820b30ba38049a7c98706f1790db8f9200b1c343eb48fa54997d2684f85e60",
+    "packet_003": "231eb66d6b3a9763728c5d7f94cf2b44f30b0defa131a671e82468bc6d976b74",
+    "packet_004": "bc9b4131d6fd2e1c966d02832164f6d9e64d5a94d4e8f9ce491c123248e21e05",
+    "packet_005": "81506902b6bda7d9c7b912c87df68eae4c3a00a9c1dcf09cfbece80abc8ffb68",
+    "packet_006": "190033f4c2ba949d4a6fe89db660e97fe3f174c61d45d13efd5379a48a838805",
+    "packet_007": "c156784ae4e82cd0cd7538bea6d2345ef1f66d1829a98f10384b2a3f190c27a9",
+    "packet_008": "c2bcc6734a5fa2be85f5a6558d4af40f2f8f2c85ea753796ac31616a7c7bbe7b",
+    "packet_009": "c2c3a2fdb8b94f6a8bb476bbaca9a1259599171c161fade6a55557483733cdf2",
+    "packet_010": "fc3988bee29f5c318d87d85949e7198783056e4a1bd49a0c822f17608fbeec1e",
+    "packet_011": "78a263258010d5a39101d6ee4f2e4e7077f3595cffe1b547b9aee756fd78c00b",
+    "packet_012": "770c49bab34919d351ef60d1f45af53786d78880496be229332d1719ede1dd6e",
+    "packet_013": "13f778ab2d29001999ec985d1da97c67b414f82304d15aa73d59130d2677266f",
+    "packet_014": "bc262162e0e50ec6ac462678846ecc17248ebfe021e2218c73fc8660c366afae",
+    "packet_015": "a2ba4d907ce47772ec8b0adca0487d7134a14b31fca3499caa59d099a80ae9e1",
+    "packet_016": "5de52fecbc22bac04bc239d613a2a6add3bf4c61c8e34ee927a3c45fe01b3f4c",
+    "packet_017": "5ecb5432e3df13d2349222571b1c6a62d3db708917c58a04e3d710d52884b91e",
+    "packet_018": "7753a0e6f144898bf80eb390632a142e990693079b1eb616b74e48b59e2ef5db",
+    "packet_019": "c029bd28803f30203ad90d1434343939bd2e8d26838ca04577376c217104e43e",
+    "packet_020": "7d7fadcefc6b7dc334d45edb51194be69c7fd434e6971f45f2dea9e921dcde12",
+    "packet_021": "c3533722569a32652f827fb8f1859f9b991a144d423d0db2a657824ad3abbf07",
+    "packet_022": "4987eda15c0bac33155624288772d764856635dc77134b11edb05f862abbfc13",
+    "packet_023": "3045221653240ae5bdaaa25dcb1c94908d8379d4c2b94f864f890f2e6fd0997a",
+    "packet_024": "672fdd036d59e63d9562a5f5e9d2880e3c10becce3f6e2f03ea4c84d7a0a0aaf",
+    "packet_025": "18cbc52f9311ae98b1ad970871ce8587099b97cf2165d9bcb0bc43b6bb2dfbb7",
+    "packet_026": "d292413f436f96ffbfd0f07f9754fc5c3330d8aeaba6bb1b8d5ffbbeefcaca3a",
+    "packet_027": "2c44e99b35995ba8ab65badfe1e124164f5ff465d3450e04572787334db5ce7d",
+    "packet_028": "02fab7c515faaa1d6d68b3ee0f1f6b1edd015f6e5598a17a29c372733cc72c76",
+    "packet_029": "d9fbae2d093e48246737b0abacb3e8336db14904e171694f80f66ca21e3293ff",
+    "packet_030": "7c65aa8154aa7689d375e9112c4deedfdb5593f78471a817ec5ed2245086789c",
+    "packet_031": "92b6ec50b416eb61d4519490e99908828fbf5a72bb82269cb56f3936b0a90da9",
+    "packet_032": "71c72a25b01e188ed17b7418afa66e400cd98141776457a35c97ad3ba2958b9c",
+    "packet_033": "25cdd122ed1e50fc44a95a5a0d9aec3312a3b97c954dcf0d579e151d96eeb14b",
+    "packet_034": "065715bb0bf35936be321a7610b1c049acbc3a0402132f12e62ba69ce229ea93",
+    "packet_035": "4b63aa25640fb12ccfeaee583bb30ed90631340e52fee4571b549a72e6027336",
+    "packet_036": "48b2f097821e31f4a68c7f0d259a5db97a4699c8ca261e9c8629bd9a4f15cddc",
+    "packet_037": "3abe6358c6358f5c4b641a4bc18c1372501e5deaf8dad81385d454a2abba157a",
+    "packet_038": "78b1a840acb7451fa1a6e43991e6de339a4b6556a0047086e54648b578c37c22",
+    "packet_039": "938ba44f5e6313e720687b3331c9a0feb2868bd10592812408b349abc346eb5b",
+    "packet_040": "7aa012e25d4e52b1fd28dc28641ae805a9e1f59680f40253d35cbb60aefa6204",
+    "packet_041": "355f62338428b6b9cd4afebecea3b956ad7686ec92bf6134dd45f708074a2750",
+    "packet_042": "83ed825c26f470b85891e1e5aacf3957ebd7415e47b870d80414324e395fa0d1",
+    "packet_043": "6cd9d7f85504adf2dd9b1e2fb94e4bbaf5bae070ab9a6d9d622706c40a072736",
+    "packet_044": "a6b2f0a3b7c4d9d27c9114150608e5ab3eee0dcbbaa476631a5ca20595eaba37",
+    "packet_045": "74e1794f01bd7d8a2f8f1735daa3a93418414bbf61e73d3271a60ecdc3e1566e",
+    "packet_046": "a1a7d9d4678720e51cd6718c2fe90de859add949d0be251fd0ec56438be7deab",
+    "packet_047": "454b98538ed466903e51a566cd146e66ff49dcd581d73826f5bc08cc7251c419",
+    "packet_048": "85acbda1ff9bb60e98691969974405468bb54cb57690d1e2d222162e7ff69e37",
+    "packet_049": "486155cf37ee54286fc27e36804b5127be87725c3fb93188fd749101eac1375a",
+    "packet_050": "3d49da569bd3da2903e165c92122b458a25009db0c454d5128d9924370f1daaf",
+    "packet_051": "00140cb5a6f8e823e1177f486471fd3f02099badb659b6d99575c69ead06f4c0",
+    "packet_052": "bc81d97d017eed336f9fbe49cfd05bf442855e50dc882bb784909da3dd7981cf",
+    "packet_053": "1d639fed423bb10d1c624ef27c405ec787fdce3c937c4bfae7568aec46d8ca45",
+    "packet_054": "d84706d8f2c4380ca35ac681aafa123c7dc90db99ba91d635f815bc88cf0981d",
+    "packet_055": "e260f7685a5f6065dfeaf40b4cc920cf58ee7f9318cfa3fc95a94378371e9280",
+    "packet_056": "0d2b92586980a7b2fe94baea6c9db4a78015c938dced5f9a4ce47df05b8e1d87",
+    "packet_057": "50b9fb30115367a13d2fd878216956d116e070683117f910ad743605132cc8cf",
+    "packet_058": "60e2527eb5449a282e748e2b10554a4109c585c5f2d79055ccf963297bfd498a",
+    "packet_059": "66e9af406610f1d198b0d7c2d4bca66a8c218007a088bcd6f1331562ef9c723d",
+    "packet_060": "f0d9dc0d514740423b1190117f0c9c8ed279d62aae324fe311e356003fc86da1",
+    "packet_061": "097d53e35626eeb8d5fd21f7f364a555a2ea3664dd4a3cff8a64d77b56e5a7b3",
+    "packet_062": "6dbf52377d113562a712cdf20cde9993c3c2f0410326901a263c0db6184d3e13",
+    "packet_063": "b534d3bd024df8779cb887f64f515fb13bd196b0ad084eb0d760661d8ab6ef44",
+    "packet_064": "49a572afcc24c169dbf4872347966e069e1161b068a0297a300ba8a1777600dd",
+    "packet_065": "7bac5818d49cc68e2844f485344c72f0216dc1073db85e080768862611591c03",
+    "packet_066": "7a6bf18a9fcff153b80c0f1556c6526b3ff99d3e559dc71e833cc6a68ac112f0",
+    "packet_067": "bd8bbd921dbab205aa1e385e25fb0fdad0d20da3de3e08c9718bf90b47a5ef6a",
+    "packet_068": "050348bb67ff555911b3b3d656276fd14244811919ab24dca66e5d5581ae42e6",
+    "packet_069": "ff1c6240ca272708db61e21debabebd806b5b8ac9613538d686572906aeb96dd",
+    "packet_070": "a665131d5cba35ae422b672b5d4eb183ff472cbb796a1bde54b5894f61cada4e",
+    "packet_071": "22868be8b1629acabdcc9701e622715008b6aa5bb4c15b1c0efba1fec118a63a",
+    "packet_072": "02ce526674c453c149dfe1a0bd92e1a39c81bafb103ed87c383abafbae2f5060",
+    "packet_073": "62ff616edbc45b888f16c3db5f75051398f706586c6b7b20c2e4908bdb9bbc96",
+    "packet_074": "3624903cab31119af294e921453f8576ac0f4b7f02d2c85f2560440d172c362b",
+    "packet_075": "5c30f97fc6e5730b42976a268bdce9a373d46594c7fe2e284a2152adce91f308",
+    "packet_076": "fc4a114c869b2f80bc16ae4e706e1072a146be77e1d1cde70dc5593bef20788b",
+    "packet_077": "6c8c78a81bba4b8eb4bc6e75fbb6a01a7de2bad840d22f50be0936088c098000",
+    "packet_078": "8f218c175aab48b8e140ec4a5d47830e11d5d9740eaaf438578930c897b79002",
+    "packet_079": "c6bb0c32c138495764276850c36dfd255053b24480337ff66b8c6adbdfd7fa61",
+    "packet_080": "8a20ad0b089a4fcaa9d1bbd5f57e256ad893d78dbbbff8cfe2b95720f223911a",
+    "packet_081": "acd5c1d1528dd68249313c241a3f7b636847c282140af2dd508ff268efb2a197",
+    "packet_082": "8bb43a1069dd272f1af6423586e2307cdf547bdd2c8cc6697afaa5987f568b5d",
+    "packet_083": "05e098ce61796684e5498f61e623b8ffe1b1a87decffee9a144f4cebe8da8f14",
+    "packet_084": "9c206f37f9cb6aa330b7e478342224acc6ca8fdccc330bc4548bb3d8c30bfb61",
+    "packet_085": "949a39bd8a20796abc5548a3405b52e7f409b4297820fbd85d8e68c6238ce546",
+    "packet_086": "92fe330792fe6468266f7d42340305ebcf72ba7b44b095be4b333499b0b474f2",
+    "packet_087": "4c295e4a9dd6539704e0b2267b02a97a108e142d5fe6ea606ea8b0816b8538c2",
+    "packet_088": "6dfd2bebc2db40ea0c5a10be3d4696c629590d9eaa632eced81a9b194ab97d11",
+    "packet_089": "ce45fde51a9debcfb8aba5f9e826a40bc421e73d146cd2418f95ef98e524f9cd",
+    "packet_090": "e8e21e0f7bb5368751fc3b114bf97b0fd2bcaa5a96322a121b680786f57b3b28",
+    "packet_091": "9a3f217fd815dcaa34fcdf8664c69f04ed7dbd6caa2c7c721467929368fae2b0",
+    "packet_092": "21084291b2b99f789a37611b3e05ba6294b7fabb2a3764dd70b7b27694513c44",
+    "packet_093": "8205bc630d3c777d9192dd10a0d061de08b4be593a3cb9e645f30145591f7f0d",
+    "packet_094": "1ec6fab25941b8e6352f250d27e3b541f43ab52dba558d6b7c1b55ed5f756fd3",
+    "packet_095": "72e8b24cc3e8b5408eeb1935d4a3e06ec2d0439d504e3b4c97c78c1d02509ea0",
+    "packet_096": "e5b4abeb157c9a9ec349ee131b766e5a488b5e51d27f9e076a4612773ee9099e",
+    "packet_097": "6402e4f55a102af2edf8dfb8c02a3d5f01dd64b5cd318e84eb9ea0ee4233cbd7",
+    "packet_098": "cd1b03098ad3a00d384936b0867c868a1a7d2f649ead43ee9a883a722b7865b1",
+    "packet_099": "dbd8f290225524809f62cb942625b70d168c5d69124e9cdbb06472eeee7f392c",
+    "packet_100": "df681cd788abbefb0c087d95546d44ae326e26da0737ce8b67a6cd97f6bfccda",
+    "packet_101": "76f260ec07e71d4e38a4fab9dd9504a80df1dd88f7226bb965fc7290f91d7278",
+    "packet_102": "487799ed8a8c0dd8302456cdddb7b4cec560364f7f99d7542a8f00709f0d3959",
+    "packet_103": "b6c061cc68129ab7f8b97798a1a6bd0f62119c1b7eb721919b1fd7a880f592a4",
+    "packet_104": "8b9eb11acfec1b2ee5ecc07656c9ef7f5148cec70ebe6f3c929f21d0f7cb3bf1",
+    "packet_105": "30be5b4774271f5fa3f42d667049bc1e69d8a15c809d5c82d5136e7a2c0d455e",
+    "packet_106": "4885e43386d381487ae77a14819af6cfbeb74a814f6d2dc948e5113da430505e",
+    "packet_107": "a76e4a39fb2e0d45e035656c4e75f83550347a903e345a9f75d1106e1660969c",
+    "packet_108": "72151cfd176fe1bdb730da011b1728101c3df48382b9d69c082abf3e3588d5f7",
+    "packet_109": "8359fbf3db2c8253056d99fb590f47c04325e5a57b785d8dd4673738e987d0f8"
+  },
+  "draft_snapshot": "crossreview/draft_snapshot",
+  "corrections": [
+    {
+      "id": "localizable.strings::debug_next",
+      "correction_kind": "mechanical_style",
+      "style_rules": [
+        "ASCII triple-dot ellipsis -> U+2026"
+      ],
+      "before": "다음 장... >",
+      "after": "다음 장… >"
+    },
+    {
+      "id": "localizable.strings::debug_back",
+      "correction_kind": "mechanical_style",
+      "style_rules": [
+        "ASCII triple-dot ellipsis -> U+2026"
+      ],
+      "before": "이전 장... >",
+      "after": "이전 장… >"
+    },
+    {
+      "id": "localizable.strings::chap01_sinkingboat03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "저류가 있어! 정면으로 들어가면 암초를 피하도록 방향을 틀 시간이 없어!",
+      "after": "밑물살이 있어! 정면으로 들어가면 암초를 피하도록 방향을 틀 시간이 없어!"
+    },
+    {
+      "id": "localizable.strings::chap01_sinkingboat22_choice01_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "헤엄치던 알린이 몇 번이나 파도 뒤로 사라진다. 던컨이 물에 빠진 것은 아닌지 걱정할 때마다 다시 모습을 드러낸다.",
+      "after": "헤엄치던 알린이 몇 번이나 파도 뒤로 사라진다. 던컨이 알린이 익사한 건 아닌지 걱정할 때마다 다시 모습을 드러낸다."
+    },
+    {
+      "id": "localizable.strings::chap01_exploringthebeach34_choice01_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "하지만 놈들은 우리 정신을 가지고 노는 것 같아. 우리에게… 무언가를 보여 주고 있어.",
+      "after": "하지만 그들은 우리 정신을 가지고 노는 것 같아. 우리에게… 무언가를 보여 주고 있어."
+    },
+    {
+      "id": "localizable.strings::chap01_theotherboat53B",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "코너가 나서지 않으면 에릭은 브랜던을 버리는 한이 있더라도 일행을 계단으로 이끌 것이다.",
+      "after": "코너가 나서지 않으면 에릭은 브랜던을 버리는 한이 있더라도 아마 일행을 계단으로 이끌 것이다."
+    },
+    {
+      "id": "localizable.strings::chap01_theotherboat54_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "섬 안쪽에 들어가기도 전에 동료 한 명을 버리는 건 옳지 않아.",
+      "after": "섬 안쪽에 들어가기도 전에 동료 한 명을 버리는 건 안타까운 일이야."
+    },
+    {
+      "id": "localizable.strings::chap01_settinguptheboat05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "어릴 적 형제자매들과 했던 나무 오르기 경주를 정겹게 떠올린다. 저녁 식사를 마치고 어선들이 항구로 돌아왔지만 아직 해가 지지 않았던 저녁이었다.",
+      "after": "어릴 적, 저녁을 먹고 어선들이 항구로 돌아온 뒤 아직 해가 지지 않은 시간에 형제자매들과 벌이던 오르기 경주를 정겹게 떠올린다."
+    },
+    {
+      "id": "localizable.strings::chap01_settinguptheboat25_choice03_06_choice01_25",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "난 이 원정대의 생산적인 일원이야. 이 중요한 임무의 성공에 반드시 필요한 내 전문 기술을 전적으로 믿어도 돼.",
+      "after": "난 이 원정대에 쓸모 있는 일원이야. 이 중요한 임무의 성공에 꼭 필요한 내 전문 지식은 전적으로 믿어도 돼."
+    },
+    {
+      "id": "localizable.strings::chap01_panoramicview05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "부드러운 산들바람이 일어나 지친 몸 위로 서늘한 공기를 흘려보낸다.",
+      "after": "부드러운 산들바람이 일어나 지친 몸을 서늘하게 감싼다."
+    },
+    {
+      "id": "localizable.strings::chap02_walking_out05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "끊임없이 바람이 몰아치는데도 바다의 광물 냄새가 옅어졌다는 것을 깨닫는다.",
+      "after": "끊임없이 바람이 몰아치는데도 바다의 짭조름한 냄새가 옅어졌다는 것을 깨닫는다."
+    },
+    {
+      "id": "localizable.strings::chap02_seerorcairn65_choice02_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_001_032.json",
+      "before": "어쨌든 여자 따위가 내 행동을 좌지우지하게 둘 생각은 없어.",
+      "after": "어쨌든 여자가 내 행동을 좌지우지하게 둘 생각은 없어."
+    },
+    {
+      "id": "localizable.strings::chap02_bivouac49",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네 운명을 받아들이고 우리를 내버려 둬.",
+      "after": "네 운명을 받아들이고 우리를 떠나게 해 줘."
+    },
+    {
+      "id": "localizable.strings::chap02_night10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "멀리, 해 뜨기 직전의 구릿빛 어둠 속에서 제니버가 돌 원형 유적으로 향하는 모습이 보인다.",
+      "after": "멀리, 해 뜨기 직전의 구릿빛 어둠 속에서 제니버가 돌로 둘러친 원을 향하는 모습이 보인다."
+    },
+    {
+      "id": "localizable.strings::chap02_night10_choice03_28",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "프레이야는 예언자들에게 닿는 틈을 찾거나, 적어도 무슨 일인지 더 분명히 보려는 듯 한동안 돌 원형 유적을 빙 돈다.",
+      "after": "프레이야는 예언자들에게 닿는 틈을 찾거나, 적어도 무슨 일인지 더 분명히 보려는 듯 한동안 돌로 둘러친 원을 빙 돈다."
+    },
+    {
+      "id": "localizable.strings::chap02_night10_choice04_07",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "코너는 제니버가 사라진 사실이 놀랍기를 바란다.",
+      "after": "제니버가 사라진 게 뜻밖의 일이었다면 좋았을 텐데."
+    },
+    {
+      "id": "localizable.strings::chap02_night10_choice04_10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "코너가 일어나 기묘한 돌 원형 유적으로 빠르게 향한다.",
+      "after": "코너가 일어나 돌로 둘러친 기묘한 원을 향해 빠르게 나아간다."
+    },
+    {
+      "id": "localizable.strings::chap02_morning42",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "어쩌면… 아니면 딸이 행운을 빌며 가져가라고 했을지도 몰라.",
+      "after": "어쩌면… 아니면 딸이 행운의 부적으로 가져가라고 했을지도 몰라."
+    },
+    {
+      "id": "localizable.strings::chap03_erikfight01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "돌무지 사이로 굽이치는 길이 급히 꺾이는 곳에서 던컨은 작은 공터를 발견한다.",
+      "after": "거석 사이로 굽이치는 길이 급히 꺾이는 곳에서 던컨은 작은 공터를 발견한다."
+    },
+    {
+      "id": "localizable.strings::chap03_erikdeath42",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "…날 골랐구나?",
+      "after": "…널 골랐구나?"
+    },
+    {
+      "id": "localizable.strings::chap04_freyatrial17",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "한쪽에는 이 황야의 등대처럼 자신을 부르는 듯한 돌무덤이 있다.",
+      "after": "한쪽에는 이 황야의 등대처럼 자신을 부르는 듯한 거석이 있다."
+    },
+    {
+      "id": "localizable.strings::chap04_freyatrial19_choice01_option",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "프레이야가 돌무덤으로 간다.",
+      "after": "프레이야가 거석으로 간다."
+    },
+    {
+      "id": "localizable.strings::chap04_freyatrial19_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "프레이야는 돌무덤으로 가서 평소처럼 왼쪽으로 돌아간다.",
+      "after": "프레이야는 거석으로 가서 평소처럼 왼쪽으로 돌아간다."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial27",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "너무 늦었구나... 너무나도 늦었어.",
+      "after": "너무 늦었구나… 너무나도 늦었어."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial28",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네 아버지는 루나사드까지 너를 기다렸지... 그러다 인내심을 잃었다.",
+      "after": "네 아버지는 루나사드까지 너를 기다렸지… 그러다 인내심을 잃었다."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial32",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "날 인질로 잡았지... 아주... 오랫동안.",
+      "after": "날 인질로 잡았지… 아주… 오랫동안."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial34",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "그리고 네 아버지는... 내면의 악마를 억눌러 줄 사람이 아무도 없자...",
+      "after": "그리고 네 아버지는… 내면의 악마를 억눌러 줄 사람이 아무도 없자…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial36",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네가 실패하지만 않았더라면...",
+      "after": "네가 실패하지만 않았더라면…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice01_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "난 모든 시험을 통과했고... 지금 정상으로 가는 중이에요!",
+      "after": "난 모든 시험을 통과했고… 지금 정상으로 가는 중이에요!"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice02_option",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "미안해요...",
+      "after": "미안해요…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice02_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "실망할 기력조차 없구나...",
+      "after": "실망할 기력조차 없구나…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice02_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "알아요...",
+      "after": "알아요…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice02_07",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네 어머니와 나는... 네가 우리 쪽 집안을 닮았다는 걸 금세 알아챘지...",
+      "after": "네 어머니와 나는… 네가 우리 쪽 집안을 닮았다는 걸 금세 알아챘지…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial37_choice02_09",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "모르겠구나... 언젠가 네가 부족에서 내 자리를 이어 네 아버지 곁에 서 주길 바랐어.",
+      "after": "모르겠구나… 언젠가 네가 부족에서 내 자리를 이어 네 아버지 곁에 서 주길 바랐어."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial44",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만... 어느 회의에서나 있는 일이잖아요. 그래도 부족들은 늘 합의에 이르렀고요.",
+      "after": "하지만… 어느 회의에서나 있는 일이잖아요. 그래도 부족들은 늘 합의에 이르렀고요."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial45",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "이번에는 아니었어...",
+      "after": "이번에는 아니었어…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial50",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "제가 그곳에 있었어야 했어요. 그랬다면...",
+      "after": "제가 그곳에 있었어야 했어요. 그랬다면…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial51",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "...뭔가 할 수 있었을 텐데.",
+      "after": "…뭔가 할 수 있었을 텐데."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial52",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네가 할 수 있는 일은 아무것도 없었을 거다...",
+      "after": "네가 할 수 있는 일은 아무것도 없었을 거다…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial66_choice01_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "이 섬의 예언자들이...",
+      "after": "이 섬의 예언자들이…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial66_choice02_option",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "내가 그곳에 있었어야 해...",
+      "after": "내가 그곳에 있었어야 해…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial66_choice02_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "내가 그곳에 있었어야 했어요... 뭔가 할 수 있었을 텐데.",
+      "after": "내가 그곳에 있었어야 했어요… 뭔가 할 수 있었을 텐데."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial91_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "그가 다가온다. 아들의 경악한 시선 앞에서 도끼를 들어 올려...",
+      "after": "그가 다가온다. 아들의 경악한 시선 앞에서 도끼를 들어 올려…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial91_choice02_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "...온 힘을 다해 내리친다.",
+      "after": "…온 힘을 다해 내리친다."
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial98_choice02_10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "눈을 감고 칼날이 떨어지기를 기다린다...",
+      "after": "눈을 감고 칼날이 떨어지기를 기다린다…"
+    },
+    {
+      "id": "localizable.strings::chap04_duncantrial98_choice02_11",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "...하지만 떨어지지 않는다.",
+      "after": "…하지만 떨어지지 않는다."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_11",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "신전이 그를 섬으로 보냈을 때...",
+      "after": "신전이 그를 섬으로 보냈을 때…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_13",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "코너? 다시는 못 볼 줄 알았는데...",
+      "after": "코너? 다시는 못 볼 줄 알았는데…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_15",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "네가 떠날 때... 난 어리석었어. 널 지지했어야 했는데...",
+      "after": "네가 떠날 때… 난 어리석었어. 널 지지했어야 했는데…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_18",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "그런데... 네가 왜 여기 있어?",
+      "after": "그런데… 네가 왜 여기 있어?"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_19",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "우리는 모두 네가 돌아오지 않을 줄 알았는데...",
+      "after": "우리는 모두 네가 돌아오지 않을 줄 알았는데…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_20_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "나도 잘 모르겠어...",
+      "after": "나도 잘 모르겠어…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_20_choice01_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만... 아니야. 이렇게 살아 있잖아.",
+      "after": "하지만… 아니야. 이렇게 살아 있잖아."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_20_choice02_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "섬에 있었는데... 정신을 차려 보니 여기야.",
+      "after": "섬에 있었는데… 정신을 차려 보니 여기야."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_20_choice02_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "수사들이 규율을 한층 엄격히 하고 있거든...",
+      "after": "수사들이 규율을 한층 엄격히 하고 있거든…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice01_26",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만... 왜?",
+      "after": "하지만… 왜?"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_06_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "모르겠습니다. 숲에 있었는데...",
+      "after": "모르겠습니다. 숲에 있었는데…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_06_choice01_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "...정신을 차려 보니 여기입니다.",
+      "after": "…정신을 차려 보니 여기입니다."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_06_choice01_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "석 달이다. 배가 너 없이 돌아왔을 때...",
+      "after": "석 달이다. 배가 너 없이 돌아왔을 때…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_06_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "광장에 리타의 불을 준비해 둔 걸 봤습니다...",
+      "after": "광장에 리타의 불을 준비해 둔 걸 봤습니다…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_06_choice02_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "...제가 떠난 지 얼마나 됐죠? 석 달인가요?",
+      "after": "…제가 떠난 지 얼마나 됐죠? 석 달인가요?"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial39_choice02_12",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만 신전은 수년 동안 유일신 신앙을 강요하려 했잖습니까...",
+      "after": "하지만 신전은 수년 동안 유일신 신앙을 강요하려 했잖습니까…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial49",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "훌버트 수사가 너 없이 돌아왔을 때... 네가 섬에서 목숨을 잃었다고 생각했다.",
+      "after": "훌버트 수사가 너 없이 돌아왔을 때… 네가 섬에서 목숨을 잃었다고 생각했다."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "제게 베풀어 주신 모든 것을 생각하면...",
+      "after": "제게 베풀어 주신 모든 것을 생각하면…"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice01_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "제... 희생이요?",
+      "after": "제… 희생이요?"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice01_10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만... 왜요?",
+      "after": "하지만… 왜요?"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice01_17",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하지만 '유일신의 위대한 순교자'가 되살아나는 일은 허락할 수 없다는 걸 이해하겠지.",
+      "after": "하지만 “유일신의 위대한 순교자”가 되살아나는 일은 허락할 수 없다는 걸 이해하겠지."
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice02_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "하, 하지만... 아니요! 이 모든 일은 제 책임이 아니에요!",
+      "after": "하, 하지만… 아니요! 이 모든 일은 제 책임이 아니에요!"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "전 아직 섬에 있어요... 아직 등정을 마치지도 않았다고요!",
+      "after": "전 아직 섬에 있어요… 아직 등정을 마치지도 않았다고요!"
+    },
+    {
+      "id": "localizable.strings::chap04_connortrial58_choice02_10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "도시를 노예로 만들려는 줄 알았다면, 전...",
+      "after": "도시를 노예로 만들려는 줄 알았다면, 전…"
+    },
+    {
+      "id": "localizable.strings::chap05_rowantrial24",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그 3년 동안 그의 추적을 피해 왔다. 때로는 간신히.",
+      "after": "세 번의 겨울 동안, 때로는 간신히 그의 추격을 피해 다녔다."
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_chaos20_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "두 사람은 시련을 통과하지 못한 것 같아.",
+      "after": "안타깝지만 두 사람은 시련을 통과하지 못했어."
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_chaos46_choice01_04_choice02_option",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "예언자들에게 너무 큰 힘이 있어.",
+      "after": "예언자들에게 이토록 큰 힘이 있어서는 안 돼."
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_chaos46_choice01_04_choice02_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "내 동생들이 죽거나 노예처럼 취급받는 미래를 보여 줬어!",
+      "after": "내 동생들이 죽거나 노예처럼 취급받는 미래를 보여 주는 게 보답이야?"
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_order20_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "두 사람은 시련을 통과하지 못한 것 같아.",
+      "after": "안타깝지만 두 사람은 시련을 통과하지 못했어."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit11_duncanlove_choice02_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "모르겠어, 던컨...",
+      "after": "모르겠어, 던컨…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit11_duncanlove_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "불길한 예감이 들어...",
+      "after": "불길한 예감이 들어…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit08_notduncanlove_choice02_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "나도...",
+      "after": "나도…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit08_notduncanlove_choice02_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...하지만 모두 잘될 거야.",
+      "after": "…하지만 모두 잘될 거야."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit22",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨이 확신 없는 얼굴로 나를 돌아본다. 내가 뭔가 제안해 주길 바라는 모양이다...",
+      "after": "던컨이 확신 없는 얼굴로 나를 돌아본다. 내가 뭔가 제안해 주길 바라는 모양이다…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit23",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...하지만 나 역시 예언자들이 우리에게 무엇을 원하는지 이해할 수 없다.",
+      "after": "…하지만 나 역시 예언자들이 우리에게 무엇을 원하는지 이해할 수 없다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit30_choice01_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "확답을 듣고 싶어 예언자들을 돌아본다. 무슨 말이라도 해 주기를...",
+      "after": "확답을 듣고 싶어 예언자들을 돌아본다. 무슨 말이라도 해 주기를…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit30_choice01_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...하지만 그들은 여전히 속을 알 수 없다.",
+      "after": "…하지만 그들은 여전히 속을 알 수 없다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit30_choice01_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "나는 내 행동을 심판받으라고 강제로 이곳에 끌려왔어...",
+      "after": "나는 내 행동을 심판받으라고 강제로 이곳에 끌려왔어…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit30_choice01_07",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...그리고 너희는 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸지!",
+      "after": "…그리고 너희는 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸지!"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit32",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완, 로완...",
+      "after": "로완, 로완…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit49",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "하지만... 로완은 어떻게 되는 거지?",
+      "after": "하지만… 로완은 어떻게 되는 거지?"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit59",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨이 검을 앞세워 제니버에게 몸을 던지지만...",
+      "after": "던컨이 검을 앞세워 제니버에게 몸을 던지지만…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit60",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...그녀는 검격을 가볍게 피하고 그의 배에 단검을 꽂는다.",
+      "after": "…그녀는 검격을 가볍게 피하고 그의 배에 단검을 꽂는다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit11",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상 바닥을 뒤덮은 만년설은 돌 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다.",
+      "after": "정상 바닥을 뒤덮은 만년설은 돌로 둘러친 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit19",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "우리는 너희의 모든 시험을 통과했다!",
+      "after": "우리는 너희가 내린 모든 시련을 통과했다!"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit30_choice02_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸고.",
+      "after": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸어."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit77",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그녀가 품에서 빠져나오지만 던컨이 발목을 붙잡아 다시 넘어뜨린다.",
+      "after": "그녀가 몸을 비틀어 그의 손아귀에서 빠져나오지만, 던컨이 발목을 붙잡아 다시 넘어뜨린다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit98",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "율의 첫눈...",
+      "after": "율의 첫눈…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit101",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그리고 그들이 왔다...",
+      "after": "그리고 그들이 왔다…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_thesummit102",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...하지만 이번에는 맞이할 준비가 되어 있었다.",
+      "after": "…하지만 이번에는 맞이할 준비가 되어 있었다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨이 다시 대열 선두에 섰다...",
+      "after": "던컨이 다시 대열 선두에 섰다…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot15",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "이 섬에 발을 디딘 뒤로 계속 기시감이 들었어...",
+      "after": "이 섬에 발을 디딘 뒤로 계속 기시감이 들었어…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot16",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그 싸움이 기억나...",
+      "after": "그 싸움이 기억나…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot17",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그리고 나무도...",
+      "after": "그리고 나무도…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot19",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "너도 기억나...",
+      "after": "너도 기억나…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot20",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "기묘한 글자가 새겨진 동굴...",
+      "after": "기묘한 글자가 새겨진 동굴…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice01_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그래...",
+      "after": "그래…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice01_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그를 품에 안고 위로하고 싶지만...",
+      "after": "그를 품에 안고 위로하고 싶지만…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice01_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...나는 물질 세계에 손을 댈 수 없다.",
+      "after": "…나는 물질 세계에 손을 댈 수 없다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice02_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "내가... 널 지킬게...",
+      "after": "내가… 널 지킬게…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice02_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그를 품에 안고 위로하고 싶지만...",
+      "after": "그를 품에 안고 위로하고 싶지만…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot23_choice02_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...나는 물질 세계에 손을 댈 수 없다.",
+      "after": "…나는 물질 세계에 손을 댈 수 없다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot24",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완...",
+      "after": "로완…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot25",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "내 운명이 이곳에서 죽는 거라면...",
+      "after": "내 운명이 이곳에서 죽는 거라면…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot30",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨... 숨어야 해...",
+      "after": "던컨… 숨어야 해…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot31",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "예언자들이...",
+      "after": "예언자들이…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_timeknot08",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "다른 이들이 잠든 것을 확인한 뒤, 멀리서 지켜보던 내 쪽으로 일어나 걸어온다.",
+      "after": "다른 이들이 잠든 것을 확인한 던컨은 자리에서 일어나, 멀리서 지켜보던 내 쪽으로 걸어온다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그가 이런 식으로 자신을 희생하게 둘 수는 없어...",
+      "after": "그가 이런 식으로 자신을 희생하게 둘 수는 없어…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves33",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완... 맞지?",
+      "after": "로완… 맞지?"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves35",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨 일은 미안해...",
+      "after": "던컨 일은 미안해…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves36",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "나는...",
+      "after": "나는…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves39",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨이... 나한테 약속을 받아 냈어.",
+      "after": "던컨이… 나한테 약속을 받아 냈어."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowanleaves50",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "던컨을 또다시 잃기 위해 새로운 순환을 시작할 힘도 없다.",
+      "after": "새로운 순환을 시작한 끝에 던컨을 또다시 잃는 일을 견딜 힘은 없다."
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowandies32",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "하지만... 로완은 어떻게 되는 거지?",
+      "after": "하지만… 로완은 어떻게 되는 거지?"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowandies42_choice01_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "용기를 끌어모아...",
+      "after": "용기를 끌어모아…"
+    },
+    {
+      "id": "localizable.strings::chap07_duncan_rowandies42_choice01_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...던컨이 나를 구하려 제니버를 공격하기 전에...",
+      "after": "…던컨이 나를 구하려 제니버를 공격하기 전에…"
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_thesummit18",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상 바닥을 뒤덮은 만년설은 돌 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다.",
+      "after": "정상 바닥을 뒤덮은 만년설은 돌로 둘러친 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_timeknot15",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "이제 우리는 모두 이 순환을 영원히 이어 가야 해…",
+      "after": "이제 우리는 모두 이 순환을 영원히 되풀이하는 형벌에 묶였어…"
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_timeknot22",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "알린은 감정이 북받친다.",
+      "after": "알린은 북받치는 감정을 주체하지 못한다."
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_timeknot45",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "돌 원 반대편의 야영지 쪽에서 인기척이 난다.",
+      "after": "돌로 둘러친 원 반대편, 야영지 쪽에서 인기척이 난다."
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_berserk12",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "제니버는 돌 원을 이루는 거석 하나 옆에 앉아 있다.",
+      "after": "제니버는 돌로 둘러친 원을 이루는 거석 하나 옆에 앉아 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_berserk22",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "예언자들은 갑자기 입을 다물고 돌 원 가장자리로 물러난다.",
+      "after": "예언자들은 갑자기 입을 다물고 원 가장자리로 물러난다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice01_07",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완, 로완...",
+      "after": "로완, 로완…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice02_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완, 로완...",
+      "after": "로완, 로완…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice02_07",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "인류를 위해 나무를 파괴하려는 거라고 날 믿게 하진 못해...",
+      "after": "네가 인류를 위해 나무를 파괴하려는 거라는 말은 믿지 않아…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice02_10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "예언자들이 너를 시간의 여명으로 되돌려 보낸 건 그들의 불꽃을 파괴했기 때문이 아니야...",
+      "after": "예언자들이 너를 시간의 여명으로 되돌려 보낸 건 그들의 불꽃을 파괴했기 때문이 아니야…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice02_11",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...그걸 훔쳤기 때문이지.",
+      "after": "…그걸 훔쳤기 때문이지."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit12",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상 바닥을 뒤덮은 만년설은 돌 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다.",
+      "after": "정상 바닥을 뒤덮은 만년설은 돌로 둘러친 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit19",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "코너는 이 세계의 아름다움과 기이함에 영혼까지 얻어맞은 듯 멍해 보인다.",
+      "after": "코너는 이 세계의 아름다움과 기이함에 영혼까지 압도된 듯 멍해 보인다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_thesummit35_choice01_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸고.",
+      "after": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot08",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "해변에 가까워지고 있어... 저기, 보여?",
+      "after": "해변에 가까워지고 있어… 저기, 보여?"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot16",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "글쎄... 나도 잘 모르겠어. 뭘 하든 암초에 좌초하거나 먼바다로 휩쓸릴 위험이 있어.",
+      "after": "글쎄… 나도 잘 모르겠어. 뭘 하든 암초에 좌초하거나 먼바다로 휩쓸릴 위험이 있어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot17",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "어디라도 부딪히면... 이 배가 버틸 수 있을지 모르겠어. 끔찍한 결과가 될 거야.",
+      "after": "어디라도 부딪히면… 이 배가 버틸 수 있을지 모르겠어. 끔찍한 결과가 될 거야."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot54",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "저기... 로완 맞지?",
+      "after": "저기… 로완 맞지?"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot60_choice01_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "항구에서 본 그 남자는...",
+      "after": "항구에서 본 그 남자는…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot60_choice01_06",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "사고였어... 하지만 그렇다고 그의 죽음에 대한 책임감이 줄어드는 건 아니야.",
+      "after": "사고였어… 하지만 그렇다고 그의 죽음에 대한 책임감이 줄어드는 건 아니야."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot60_choice02_01",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그러니까... 안 좋은 때에 안 좋은 곳에 있었던 셈이지.",
+      "after": "그러니까… 안 좋은 때에 안 좋은 곳에 있었던 셈이지."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot60_choice02_02",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "항구에서 본 그 남자는...",
+      "after": "항구에서 본 그 남자는…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot60_choice02_03",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "자기 아들의 죽음이 내 탓이라고 고발했어...",
+      "after": "자기 아들의 죽음이 내 탓이라고 고발했어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot62",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그건... 이상하네.",
+      "after": "그건… 이상하네."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot63",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "심판받으라고 누군가를 섬에 보내다니... 그런 이야기는 한 번도 들어 본 적 없어.",
+      "after": "심판받으라고 누군가를 섬에 보내다니… 그런 이야기는 한 번도 들어 본 적 없어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot67",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그리고... 우리 마을에서 그 지역의 주술사를 부르기도 전에 도망쳤어.",
+      "after": "그리고… 우리 마을에서 그 지역의 주술사를 부르기도 전에 도망쳤어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot29",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "요란한 균열음이 난다.",
+      "after": "무언가 요란하게 찢어지는 소리가 난다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot44",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "해변에 충분히 가까워지자 던컨이 달려가 브랜던을 물 밖으로 끌어내는 일을 돕는다.",
+      "after": "해변에 충분히 가까워지자 던컨이 달려가 에릭과 함께 브랜던을 물 밖으로 끌어낸다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot51",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "과거를 바꿀 수 없는 채 끝없이 되살라는 형벌을 받은 걸까?",
+      "after": "과거를 되풀이하면서도 바꾸지는 못하는 형벌을 받은 걸까?"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot64",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "예언자들이 그런 일을 하는 존재라고도 생각하지 않고.",
+      "after": "예언자들이 그런 일을 하는 존재라고도 생각하지 않아."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot91_choice01_08",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그리고 로완이 나와 함께 남는다면 우리를 걱정할 이유는 전혀 없고.",
+      "after": "그리고 로완이 나와 함께 남는다면 우리를 걱정할 이유도 전혀 없어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot91_choice01_12",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "상처를 입었어도 혼자 살아남을 가능성이 높지만, 그런 생각이 내키는 건 분명 아니다.",
+      "after": "상처를 입었어도 혼자 살아남을 가능성은 높지만, 그런 생각이 달가운 건 분명 아니다."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot91_choice02_09",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "우리와 달리 넌 주술사가 되고 싶어서 온 게 아니잖아...",
+      "after": "우리와 달리 넌 주술사가 되고 싶어서 온 게 아니잖아…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves08",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "이런 식으로 그를 포기한 자신을 탓한다...",
+      "after": "이런 식으로 그를 포기한 자신을 탓한다…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves10",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "어쩌면 그저 그의 선택을 존중해야 하는지도 모른다...",
+      "after": "어쩌면 그저 그의 선택을 존중해야 하는지도 모른다…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves20",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그런데... 다른 사람들은?",
+      "after": "그런데… 다른 사람들은?"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves22",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "유감이지만 남은 건 우리뿐인 것 같아...",
+      "after": "유감이지만 남은 건 우리뿐인 것 같아…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves24",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "알린, 던컨, 에릭은... 나와 함께 계속 갔지만...",
+      "after": "알린, 던컨, 에릭은… 나와 함께 계속 갔지만…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves25",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "시련을... 통과하지 못했어.",
+      "after": "시련을… 통과하지 못했어."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves26",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상에서 제니버를 만났고, 우리는 함께 내려왔어...",
+      "after": "정상에서 제니버를 만났고, 우리는 함께 내려왔어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves30",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "코너...",
+      "after": "코너…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves33",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그는 네가 자신을 기억할지 확신하지 못했어...",
+      "after": "그는 네가 자신을 기억할지 확신하지 못했어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves42_knowkillian",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "신전에 그에게 무슨 일이 있었는지 알 자격이 있는 사람이 있어...",
+      "after": "신전에 코너에게 무슨 일이 있었는지 알 자격이 있는 사람이 있어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves43_knowkillian",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...코너가 소중히 여기던 사람.",
+      "after": "…코너가 소중히 여기던 사람."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves42_dontknowkillian",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "꼭 네가 가야 한다고 강조했어... 그에게 네 이야기를 들려주길 원해.",
+      "after": "꼭 네가 가야 한다고 강조했어… 그에게 네 이야기를 들려주길 원해."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves43_dontknowkillian",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "물론이지...",
+      "after": "물론이지…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves46",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "저기... 재촉하고 싶진 않은데, 이 이야기는 항해하면서 해도 되지 않을까?",
+      "after": "저기… 재촉하고 싶진 않은데, 이 이야기는 항해하면서 해도 되지 않을까?"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves47",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "지금 출발하면 밤이 되기 전에 항구에 닿을 수 있어...",
+      "after": "지금 출발하면 밤이 되기 전에 항구에 닿을 수 있어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowanleaves48",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "...너희는 모르겠지만, 난 여기서 꾸물거리고 싶지 않아.",
+      "after": "…너희가 어떤지는 몰라도, 난 여기서 꾸물거리고 싶지 않아."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowandies30",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "해변에서부터 계속 너한테 말을 걸려고 했어...",
+      "after": "해변에서부터 계속 너한테 말을 걸려고 했어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowandies33",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "해변에서 브랜던과 함께 남았어야 해...",
+      "after": "해변에서 브랜던과 함께 남았어야 해…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowandies36",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "널... 예언자들의 세계에 갇힌 채로 둘 수 없어...",
+      "after": "널… 예언자들의 세계에 갇힌 채로 둘 수 없어…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowandies39",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "순환을 끊으려면 무엇을 해야 하는지 알아...",
+      "after": "순환을 끊으려면 무엇을 해야 하는지 알아…"
+    },
+    {
+      "id": "localizable.strings::chap07_connor_rowandies40",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "로완...",
+      "after": "로완…"
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit13",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상 바닥을 뒤덮은 만년설은 돌 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다.",
+      "after": "정상 바닥을 뒤덮은 만년설은 돌로 둘러친 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit48_choice01_08",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "내가 아직도 충분히 고통받지 않았다고 생각해?!",
+      "after": "내가 이만큼 고통받았으면 충분하지 않아?!"
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit48_choice02_04",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸고.",
+      "after": "그들은 두 세계 사이의 공허를 영원히 떠돌라는 형벌을 내렸어."
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit48_choice02_05",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "내가 아직도 충분히 고통받지 않았다고 생각해?",
+      "after": "내가 이만큼 고통받았으면 충분하지 않아?"
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit57",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "프레이야가 힘 있고 명령하는 목소리로 덧붙인다.",
+      "after": "프레이야가 힘찬 명령조로 덧붙인다."
+    },
+    {
+      "id": "localizable.strings::chap07_freya_thesummit78",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "나… 네가 그렇게 하게 둘 수 없어.",
+      "after": "나… 난 네가 그렇게 하게 둘 수 없어."
+    },
+    {
+      "id": "localizable.strings::chap07_freya_jennyverdies53",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "정상 바닥을 뒤덮은 만년설은 돌 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다.",
+      "after": "정상 바닥을 뒤덮은 만년설은 돌로 둘러친 원 앞에서 끊기고, 그 안에는 포근한 풀밭이 펼쳐져 있다."
+    },
+    {
+      "id": "localizable.strings::chap07_freya_rowandies44",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_039_055_063_072_086_107.json",
+      "before": "나… 네가 이렇게 하게 둘 수 없어.",
+      "after": "나… 난 네가 이렇게 하게 둘 수 없어."
+    },
+    {
+      "id": "ui.strings::UI_game_newgame_confirm_title",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "게임 종료.",
+      "after": "게임 오버."
+    },
+    {
+      "id": "ui.strings::UI_menu_select_save",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "저장 선택",
+      "after": "저장 슬롯 선택"
+    },
+    {
+      "id": "ui.strings::UI_selectsave_title",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "저장 선택",
+      "after": "저장 슬롯 선택"
+    },
+    {
+      "id": "ui.strings::UI_selectsave_empty",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "새 저장",
+      "after": "새 저장 슬롯"
+    },
+    {
+      "id": "ui.strings::UI_selectsave_delete_confirm_title",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "저장 삭제.",
+      "after": "저장 슬롯 삭제."
+    },
+    {
+      "id": "ui.strings::twitch_connecting",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "연결 중...",
+      "after": "연결 중…"
+    },
+    {
+      "id": "ui.strings::twitch_temporary_text",
+      "correction_kind": "independent_review",
+      "review_artifact": "review_033_038_056_062_073_085_108_109.json",
+      "before": "텍스트 입력...",
+      "after": "텍스트 입력…"
+    },
+    {
+      "id": "localizable.strings::chap02_morning19_connor",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "나도 모르겠어…",
+      "after": "모르겠어…"
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_chaos32",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "나도 몰라…",
+      "after": "모르겠어…"
+    },
+    {
+      "id": "localizable.strings::chap06_outofthecaves_order40",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "나도 몰라…",
+      "after": "모르겠어…"
+    },
+    {
+      "id": "localizable.strings::chap06_bivouac_order21",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "나도 몰라.",
+      "after": "모르겠어."
+    },
+    {
+      "id": "localizable.strings::chap06_morningconnor17",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "응.",
+      "after": "아니."
+    },
+    {
+      "id": "localizable.strings::chap05_theharbour25",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "이제는 나도 무엇을 믿어야 할지 모르겠다…",
+      "after": "이제는 무슨 생각을 해야 할지 모르겠다…"
+    },
+    {
+      "id": "localizable.strings::chap07_arlyn_thesummit80",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "생명나무를 지키기 위해 영적 세계에서 내려오는 수호자 예언자들.",
+      "after": "생명나무를 지키기 위해 영적 세계에서 내려온 수호자 예언자들."
+    },
+    {
+      "id": "localizable.strings::chap07_connor_timeknot09",
+      "correction_kind": "focused_repetition_review",
+      "review_artifact": "repetition_review.json",
+      "before": "저류가 있어! 정면으로 들어가면 암초를 피하도록 방향을 틀 시간이 없어!",
+      "after": "밑물살이 있어! 정면으로 들어가면 암초를 피하도록 방향을 틀 시간이 없어!"
+    }
+  ],
+  "pre_focused_repetition_result_sha256": {
+    "packet_001": "3eed6ee45543d181e3ce79acc1400a671adc98073ed9ea8a5c84a9541adfc267",
+    "packet_002": "15820b30ba38049a7c98706f1790db8f9200b1c343eb48fa54997d2684f85e60",
+    "packet_003": "231eb66d6b3a9763728c5d7f94cf2b44f30b0defa131a671e82468bc6d976b74",
+    "packet_004": "bc9b4131d6fd2e1c966d02832164f6d9e64d5a94d4e8f9ce491c123248e21e05",
+    "packet_005": "81506902b6bda7d9c7b912c87df68eae4c3a00a9c1dcf09cfbece80abc8ffb68",
+    "packet_006": "190033f4c2ba949d4a6fe89db660e97fe3f174c61d45d13efd5379a48a838805",
+    "packet_007": "c156784ae4e82cd0cd7538bea6d2345ef1f66d1829a98f10384b2a3f190c27a9",
+    "packet_008": "c2bcc6734a5fa2be85f5a6558d4af40f2f8f2c85ea753796ac31616a7c7bbe7b",
+    "packet_009": "c2c3a2fdb8b94f6a8bb476bbaca9a1259599171c161fade6a55557483733cdf2",
+    "packet_010": "fc3988bee29f5c318d87d85949e7198783056e4a1bd49a0c822f17608fbeec1e",
+    "packet_011": "78a263258010d5a39101d6ee4f2e4e7077f3595cffe1b547b9aee756fd78c00b",
+    "packet_012": "770c49bab34919d351ef60d1f45af53786d78880496be229332d1719ede1dd6e",
+    "packet_013": "13f778ab2d29001999ec985d1da97c67b414f82304d15aa73d59130d2677266f",
+    "packet_014": "bc262162e0e50ec6ac462678846ecc17248ebfe021e2218c73fc8660c366afae",
+    "packet_015": "a2ba4d907ce47772ec8b0adca0487d7134a14b31fca3499caa59d099a80ae9e1",
+    "packet_016": "5de52fecbc22bac04bc239d613a2a6add3bf4c61c8e34ee927a3c45fe01b3f4c",
+    "packet_017": "5ecb5432e3df13d2349222571b1c6a62d3db708917c58a04e3d710d52884b91e",
+    "packet_018": "7753a0e6f144898bf80eb390632a142e990693079b1eb616b74e48b59e2ef5db",
+    "packet_019": "c029bd28803f30203ad90d1434343939bd2e8d26838ca04577376c217104e43e",
+    "packet_020": "7d7fadcefc6b7dc334d45edb51194be69c7fd434e6971f45f2dea9e921dcde12",
+    "packet_021": "c3533722569a32652f827fb8f1859f9b991a144d423d0db2a657824ad3abbf07",
+    "packet_022": "4987eda15c0bac33155624288772d764856635dc77134b11edb05f862abbfc13",
+    "packet_023": "3045221653240ae5bdaaa25dcb1c94908d8379d4c2b94f864f890f2e6fd0997a",
+    "packet_024": "672fdd036d59e63d9562a5f5e9d2880e3c10becce3f6e2f03ea4c84d7a0a0aaf",
+    "packet_025": "18cbc52f9311ae98b1ad970871ce8587099b97cf2165d9bcb0bc43b6bb2dfbb7",
+    "packet_026": "d292413f436f96ffbfd0f07f9754fc5c3330d8aeaba6bb1b8d5ffbbeefcaca3a",
+    "packet_027": "2c44e99b35995ba8ab65badfe1e124164f5ff465d3450e04572787334db5ce7d",
+    "packet_028": "02fab7c515faaa1d6d68b3ee0f1f6b1edd015f6e5598a17a29c372733cc72c76",
+    "packet_029": "d9fbae2d093e48246737b0abacb3e8336db14904e171694f80f66ca21e3293ff",
+    "packet_030": "7c65aa8154aa7689d375e9112c4deedfdb5593f78471a817ec5ed2245086789c",
+    "packet_031": "92b6ec50b416eb61d4519490e99908828fbf5a72bb82269cb56f3936b0a90da9",
+    "packet_032": "71c72a25b01e188ed17b7418afa66e400cd98141776457a35c97ad3ba2958b9c",
+    "packet_033": "25cdd122ed1e50fc44a95a5a0d9aec3312a3b97c954dcf0d579e151d96eeb14b",
+    "packet_034": "065715bb0bf35936be321a7610b1c049acbc3a0402132f12e62ba69ce229ea93",
+    "packet_035": "4b63aa25640fb12ccfeaee583bb30ed90631340e52fee4571b549a72e6027336",
+    "packet_036": "3203f7789b3b34c3c604377be909c82410b7643acfaf87e2ea48d539bf563524",
+    "packet_037": "3abe6358c6358f5c4b641a4bc18c1372501e5deaf8dad81385d454a2abba157a",
+    "packet_038": "78b1a840acb7451fa1a6e43991e6de339a4b6556a0047086e54648b578c37c22",
+    "packet_039": "938ba44f5e6313e720687b3331c9a0feb2868bd10592812408b349abc346eb5b",
+    "packet_040": "7aa012e25d4e52b1fd28dc28641ae805a9e1f59680f40253d35cbb60aefa6204",
+    "packet_041": "355f62338428b6b9cd4afebecea3b956ad7686ec92bf6134dd45f708074a2750",
+    "packet_042": "83ed825c26f470b85891e1e5aacf3957ebd7415e47b870d80414324e395fa0d1",
+    "packet_043": "6cd9d7f85504adf2dd9b1e2fb94e4bbaf5bae070ab9a6d9d622706c40a072736",
+    "packet_044": "a6b2f0a3b7c4d9d27c9114150608e5ab3eee0dcbbaa476631a5ca20595eaba37",
+    "packet_045": "74e1794f01bd7d8a2f8f1735daa3a93418414bbf61e73d3271a60ecdc3e1566e",
+    "packet_046": "a1a7d9d4678720e51cd6718c2fe90de859add949d0be251fd0ec56438be7deab",
+    "packet_047": "454b98538ed466903e51a566cd146e66ff49dcd581d73826f5bc08cc7251c419",
+    "packet_048": "85acbda1ff9bb60e98691969974405468bb54cb57690d1e2d222162e7ff69e37",
+    "packet_049": "486155cf37ee54286fc27e36804b5127be87725c3fb93188fd749101eac1375a",
+    "packet_050": "3d49da569bd3da2903e165c92122b458a25009db0c454d5128d9924370f1daaf",
+    "packet_051": "00140cb5a6f8e823e1177f486471fd3f02099badb659b6d99575c69ead06f4c0",
+    "packet_052": "bc81d97d017eed336f9fbe49cfd05bf442855e50dc882bb784909da3dd7981cf",
+    "packet_053": "1d639fed423bb10d1c624ef27c405ec787fdce3c937c4bfae7568aec46d8ca45",
+    "packet_054": "d84706d8f2c4380ca35ac681aafa123c7dc90db99ba91d635f815bc88cf0981d",
+    "packet_055": "e260f7685a5f6065dfeaf40b4cc920cf58ee7f9318cfa3fc95a94378371e9280",
+    "packet_056": "0d2b92586980a7b2fe94baea6c9db4a78015c938dced5f9a4ce47df05b8e1d87",
+    "packet_057": "50b9fb30115367a13d2fd878216956d116e070683117f910ad743605132cc8cf",
+    "packet_058": "60e2527eb5449a282e748e2b10554a4109c585c5f2d79055ccf963297bfd498a",
+    "packet_059": "66e9af406610f1d198b0d7c2d4bca66a8c218007a088bcd6f1331562ef9c723d",
+    "packet_060": "f0d9dc0d514740423b1190117f0c9c8ed279d62aae324fe311e356003fc86da1",
+    "packet_061": "097d53e35626eeb8d5fd21f7f364a555a2ea3664dd4a3cff8a64d77b56e5a7b3",
+    "packet_062": "6dbf52377d113562a712cdf20cde9993c3c2f0410326901a263c0db6184d3e13",
+    "packet_063": "b534d3bd024df8779cb887f64f515fb13bd196b0ad084eb0d760661d8ab6ef44",
+    "packet_064": "49a572afcc24c169dbf4872347966e069e1161b068a0297a300ba8a1777600dd",
+    "packet_065": "7bac5818d49cc68e2844f485344c72f0216dc1073db85e080768862611591c03",
+    "packet_066": "7a6bf18a9fcff153b80c0f1556c6526b3ff99d3e559dc71e833cc6a68ac112f0",
+    "packet_067": "bd8bbd921dbab205aa1e385e25fb0fdad0d20da3de3e08c9718bf90b47a5ef6a",
+    "packet_068": "050348bb67ff555911b3b3d656276fd14244811919ab24dca66e5d5581ae42e6",
+    "packet_069": "ff1c6240ca272708db61e21debabebd806b5b8ac9613538d686572906aeb96dd",
+    "packet_070": "a665131d5cba35ae422b672b5d4eb183ff472cbb796a1bde54b5894f61cada4e",
+    "packet_071": "22868be8b1629acabdcc9701e622715008b6aa5bb4c15b1c0efba1fec118a63a",
+    "packet_072": "a715f41294e0f07ec8d4eb23c8fc74e748506ed934c49287e99187d01f86a44e",
+    "packet_073": "0225513de10b16a5d1dd00fa81de2af06ba9d96872a5b52b8c312c9640aefdcc",
+    "packet_074": "3624903cab31119af294e921453f8576ac0f4b7f02d2c85f2560440d172c362b",
+    "packet_075": "5c30f97fc6e5730b42976a268bdce9a373d46594c7fe2e284a2152adce91f308",
+    "packet_076": "fc4a114c869b2f80bc16ae4e706e1072a146be77e1d1cde70dc5593bef20788b",
+    "packet_077": "6c8c78a81bba4b8eb4bc6e75fbb6a01a7de2bad840d22f50be0936088c098000",
+    "packet_078": "8f218c175aab48b8e140ec4a5d47830e11d5d9740eaaf438578930c897b79002",
+    "packet_079": "c6bb0c32c138495764276850c36dfd255053b24480337ff66b8c6adbdfd7fa61",
+    "packet_080": "8a20ad0b089a4fcaa9d1bbd5f57e256ad893d78dbbbff8cfe2b95720f223911a",
+    "packet_081": "dae8886e45a95c6997617d19d99c8acbe966f32d74272e342aa9ef9240573dfa",
+    "packet_082": "8bb43a1069dd272f1af6423586e2307cdf547bdd2c8cc6697afaa5987f568b5d",
+    "packet_083": "774412af3cee63da4a420506aaa343f9dd12c94d25dc81a9c330798d2e9a2594",
+    "packet_084": "3cb4987d230d383704a54180e7e698db2a06e9ed91e26a753b56ee2a3a8baa43",
+    "packet_085": "949a39bd8a20796abc5548a3405b52e7f409b4297820fbd85d8e68c6238ce546",
+    "packet_086": "92fe330792fe6468266f7d42340305ebcf72ba7b44b095be4b333499b0b474f2",
+    "packet_087": "4c295e4a9dd6539704e0b2267b02a97a108e142d5fe6ea606ea8b0816b8538c2",
+    "packet_088": "6dfd2bebc2db40ea0c5a10be3d4696c629590d9eaa632eced81a9b194ab97d11",
+    "packet_089": "ce45fde51a9debcfb8aba5f9e826a40bc421e73d146cd2418f95ef98e524f9cd",
+    "packet_090": "e8e21e0f7bb5368751fc3b114bf97b0fd2bcaa5a96322a121b680786f57b3b28",
+    "packet_091": "797f20cfdc093507fb26f49484d1886960478f13d19b0f20fffa79c27380eeaf",
+    "packet_092": "21084291b2b99f789a37611b3e05ba6294b7fabb2a3764dd70b7b27694513c44",
+    "packet_093": "8205bc630d3c777d9192dd10a0d061de08b4be593a3cb9e645f30145591f7f0d",
+    "packet_094": "1ec6fab25941b8e6352f250d27e3b541f43ab52dba558d6b7c1b55ed5f756fd3",
+    "packet_095": "72e8b24cc3e8b5408eeb1935d4a3e06ec2d0439d504e3b4c97c78c1d02509ea0",
+    "packet_096": "e5b4abeb157c9a9ec349ee131b766e5a488b5e51d27f9e076a4612773ee9099e",
+    "packet_097": "6402e4f55a102af2edf8dfb8c02a3d5f01dd64b5cd318e84eb9ea0ee4233cbd7",
+    "packet_098": "11cae8b36183b0147607a583fff1435b3bca0860615964674d2bd96d2177c2f4",
+    "packet_099": "dbd8f290225524809f62cb942625b70d168c5d69124e9cdbb06472eeee7f392c",
+    "packet_100": "df681cd788abbefb0c087d95546d44ae326e26da0737ce8b67a6cd97f6bfccda",
+    "packet_101": "76f260ec07e71d4e38a4fab9dd9504a80df1dd88f7226bb965fc7290f91d7278",
+    "packet_102": "487799ed8a8c0dd8302456cdddb7b4cec560364f7f99d7542a8f00709f0d3959",
+    "packet_103": "b6c061cc68129ab7f8b97798a1a6bd0f62119c1b7eb721919b1fd7a880f592a4",
+    "packet_104": "8b9eb11acfec1b2ee5ecc07656c9ef7f5148cec70ebe6f3c929f21d0f7cb3bf1",
+    "packet_105": "30be5b4774271f5fa3f42d667049bc1e69d8a15c809d5c82d5136e7a2c0d455e",
+    "packet_106": "4885e43386d381487ae77a14819af6cfbeb74a814f6d2dc948e5113da430505e",
+    "packet_107": "a76e4a39fb2e0d45e035656c4e75f83550347a903e345a9f75d1106e1660969c",
+    "packet_108": "72151cfd176fe1bdb730da011b1728101c3df48382b9d69c082abf3e3588d5f7",
+    "packet_109": "8359fbf3db2c8253056d99fb590f47c04325e5a57b785d8dd4673738e987d0f8"
+  },
+  "focused_repetition_review_sha256": "ff1b3eac4716439a5e2d6afafe3ca9ad807fa76062f364fd67a557d0be35bd31",
+  "focused_repetition_review_applied_at": "2026-07-25T12:19:14.312176+00:00",
+  "focused_repetition_corrections": 8
+}

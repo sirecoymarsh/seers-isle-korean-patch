@@ -1,0 +1,102 @@
+{
+  "format": 2,
+  "game": "Seers Isle",
+  "engine": "Unity 2019.4 / TextMeshPro runtime font creation",
+  "selector_locale": "ko-KR",
+  "runtime_language_token": "ko",
+  "root_cause": {
+    "summary": "The game derives one dynamic TextMeshPro atlas per font filename from the font file length. The unpadded Gothic A1 files select a 1024x1024 atlas at 91px with 9px padding. The atlas saturates during the tutorial and later Korean syllables are omitted even though the font cmap contains them.",
+    "runtime_method_evidence": "bug_dialog/texts_getfont_load_il.txt",
+    "broken_loader_parameters": {
+      "regular_file_size": 2295400,
+      "bold_file_size": 2287068,
+      "sampling_point_size": 91,
+      "atlas_width": 1024,
+      "atlas_height": 1024,
+      "atlas_padding": 9,
+      "population_mode": "Dynamic"
+    },
+    "user_reported_dropout_screenshots": [
+      {
+        "path": "bug_dialog/user_reported_font_dropout/dropout_1.png",
+        "size": 1039010,
+        "sha256": "856aef2492a1aed888030d118f375ec531fe55ed5da53bcc70af9b6b87669b78"
+      },
+      {
+        "path": "bug_dialog/user_reported_font_dropout/dropout_2.png",
+        "size": 86713,
+        "sha256": "7140b95bbea9371f7ed05c12f2d72314e8efdd926009912cfcd867140c2b757d"
+      },
+      {
+        "path": "bug_dialog/user_reported_font_dropout/dropout_3.png",
+        "size": 296191,
+        "sha256": "ba1e6446168feb7354efdc9c8735a59d45ef2b3c7ce5dba226df78155a103fba"
+      }
+    ]
+  },
+  "selected_font": {
+    "family": "Gothic A1",
+    "source": "https://github.com/google/fonts/tree/main/ofl/gothica1",
+    "license_name": "SIL Open Font License 1.1",
+    "container_strategy": "Original SFNT bytes preserved byte-for-byte and followed only by zero padding to exactly 16 MiB.",
+    "regular": {
+      "path": "fonts_candidate/gothica1_atlas4096/GothicA1-Regular.ttf",
+      "size": 16777216,
+      "sha256": "71c8ebc6ced30339debd2d0e47e93175ab922325697266e03ee21147dc7a97ea"
+    },
+    "bold": {
+      "path": "fonts_candidate/gothica1_atlas4096/GothicA1-Bold.ttf",
+      "size": 16777216,
+      "sha256": "3ebc9cea5e0a959c1e93c05140fc8ad29b5d50317e00c736a2c5aa318bb80e41"
+    },
+    "license": {
+      "path": "fonts_candidate/gothica1_atlas4096/OFL.txt",
+      "size": 4359,
+      "sha256": "ed95c33f80ccca002e3a360b683c43368f9c5eb024e5b992abb51af3c10b59bc"
+    }
+  },
+  "container_build": {
+    "path": "font_container_build.json",
+    "size": 2049,
+    "sha256": "d851505a98b67d18aa15d91b4d3b49b362c5ec6a1afaaafc28586d7895dc4dd5",
+    "source_regular": {
+      "path": "fonts_candidate/gothica1/GothicA1-Regular.ttf",
+      "size": 2295400,
+      "sha256": "211151bea98098c579610ab1114bb1bfe909057207db561f357b896d076c21ac"
+    },
+    "source_bold": {
+      "path": "fonts_candidate/gothica1/GothicA1-Bold.ttf",
+      "size": 2287068,
+      "sha256": "2e883fa0ae548000996258b4101f2bb732a28b197264f49621a2cb16d6e9f126"
+    },
+    "source_prefix_preserved": true,
+    "trailing_padding_only": true
+  },
+  "fixed_loader_parameters": {
+    "file_size": 16777216,
+    "sampling_point_size": 56,
+    "atlas_width": 4096,
+    "atlas_height": 4096,
+    "atlas_padding": 5,
+    "population_mode": "Dynamic"
+  },
+  "coverage": {
+    "path": "font_coverage.json",
+    "size": 498,
+    "sha256": "50bfcea8037b7c3140f18b1ce66e9b744575342f5d3288720d2b485bfb4e6375",
+    "status": "pass",
+    "required_codepoints": 1098,
+    "regular_missing": 0,
+    "bold_missing": 0
+  },
+  "runtime_validation": {
+    "method": "user-performed live gameplay validation",
+    "result": "pass",
+    "user_confirmed_korean_rendering": "The user reported that the fix works well.",
+    "user_confirmed_validation_ownership": true,
+    "automation_observation_before_user_takeover": "The quoted Korean word represented by U+C0AC U+B78C rendered completely with the 4096-atlas container.",
+    "scope_limit": "Further scene-specific issues, if any, will be collected during normal gameplay."
+  },
+  "passed": true,
+  "tested_at": "2026-07-25T23:31:01.642354+00:00"
+}

@@ -1,0 +1,1598 @@
+{
+  "format": 1,
+  "generated_at": "2026-07-25T23:32:53.562033+00:00",
+  "target_language": "ko-KR",
+  "semantic_source": "en-US",
+  "audited_entries": 6749,
+  "visible_translated_entries": 6748,
+  "intentional_empty_exclusions": [
+    "localizable.strings::theseer"
+  ],
+  "frozen_translation_map": {
+    "path": "provenance/translation_map.json",
+    "sha256": "f057c156ec764fce4e99e63d00e7a883350abe3ac68154648d96cf4301f0fc48",
+    "entries": 6748
+  },
+  "independent_review": {
+    "application_sha256": "51c57a085db4d8a4afea620b4e63383e3b6f6728d310903989bc38aa4d757781",
+    "reviewed_packets": 109,
+    "reviewed_entries": 6749,
+    "corrections_applied": 199
+  },
+  "rendered_file_sha256": {
+    "localizable.strings": "4aed81d2d4ba3bf82699b868007810ea64a67643d7072ee39e819f32c6e63d0a",
+    "ui.strings": "5fa24cf6793f0e8ae9b0ba5da9b5a55cede9d013fd81e61e7650392ec1113791"
+  },
+  "checks": {
+    "key_set_preserved": true,
+    "map_matches_staging": true,
+    "protected_token_errors": [],
+    "unchanged_entries": [
+      "ui.strings::twitch_choice_semicolon",
+      "ui.strings::twitch_command_original"
+    ],
+    "non_hangul_entries": [
+      "localizable.strings::language",
+      "ui.strings::twitch_choice_semicolon",
+      "ui.strings::twitch_command_original"
+    ],
+    "latin_residue": {
+      "localizable.strings::demoend01": [
+        "Isle",
+        "Seers"
+      ],
+      "localizable.strings::demoend02": [
+        "Nova-box",
+        "www.nova-box.com"
+      ],
+      "localizable.strings::language": [
+        "ko"
+      ],
+      "localizable.strings::tuto01": [
+        "Isle",
+        "Seers"
+      ],
+      "localizable.strings::tuto08": [
+        "Isle",
+        "Seers"
+      ],
+      "localizable.strings::tuto09": [
+        "Isle",
+        "Seers"
+      ],
+      "ui.strings::twitch_command_original": [
+        "choose"
+      ],
+      "ui.strings::twitch_say_connected": [
+        "Twitch"
+      ]
+    },
+    "latin_residue_waivers": {
+      "localizable.strings::language": "Runtime locale code must remain the literal ASCII value 'ko'.",
+      "localizable.strings::demoend01": "Official game title 'Seers Isle' is intentionally preserved.",
+      "localizable.strings::demoend02": "Official studio name and website URL are intentionally preserved.",
+      "localizable.strings::tuto01": "Official game title 'Seers Isle' is intentionally preserved.",
+      "localizable.strings::tuto08": "Official game title 'Seers Isle' is intentionally preserved.",
+      "localizable.strings::tuto09": "Official game title 'Seers Isle' is intentionally preserved.",
+      "ui.strings::twitch_command_original": "Literal Twitch chat command token must remain 'choose'.",
+      "ui.strings::twitch_say_connected": "Official service name 'Twitch' is intentionally preserved."
+    },
+    "locked_term_errors": [],
+    "typography_errors": [],
+    "repeated_source_groups": 544,
+    "divergent_repeated_source_groups": [
+      {
+        "source": "He sees me.",
+        "variants": [
+          {
+            "translation": "그가 나를 본다.",
+            "ids": [
+              "localizable.strings::chap04_duncantrial98_choice01_15",
+              "localizable.strings::chap04_duncantrial98_choice02_14"
+            ]
+          },
+          {
+            "translation": "나를 본다.",
+            "ids": [
+              "localizable.strings::chap04_connortrial58_choice01_26",
+              "localizable.strings::chap04_connortrial58_choice02_26"
+            ]
+          },
+          {
+            "translation": "던컨이 나를 본다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice01_24"
+            ]
+          },
+          {
+            "translation": "코너가 나를 본다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice04_24"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Don't insist.",
+        "variants": [
+          {
+            "translation": "더 권하지 않는다.",
+            "ids": [
+              "localizable.strings::chap06_walkwitharlyn05_choice02_option"
+            ]
+          },
+          {
+            "translation": "더 설득하지 않는다.",
+            "ids": [
+              "localizable.strings::chap01_thestairs_arlyn12_choice01_04_choice02_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Freya looks away.",
+        "variants": [
+          {
+            "translation": "프레이야가 시선을 돌린다.",
+            "ids": [
+              "localizable.strings::chap03_bivouac_freya27",
+              "localizable.strings::chap04_freyatrial19_choice02_32_choice02_09"
+            ]
+          },
+          {
+            "translation": "프레이야가 시선을 피한다.",
+            "ids": [
+              "localizable.strings::chap06_morningfreya13"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Who else?",
+        "variants": [
+          {
+            "translation": "그럼 누구겠어?",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order41_choice01_02",
+              "localizable.strings::chap06_bivouacduncan24_choice02_03"
+            ]
+          },
+          {
+            "translation": "달리 누가 있겠어?",
+            "ids": [
+              "localizable.strings::chap03_bivouac_freya31"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I don't know.",
+        "variants": [
+          {
+            "translation": "모르겠습니다.",
+            "ids": [
+              "localizable.strings::chap04_connortrial39_choice02_06_choice01_option"
+            ]
+          },
+          {
+            "translation": "모르겠어.",
+            "ids": [
+              "localizable.strings::chap03_bivouac_duncan21",
+              "localizable.strings::chap03_erikdeath50",
+              "localizable.strings::chap03_talkarlyn10_choice01_02",
+              "localizable.strings::chap06_bivouac_order21",
+              "localizable.strings::chap06_morningfreya14"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Stay back.",
+        "variants": [
+          {
+            "translation": "거리를 둔다.",
+            "ids": [
+              "localizable.strings::chap03_dreamarlyn34_choice02_option",
+              "localizable.strings::chap03_dreamconnor43_choice02_option",
+              "localizable.strings::chap03_dreamduncan24_choice02_option",
+              "localizable.strings::chap03_dreamfreya32_choice02_option",
+              "localizable.strings::chap06_walkwitharlyn39_choice02_option"
+            ]
+          },
+          {
+            "translation": "나서지 않는다.",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial124_choice02_option",
+              "localizable.strings::chap06_walkwithduncan10_choice02_option"
+            ]
+          },
+          {
+            "translation": "물러서 있는다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_thesummit42_choice02_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Look!",
+        "variants": [
+          {
+            "translation": "봐!",
+            "ids": [
+              "localizable.strings::chap03_erikdeath69"
+            ]
+          },
+          {
+            "translation": "이걸 봐!",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial59"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I don't know...",
+        "variants": [
+          {
+            "translation": "모르겠어…",
+            "ids": [
+              "localizable.strings::chap01_thestairs_arlyn24",
+              "localizable.strings::chap02_morning19_connor",
+              "localizable.strings::chap02_morning19_freya_choice03_01",
+              "localizable.strings::chap02_morning19_freya_choice03_option",
+              "localizable.strings::chap03_bivouac_duncan27",
+              "localizable.strings::chap03_bivouac_freya42",
+              "localizable.strings::chap06_outofthecaves_chaos32",
+              "localizable.strings::chap06_outofthecaves_chaos39_09",
+              "localizable.strings::chap06_outofthecaves_order40",
+              "localizable.strings::chap06_outofthecaves_order47_11",
+              "localizable.strings::chap07_freya_jennyverdies89_choice02_30"
+            ]
+          },
+          {
+            "translation": "잘 모르겠어…",
+            "ids": [
+              "localizable.strings::chap02_walking_abouttheseers26"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "He opens his mouth to say something...",
+        "variants": [
+          {
+            "translation": "던컨이 무언가 말하려고 입을 연다…",
+            "ids": [
+              "localizable.strings::chap02_night10_choice01_27"
+            ]
+          },
+          {
+            "translation": "코너가 무언가 말하려고 입을 연다…",
+            "ids": [
+              "localizable.strings::chap02_night10_choice04_27"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "It is too late.",
+        "variants": [
+          {
+            "translation": "너무 늦었다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice01_14",
+              "localizable.strings::chap02_night10_choice02_14",
+              "localizable.strings::chap02_night10_choice03_13"
+            ]
+          },
+          {
+            "translation": "이미 늦었다.",
+            "ids": [
+              "localizable.strings::chap05_connortrialfail19"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I fall to my knees.",
+        "variants": [
+          {
+            "translation": "나는 무릎을 꿇는다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies80",
+              "localizable.strings::chap07_connor_thesummit61"
+            ]
+          },
+          {
+            "translation": "무릎을 꿇는다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_rowandies38_choice01_06",
+              "localizable.strings::chap07_duncan_rowandies42_choice01_06",
+              "localizable.strings::chap07_freya_rowandies47_choice01_06"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Me too.",
+        "variants": [
+          {
+            "translation": "나도 그래.",
+            "ids": [
+              "localizable.strings::chap03_bivouac_duncan30"
+            ]
+          },
+          {
+            "translation": "나도.",
+            "ids": [
+              "localizable.strings::chap02_followingseers25"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Arlyn laughs.",
+        "variants": [
+          {
+            "translation": "알린이 웃는다.",
+            "ids": [
+              "localizable.strings::chap01_gatheringwood15",
+              "localizable.strings::chap02_walking_abouttheseers17",
+              "localizable.strings::chap07_arlyn_rowandies30",
+              "localizable.strings::chap07_arlyn_thesummit47"
+            ]
+          },
+          {
+            "translation": "알린이 웃음을 터뜨린다.",
+            "ids": [
+              "localizable.strings::chap01_sailingagain23"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I smile back.",
+        "variants": [
+          {
+            "translation": "나도 그에게 미소를 돌려준다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies92",
+              "localizable.strings::chap07_duncan_rowandies42_choice01_15"
+            ]
+          },
+          {
+            "translation": "나도 알린에게 미소를 돌려준다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_rowandies38_choice01_15"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I'm sorry.",
+        "variants": [
+          {
+            "translation": "미안해.",
+            "ids": [
+              "localizable.strings::chap03_erikdeath18",
+              "localizable.strings::chap07_connor_rowandies74",
+              "localizable.strings::chap07_connor_thesummit57"
+            ]
+          },
+          {
+            "translation": "미안해요.",
+            "ids": [
+              "localizable.strings::chap04_duncantrial37_choice02_01"
+            ]
+          },
+          {
+            "translation": "유감이야.",
+            "ids": [
+              "localizable.strings::chap01_exploringthebeach17"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Don't get involved.",
+        "variants": [
+          {
+            "translation": "개입하지 않는다.",
+            "ids": [
+              "localizable.strings::chap04_morning44_choice03_option"
+            ]
+          },
+          {
+            "translation": "결정에 관여하지 않는다.",
+            "ids": [
+              "localizable.strings::chap01_theotherboat54_choice03_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I shiver.",
+        "variants": [
+          {
+            "translation": "내 몸이 떨린다.",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order52_gaia",
+              "localizable.strings::chap06_bivouac_order52_prometheus",
+              "localizable.strings::chap06_morningconnor03",
+              "localizable.strings::chap06_morningfreya03"
+            ]
+          },
+          {
+            "translation": "몸을 떤다.",
+            "ids": [
+              "localizable.strings::chap05_arlyntrialfail12",
+              "localizable.strings::chap05_freyatrialfail11",
+              "localizable.strings::chap07_arlyn_thesummit20",
+              "localizable.strings::chap07_connor_thesummit14",
+              "localizable.strings::chap07_duncan_thesummit13",
+              "localizable.strings::chap07_freya_thesummit15"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "What is it?",
+        "variants": [
+          {
+            "translation": "왜 그래?",
+            "ids": [
+              "localizable.strings::chap03_bivouac_duncan17_choice01_05"
+            ]
+          },
+          {
+            "translation": "왜?",
+            "ids": [
+              "localizable.strings::chap01_settinguptheboat25_choice02_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I nod.",
+        "variants": [
+          {
+            "translation": "고개를 끄덕인다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowanleaves41_dontknowkillian"
+            ]
+          },
+          {
+            "translation": "나는 고개를 끄덕인다.",
+            "ids": [
+              "localizable.strings::chap06_bivouacarlyn93_choice02_05",
+              "localizable.strings::chap06_bivouacduncan12",
+              "localizable.strings::chap06_walkwitharlyn33"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I understand.",
+        "variants": [
+          {
+            "translation": "알겠어.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_order15",
+              "localizable.strings::chap07_duncan_timeknot33",
+              "localizable.strings::chap07_freya_timeknot25_choice01_17",
+              "localizable.strings::chap07_freya_timeknot25_choice02_12"
+            ]
+          },
+          {
+            "translation": "이해해.",
+            "ids": [
+              "localizable.strings::chap03_brandonleaves06_choice01_03"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I don't know what to think any more...",
+        "variants": [
+          {
+            "translation": "이제는 무슨 생각을 해야 할지 모르겠다…",
+            "ids": [
+              "localizable.strings::chap05_theharbour25"
+            ]
+          },
+          {
+            "translation": "이제는 무슨 생각을 해야 할지 모르겠어…",
+            "ids": [
+              "localizable.strings::chap02_morning19_freya_choice02_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "All I want is to leave this island.",
+        "variants": [
+          {
+            "translation": "난 그저 이 섬을 떠나고 싶어.",
+            "ids": [
+              "localizable.strings::chap07_connor_thesummit35_choice01_option",
+              "localizable.strings::chap07_duncan_thesummit30_choice02_01",
+              "localizable.strings::chap07_duncan_thesummit30_choice02_option"
+            ]
+          },
+          {
+            "translation": "내가 원하는 건 이 섬을 떠나는 것뿐이야.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos46_choice02_09_choice02_option",
+              "localizable.strings::chap06_outofthecaves_order55_choice02_06_choice02_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "The silence is complete.",
+        "variants": [
+          {
+            "translation": "완벽한 침묵이 흐른다.",
+            "ids": [
+              "localizable.strings::chap04_freyatrial32"
+            ]
+          },
+          {
+            "translation": "완전한 침묵만이 흐른다.",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial26"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "We set off.",
+        "variants": [
+          {
+            "translation": "우리는 길을 떠난다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies01"
+            ]
+          },
+          {
+            "translation": "우리는 출발한다.",
+            "ids": [
+              "localizable.strings::chap06_bivouacarlyn70",
+              "localizable.strings::chap06_bivouacduncan64"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "He turns.",
+        "variants": [
+          {
+            "translation": "던컨이 돌아선다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice01_23"
+            ]
+          },
+          {
+            "translation": "코너가 돌아선다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice04_23"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "She smiles at me.",
+        "variants": [
+          {
+            "translation": "나를 향해 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap03_dreamarlyn13"
+            ]
+          },
+          {
+            "translation": "알린이 내게 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_rowandies38_choice01_14"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "What happened?",
+        "variants": [
+          {
+            "translation": "무슨 일이 있었던 거야?",
+            "ids": [
+              "localizable.strings::chap03_erikdeath19_choice02_option"
+            ]
+          },
+          {
+            "translation": "무슨 일이 있었던 거예요?",
+            "ids": [
+              "localizable.strings::chap04_duncantrial29"
+            ]
+          },
+          {
+            "translation": "무슨 일이 있었어?",
+            "ids": [
+              "localizable.strings::chap02_morning09_notcromlech"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Ok.",
+        "variants": [
+          {
+            "translation": "알겠어.",
+            "ids": [
+              "localizable.strings::chap03_erikdeath45"
+            ]
+          },
+          {
+            "translation": "알았어.",
+            "ids": [
+              "localizable.strings::chap06_walkwithduncan10_choice01_12_boat"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Wait!",
+        "variants": [
+          {
+            "translation": "기다려!",
+            "ids": [
+              "localizable.strings::chap02_seerorcairn96_seer"
+            ]
+          },
+          {
+            "translation": "잠깐!",
+            "ids": [
+              "localizable.strings::chap05_theharbour53",
+              "localizable.strings::chap07_connor_timeknot20"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Yes.",
+        "variants": [
+          {
+            "translation": "그래.",
+            "ids": [
+              "localizable.strings::chap01_exploringthebeach10",
+              "localizable.strings::chap02_walking_abouttheseers02",
+              "localizable.strings::chap03_bivouac_duncan12",
+              "localizable.strings::chap06_outofthecaves_chaos04",
+              "localizable.strings::chap06_outofthecaves_order10_duncankillederik"
+            ]
+          },
+          {
+            "translation": "응.",
+            "ids": [
+              "localizable.strings::chap01_thestairs_connor43",
+              "localizable.strings::chap02_morning48_choice01_07_choice01_01",
+              "localizable.strings::chap03_bivouac_duncan17_choice02_14",
+              "localizable.strings::chap03_talkfreya31_choice01_01",
+              "localizable.strings::chap04_freyatrial65",
+              "localizable.strings::chap07_arlyn_thesummit13_arlynnotlove_choice01_02",
+              "localizable.strings::chap07_arlyn_thesummit13_arlynnotlove_choice01_option",
+              "localizable.strings::chap07_arlyn_timeknot08",
+              "localizable.strings::chap07_connor_thesummit09_choice01_02",
+              "localizable.strings::chap07_connor_thesummit09_choice01_option",
+              "localizable.strings::chap07_duncan_thesummit08_notduncanlove_choice01_option",
+              "localizable.strings::chap07_duncan_timeknot11",
+              "localizable.strings::chap07_freya_thesummit09_choice01_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Very well.",
+        "variants": [
+          {
+            "translation": "알았어.",
+            "ids": [
+              "localizable.strings::chap06_walkwithduncan10_choice01_07_choice02_04"
+            ]
+          },
+          {
+            "translation": "좋아.",
+            "ids": [
+              "localizable.strings::chap02_morning48_choice01_07_choice01_03",
+              "localizable.strings::chap07_connor_timeknot91_choice01_14_choice01_04",
+              "localizable.strings::chap07_connor_timeknot91_choice01_14_choice02_03",
+              "localizable.strings::chap07_connor_timeknot91_choice02_10_choice01_03",
+              "localizable.strings::chap07_connor_timeknot91_choice02_10_choice02_05"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Arlyn is a few steps in front of me.",
+        "variants": [
+          {
+            "translation": "알린이 내 앞 몇 걸음 거리에 있다.",
+            "ids": [
+              "localizable.strings::chap05_flashforward_chaos_arlyn03"
+            ]
+          },
+          {
+            "translation": "알린이 몇 걸음 앞에 있다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_thesummit04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "The group sets off again.",
+        "variants": [
+          {
+            "translation": "일행은 다시 길을 떠난다.",
+            "ids": [
+              "localizable.strings::chap07_duncan_rowandies05"
+            ]
+          },
+          {
+            "translation": "일행이 다시 출발한다.",
+            "ids": [
+              "localizable.strings::chap01_panoramicview36"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Insist.",
+        "variants": [
+          {
+            "translation": "계속 권한다.",
+            "ids": [
+              "localizable.strings::chap06_walkwitharlyn05_choice01_option"
+            ]
+          },
+          {
+            "translation": "계속 부른다.",
+            "ids": [
+              "localizable.strings::chap01_settinguptheboat25_choice03_06_choice01_option"
+            ]
+          },
+          {
+            "translation": "계속 설득한다.",
+            "ids": [
+              "localizable.strings::chap01_thestairs_arlyn12_choice01_option"
+            ]
+          },
+          {
+            "translation": "계속 캐묻는다.",
+            "ids": [
+              "localizable.strings::chap02_bivouac63_choice01_option"
+            ]
+          },
+          {
+            "translation": "고집한다.",
+            "ids": [
+              "localizable.strings::chap02_morning48_choice01_07_choice01_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I lower my eyes.",
+        "variants": [
+          {
+            "translation": "나는 눈을 내리깐다.",
+            "ids": [
+              "localizable.strings::chap06_bivouacduncan81_choice03_02",
+              "localizable.strings::chap06_outofthecaves_chaos20_choice02_04",
+              "localizable.strings::chap06_outofthecaves_order18"
+            ]
+          },
+          {
+            "translation": "눈을 내리깐다.",
+            "ids": [
+              "localizable.strings::chap07_freya_timeknot25_choice01_02"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Yes, maybe.",
+        "variants": [
+          {
+            "translation": "그래, 그럴지도 모르지.",
+            "ids": [
+              "localizable.strings::chap02_walking_aboutthegroup25"
+            ]
+          },
+          {
+            "translation": "응, 그럴지도.",
+            "ids": [
+              "localizable.strings::chap03_talkfreya31_choice01_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Did you see that storm?",
+        "variants": [
+          {
+            "translation": "그 폭풍 봤어?",
+            "ids": [
+              "localizable.strings::chap01_gatheringwood34"
+            ]
+          },
+          {
+            "translation": "그 폭풍 봤지?",
+            "ids": [
+              "localizable.strings::chap01_exploringthebeach31"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Duncan lowers his eyes.",
+        "variants": [
+          {
+            "translation": "던컨이 눈을 내리깐다.",
+            "ids": [
+              "localizable.strings::chap02_morning19_freya_choice01_09",
+              "localizable.strings::chap02_morning19_freya_choice02_03"
+            ]
+          },
+          {
+            "translation": "던컨이 시선을 내린다.",
+            "ids": [
+              "localizable.strings::chap04_camp15"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Alright.",
+        "variants": [
+          {
+            "translation": "알겠어.",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order69_gaia"
+            ]
+          },
+          {
+            "translation": "알았어.",
+            "ids": [
+              "localizable.strings::chap01_panoramicview14",
+              "localizable.strings::chap06_bivouacduncan87_notduncanlove"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Not a living soul.",
+        "variants": [
+          {
+            "translation": "살아 있는 영혼은 하나도 없었다.",
+            "ids": [
+              "localizable.strings::chap01_introrowan09",
+              "localizable.strings::chap07_arlyn_thesummit87",
+              "localizable.strings::chap07_duncan_thesummit99",
+              "localizable.strings::chap07_freya_thesummit127"
+            ]
+          },
+          {
+            "translation": "살아 있는 이는 아무도 없다.",
+            "ids": [
+              "localizable.strings::chap04_duncantrial76"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Freya smiles at me.",
+        "variants": [
+          {
+            "translation": "프레이야가 나를 향해 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap03_dreamfreya28"
+            ]
+          },
+          {
+            "translation": "프레이야가 내게 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order68_gaia",
+              "localizable.strings::chap06_morningfreya46",
+              "localizable.strings::chap06_morningfreya50_choice02_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "She turns.",
+        "variants": [
+          {
+            "translation": "알린이 돌아선다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice02_23"
+            ]
+          },
+          {
+            "translation": "프레이야가 돌아선다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_21"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I turn to Duncan.",
+        "variants": [
+          {
+            "translation": "나는 던컨을 돌아본다.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos54_gaia"
+            ]
+          },
+          {
+            "translation": "던컨을 돌아본다.",
+            "ids": [
+              "localizable.strings::chap05_theharbour64",
+              "localizable.strings::chap07_connor_timeknot31"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Then, they arrived...",
+        "variants": [
+          {
+            "translation": "그때, 그들이 찾아왔다…",
+            "ids": [
+              "localizable.strings::chap01_sinkingboat01"
+            ]
+          },
+          {
+            "translation": "그리고 그들이 왔다…",
+            "ids": [
+              "localizable.strings::chap07_arlyn_thesummit89",
+              "localizable.strings::chap07_duncan_thesummit101",
+              "localizable.strings::chap07_freya_thesummit129"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "It's not my fault.",
+        "variants": [
+          {
+            "translation": "내 잘못이 아니야.",
+            "ids": [
+              "localizable.strings::chap04_duncantrial66_choice01_option"
+            ]
+          },
+          {
+            "translation": "내 잘못이 아니에요.",
+            "ids": [
+              "localizable.strings::chap04_duncantrial66_choice01_01"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Yes, no problem.",
+        "variants": [
+          {
+            "translation": "그래, 문제없어.",
+            "ids": [
+              "localizable.strings::chap01_beachargument56"
+            ]
+          },
+          {
+            "translation": "응, 문제없어.",
+            "ids": [
+              "localizable.strings::chap01_theotherboat54_choice02_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Connor clears his throat.",
+        "variants": [
+          {
+            "translation": "코너가 목을 가다듬는다.",
+            "ids": [
+              "localizable.strings::chap01_beachargument41_choice01_01"
+            ]
+          },
+          {
+            "translation": "코너가 헛기침한다.",
+            "ids": [
+              "localizable.strings::chap03_erikfight31"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Where are the children?",
+        "variants": [
+          {
+            "translation": "아이들은 어디 있어?",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial34_choice02_option"
+            ]
+          },
+          {
+            "translation": "아이들은 어디 있어요?",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial34_choice02_01"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "She sees me.",
+        "variants": [
+          {
+            "translation": "알린은 나를 볼 수 있다.",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial124_choice01_03",
+              "localizable.strings::chap04_arlyntrial124_choice02_03"
+            ]
+          },
+          {
+            "translation": "알린이 나를 본다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice02_24",
+              "localizable.strings::chap07_arlyn_timeknot04"
+            ]
+          },
+          {
+            "translation": "프레이야가 나를 본다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_22"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Exactly.",
+        "variants": [
+          {
+            "translation": "맞아.",
+            "ids": [
+              "localizable.strings::chap03_erikdeath52"
+            ]
+          },
+          {
+            "translation": "바로 그거야.",
+            "ids": [
+              "localizable.strings::chap02_seerorcairn42"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "He turns his head and smiles at me.",
+        "variants": [
+          {
+            "translation": "던컨이 고개를 돌려 나를 보고 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap03_dreamduncan11"
+            ]
+          },
+          {
+            "translation": "코너가 고개를 돌려 나를 보고 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap03_dreamconnor13"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "No.",
+        "variants": [
+          {
+            "translation": "아니.",
+            "ids": [
+              "localizable.strings::chap03_talkarlyn06",
+              "localizable.strings::chap03_talkfreya48",
+              "localizable.strings::chap04_connortrial58_choice01_24",
+              "localizable.strings::chap06_morningconnor17",
+              "localizable.strings::chap07_arlyn_thesummit13_arlynnotlove_choice02_option",
+              "localizable.strings::chap07_connor_thesummit09_choice02_option",
+              "localizable.strings::chap07_duncan_thesummit08_notduncanlove_choice02_option",
+              "localizable.strings::chap07_duncan_timeknot23_choice02_01",
+              "localizable.strings::chap07_duncan_timeknot23_choice02_option",
+              "localizable.strings::chap07_freya_thesummit09_choice02_option"
+            ]
+          },
+          {
+            "translation": "안 돼.",
+            "ids": [
+              "localizable.strings::chap03_erikdeath65"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "And yet... Here I am.",
+        "variants": [
+          {
+            "translation": "그래도… 돌아왔어.",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial34_choice01_option"
+            ]
+          },
+          {
+            "translation": "그래도… 돌아왔어요.",
+            "ids": [
+              "localizable.strings::chap04_arlyntrial34_choice01_01"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I consider.",
+        "variants": [
+          {
+            "translation": "나는 잠시 생각한다.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos11"
+            ]
+          },
+          {
+            "translation": "잠시 생각한다.",
+            "ids": [
+              "localizable.strings::chap07_freya_timeknot19"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I follow him, forgetting my prudence.",
+        "variants": [
+          {
+            "translation": "나는 경계심도 잊은 채 던컨을 따라간다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice01_10"
+            ]
+          },
+          {
+            "translation": "나는 경계심도 잊은 채 코너를 따라간다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice04_11"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Freya feels a presence behind her.",
+        "variants": [
+          {
+            "translation": "프레이야가 등 뒤의 인기척을 느낀다.",
+            "ids": [
+              "localizable.strings::chap01_sailingagain19"
+            ]
+          },
+          {
+            "translation": "프레이야는 등 뒤에서 어떤 존재를 느낀다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_19"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "You're afraid of heights?",
+        "variants": [
+          {
+            "translation": "높은 곳이 무서운 거야?",
+            "ids": [
+              "localizable.strings::chap01_thestairs_connor25_choice01_07"
+            ]
+          },
+          {
+            "translation": "높은 곳이 무서워?",
+            "ids": [
+              "localizable.strings::chap01_thestairs_freya24"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "He smiles at me.",
+        "variants": [
+          {
+            "translation": "그가 나를 보며 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap05_theharbour19"
+            ]
+          },
+          {
+            "translation": "그가 내게 미소 짓는다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies91",
+              "localizable.strings::chap07_duncan_rowandies42_choice01_14"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "She opens her mouth to say something...",
+        "variants": [
+          {
+            "translation": "알린이 무언가 말하려고 입을 연다…",
+            "ids": [
+              "localizable.strings::chap02_night10_choice02_27"
+            ]
+          },
+          {
+            "translation": "프레이야가 무언가 말하려고 입을 연다…",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_25"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I remember this night.",
+        "variants": [
+          {
+            "translation": "그날 밤이 기억난다.",
+            "ids": [
+              "localizable.strings::chap05_rowantrial04"
+            ]
+          },
+          {
+            "translation": "이 밤을 기억한다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies16"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "What did they show you?",
+        "variants": [
+          {
+            "translation": "무엇을 보여 줬는데?",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_order47_03"
+            ]
+          },
+          {
+            "translation": "예언자들이 뭘 보여 줬는데?",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos39_01"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "She opens her eyes in panic.",
+        "variants": [
+          {
+            "translation": "알린이 공포에 질려 눈을 뜬다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice02_04"
+            ]
+          },
+          {
+            "translation": "프레이야가 공포에 질려 눈을 뜬다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I know what happens next.",
+        "variants": [
+          {
+            "translation": "다음에 무슨 일이 일어나는지 안다.",
+            "ids": [
+              "localizable.strings::chap05_rowantrial37_choice02_01"
+            ]
+          },
+          {
+            "translation": "다음에 무슨 일이 일어날지 안다.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_rowandies33"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "The seers shouldn't have so much power over us.",
+        "variants": [
+          {
+            "translation": "예언자들이 우리를 이토록 좌우하게 두어선 안 돼.",
+            "ids": [
+              "localizable.strings::chap01_exploringthebeach34_choice01_02"
+            ]
+          },
+          {
+            "translation": "예언자들이 우리에게 너무 큰 힘을 휘둘러서는 안 돼.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_order55_choice01_04_choice02_01",
+              "localizable.strings::chap06_outofthecaves_order55_choice01_04_choice02_option"
+            ]
+          },
+          {
+            "translation": "예언자들이 우리에게 이토록 큰 힘을 휘둘러서는 안 돼.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos46_choice01_04_choice02_01"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "With a ghostly caress, I command her to leave the darkness of within, to surface from the subterranean realm.",
+        "variants": [
+          {
+            "translation": "유령 같은 손길로 알린을 어루만지며 내면의 어둠을 벗어나 지하 세계에서 수면 위로 떠오르라고 명한다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice02_03"
+            ]
+          },
+          {
+            "translation": "유령 같은 손길로 프레이야를 어루만지며 내면의 어둠을 벗어나 지하 세계에서 수면 위로 떠오르라고 명한다.",
+            "ids": [
+              "localizable.strings::chap02_night10_choice03_03"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Never!",
+        "variants": [
+          {
+            "translation": "절대 안 돼!",
+            "ids": [
+              "localizable.strings::chap05_rowantrial43"
+            ]
+          },
+          {
+            "translation": "절대로!",
+            "ids": [
+              "localizable.strings::chap06_morningconnor47_choice01_07_choice01_17"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Freya is a few steps in front of me.",
+        "variants": [
+          {
+            "translation": "프레이야가 내 앞 몇 걸음 거리에 있다.",
+            "ids": [
+              "localizable.strings::chap05_flashforward_order_freya03"
+            ]
+          },
+          {
+            "translation": "프레이야가 몇 걸음 앞에 있다.",
+            "ids": [
+              "localizable.strings::chap07_freya_thesummit04"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I do the same and stay a long time watching the play of the flames on the walls of the cave.",
+        "variants": [
+          {
+            "translation": "나도 담요를 두르고 누워 동굴 벽 위에서 춤추는 불빛을 오랫동안 바라본다.",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order74_gaia"
+            ]
+          },
+          {
+            "translation": "나도 자리를 잡고 동굴 벽 위에서 춤추는 불빛을 오랫동안 바라본다.",
+            "ids": [
+              "localizable.strings::chap06_bivouac_order71_prometheus"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "choose",
+        "variants": [
+          {
+            "translation": "choose",
+            "ids": [
+              "ui.strings::twitch_command_original"
+            ]
+          },
+          {
+            "translation": "선택",
+            "ids": [
+              "ui.strings::twitch_command"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "... but we don't have time to look for her now.",
+        "variants": [
+          {
+            "translation": "…하지만 지금은 알린을 찾으러 갈 시간이 없어.",
+            "ids": [
+              "localizable.strings::chap06_walkwithduncan27_choice02_01"
+            ]
+          },
+          {
+            "translation": "…하지만 지금은 찾으러 갈 시간이 없어.",
+            "ids": [
+              "localizable.strings::chap06_walkwithduncan27_choice02_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I know this place.",
+        "variants": [
+          {
+            "translation": "아는 곳이다.",
+            "ids": [
+              "localizable.strings::chap07_connor_rowandies15"
+            ]
+          },
+          {
+            "translation": "이곳을 안다.",
+            "ids": [
+              "localizable.strings::chap05_rowantrial03"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I mean, I'm not sure.",
+        "variants": [
+          {
+            "translation": "그러니까, 확신할 수 없어.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_order47_12"
+            ]
+          },
+          {
+            "translation": "내 말은, 확신할 수 없다는 뜻이야.",
+            "ids": [
+              "localizable.strings::chap06_outofthecaves_chaos39_10"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "So be it.",
+        "variants": [
+          {
+            "translation": "그렇게 하지.",
+            "ids": [
+              "localizable.strings::chap02_seerorcairn91_cairn"
+            ]
+          },
+          {
+            "translation": "좋다.",
+            "ids": [
+              "localizable.strings::chap03_erikfight56"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Fine.",
+        "variants": [
+          {
+            "translation": "알았어.",
+            "ids": [
+              "localizable.strings::chap06_walkwithduncan10_choice02_10"
+            ]
+          },
+          {
+            "translation": "좋아.",
+            "ids": [
+              "localizable.strings::chap02_seerorcairn102_seer"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Are you sure?",
+        "variants": [
+          {
+            "translation": "괜찮겠어?",
+            "ids": [
+              "localizable.strings::chap02_morning48_choice01_05"
+            ]
+          },
+          {
+            "translation": "확실해?",
+            "ids": [
+              "localizable.strings::chap01_thestairs24",
+              "localizable.strings::chap01_thestairs_arlyn35",
+              "localizable.strings::chap07_connor_timeknot91_choice01_05"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "We must trust them.",
+        "variants": [
+          {
+            "translation": "그들을 믿어야 해.",
+            "ids": [
+              "localizable.strings::chap02_morning19_freya_choice02_02"
+            ]
+          },
+          {
+            "translation": "예언자들을 믿어야 해.",
+            "ids": [
+              "localizable.strings::chap02_morning19_freya_choice02_option"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "I know...",
+        "variants": [
+          {
+            "translation": "알아…",
+            "ids": [
+              "localizable.strings::chap06_bivouacduncan86_duncanlove_choice01_02"
+            ]
+          },
+          {
+            "translation": "알아요…",
+            "ids": [
+              "localizable.strings::chap04_duncantrial37_choice02_06"
+            ]
+          }
+        ]
+      },
+      {
+        "source": "Let's finish this.",
+        "variants": [
+          {
+            "translation": "끝내자.",
+            "ids": [
+              "localizable.strings::chap07_connor_thesummit09_choice01_04"
+            ]
+          },
+          {
+            "translation": "이제 끝내자.",
+            "ids": [
+              "localizable.strings::chap07_arlyn_thesummit16_arlynnotlove"
+            ]
+          }
+        ]
+      }
+    ],
+    "focused_repetition_review": {
+      "path": "provenance/crossreview/repetition_review.json",
+      "sha256": "ff1b3eac4716439a5e2d6afafe3ca9ad807fa76062f364fd67a557d0be35bd31",
+      "reviewed_groups": 80,
+      "contextual_groups": 74,
+      "correction_groups": 6,
+      "corrections": 8,
+      "corrections_applied": true
+    },
+    "runtime_language_dispatch": {
+      "actual": {
+        "en-US": "en",
+        "ko-KR": "ko",
+        "fr-FR": "fr"
+      },
+      "expected": {
+        "en-US": "en",
+        "fr-FR": "fr",
+        "ko-KR": "ko"
+      },
+      "selector_locale": "ko-KR",
+      "selector_display_name": "한국어",
+      "passed": true
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

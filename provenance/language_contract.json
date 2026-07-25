@@ -1,0 +1,27 @@
+{
+  "game": "Seers Isle",
+  "game_root": "Y:\\SteamLibrary\\steamapps\\common\\Seers Isle",
+  "semantic_source": {
+    "language": "English",
+    "slot": "en-US"
+  },
+  "korean_output": {
+    "language": "Korean",
+    "slot": "ko-KR",
+    "mode": "add_new_selector_entry"
+  },
+  "preserve_unmodified": [
+    "en-US",
+    "fr-FR"
+  ],
+  "translation_engine": "Codex internal model only",
+  "external_machine_translation": false,
+  "delivery": {
+    "translation": true,
+    "reversible_patch": true,
+    "live_installation": true,
+    "runtime_verification": true
+  },
+  "status": "accepted_from_conversation",
+  "accepted_on": "2026-07-25"
+}

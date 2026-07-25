@@ -1,0 +1,41 @@
+{
+  "DisplayName": "한국어",
+  "Locale": "ko-KR",
+  "Fonts": [
+    {
+      "Identifier": "default",
+      "Filename": "SeersIsle-Korean-Regular.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "bold",
+      "Filename": "SeersIsle-Korean-Bold.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "bubble",
+      "Filename": "SeersIsle-Korean-Regular.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "character_name",
+      "Filename": "SeersIsle-Korean-Bold.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "character",
+      "Filename": "SeersIsle-Korean-Regular.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "choice",
+      "Filename": "SeersIsle-Korean-Bold.ttf",
+      "Scale": 0.9
+    },
+    {
+      "Identifier": "title",
+      "Filename": "SeersIsle-Korean-Bold.ttf",
+      "Scale": 0.9
+    }
+  ]
+}
